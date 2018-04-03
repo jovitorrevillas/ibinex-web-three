@@ -12,5 +12,23 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
+});
+Route::get('pricing', function () {
+    return view('pricing.index');
+});
+Route::get('why', function () {
+    return view('why.index');
+});
+Route::get('security', function () {
+    return view('security.index');
+});
+Route::get('services', function () {
+    return view('services.index');
+});
+Route::get('about', function () {
+    return view('about.index');
+});
+Route::get('contact', function () {
+    return view('contact.index');
 });
