@@ -1,0 +1,61 @@
+[debug] [2018-04-03T15:55:11.027Z] ----------------------------------------------------------------------
+[debug] [2018-04-03T15:55:11.031Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\jftor\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-04-03T15:55:11.032Z] CLI Version:   3.17.7
+[debug] [2018-04-03T15:55:11.032Z] Platform:      win32
+[debug] [2018-04-03T15:55:11.032Z] Node Version:  v9.10.1
+[debug] [2018-04-03T15:55:11.033Z] Time:          Tue Apr 03 2018 23:55:11 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:55:11.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-03T15:55:11.047Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-03T15:55:11.048Z] > authorizing via signed-in user
+[debug] [2018-04-03T15:55:11.050Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-03T15:55:11.050Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/9xCHrUIB19VUFxdJKFxbj96UXJT1UAjGQ7Qdwk1CuoQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Apr 03 2018 23:55:11 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:55:11.611Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T15:55:11.622Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ibinex-2b414  
+  
+ Tue Apr 03 2018 23:55:11 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:55:12.823Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T15:55:12.824Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ibinex-2b414/tokens  
+  
+ Tue Apr 03 2018 23:55:12 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:55:13.749Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ibinex-2b414'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-04-03T15:55:16.452Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/ibinex-2b414/uploads/-L9BD1ZqJMeL2AF-0_6x?fileCount=78&message=  
+  
+ Tue Apr 03 2018 23:55:16 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:56:35.697Z] ----------------------------------------------------------------------
+[debug] [2018-04-03T15:56:35.701Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\jftor\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-04-03T15:56:35.701Z] CLI Version:   3.17.7
+[debug] [2018-04-03T15:56:35.701Z] Platform:      win32
+[debug] [2018-04-03T15:56:35.701Z] Node Version:  v9.10.1
+[debug] [2018-04-03T15:56:35.702Z] Time:          Tue Apr 03 2018 23:56:35 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:56:35.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-03T15:56:35.717Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-03T15:56:35.718Z] > authorizing via signed-in user
+[debug] [2018-04-03T15:56:35.720Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ibinex-2b414  
+  
+ Tue Apr 03 2018 23:56:35 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:56:36.979Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T15:56:36.981Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ibinex-2b414/tokens  
+  
+ Tue Apr 03 2018 23:56:36 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-03T15:56:38.106Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ibinex-2b414'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-04-03T15:56:40.029Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/ibinex-2b414/uploads/-L9BDM5_X133mz4bSEz7?fileCount=78&message=  
+  
+ Tue Apr 03 2018 23:56:40 GMT+0800 (Taipei Standard Time)
