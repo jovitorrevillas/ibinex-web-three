@@ -1,9 +1,14 @@
-{
-        language: node_js
-        node_js:
-        - "8"
-        - "6"
-        deploy:
-          provider: firebase
-          skip_cleanup: true
-          travis encrypt "1/xSsTgBavcIv-_axuUOLQU8fdw2eoq1Fkrc_laR4KKlU" --add deploy.token
+language: node_js
+node_js:
+   - “7”
+ 
+branches:
+   only:
+      - master
+
+before_script:
+   - npm install -g firebase-tools
+   - npm install -g @angular/cli
+
+after_success:
+   - firebase deploy --token $FIREBASE_TOKEN
