@@ -8,6 +8,7 @@
     ]
   },
   "hosting": {
+    "firebase": "ibinex-2b414",
     "public": "public",
     "ignore": [
       "firebase.json",
