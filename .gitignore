@@ -11,7 +11,9 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+git.php
 .env
+
 =======
 vendor/
 node_modules/
