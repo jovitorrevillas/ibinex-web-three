@@ -17,6 +17,7 @@
 <body>
 @include('layouts.header')
 <main>
+    <p>This is a trial code.</p>
     @yield('content')
 </main>
 @include('layouts.footer')
