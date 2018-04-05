@@ -4,31 +4,31 @@
     <div class="container ib-top-section-wrapper">
       <div class="row">
         <div class="col-xl-12">
-          <p class="ib-footer-heading">GIVE US A CALL: 1-800-972-3981</p>
+          <p class="ib-footer-heading">GIVE US A CALL: <span>1-800-972-3981</span></p>
         </div>
 
         <div class="col-lg-4 col-xl">
           <p class="ib-footer-subheading">WHY IBINEX</p>
-          <a href="#" class="ib-footer-subtext">Our Vision</a>
+          <a href="#" class="ib-footer-subtext">Our vision</a>
         </div>
 
         <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading">PRICING</p>
+          <p class="ib-footer-subheading" id="pricing">PRICING</p>
           <a href="waw#waw" class="ib-footer-subtext">Platform Pricing</a><br>
           <a href="#" class="ib-footer-subtext">Liquidity Fee's</a>
         </div>
 
         <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading">SERVICES</p>
+          <p class="ib-footer-subheading" id="services">SERVICES</p>
           <a href="#" class="ib-footer-subtext">Platform</a><br>
-          <a href="#" class="ib-footer-subtext">CRM/BackOffice</a><br>
+          <a href="#" class="ib-footer-subtext">CRM / BackOffice</a><br>
           <a href="#" class="ib-footer-subtext">CryptoBridge</a><br>
           <a href="#" class="ib-footer-subtext">Credit Card Processing</a><br>
           <a href="#" class="ib-footer-subtext">Custodian Accounts</a>
         </div>
 
-        <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading">SECURITY</p>
+        <div class="col-lg-4 col-xl ib-security-section">
+          <p class="ib-footer-subheading" id="security">SECURITY</p>
           <a href="#" class="ib-footer-subtext">Protection of Funds</a><br>
           <a href="#" class="ib-footer-subtext">Encryption and Technologies</a><br>
           <a href="#" class="ib-footer-subtext">Information Security</a><br>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading">LEGAL</p>
+          <p class="ib-footer-subheading" id="legal">LEGAL</p>
           <a href="#" class="ib-footer-subtext">Regulation</a><br>
           <a href="#" class="ib-footer-subtext">AML & KYC</a><br>
           <a href="#" class="ib-footer-subtext">Terms and Conditions</a><br>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading">ABOUT IBINEX</p>
+          <p class="ib-footer-subheading" id="about">ABOUT IBINEX</p>
           <a href="#" class="ib-footer-subtext">Transparency</a><br>
           <a href="#" class="ib-footer-subtext">Press</a><br>
           <a href="#" class="ib-footer-subtext">Executive Team</a><br>
@@ -71,9 +71,9 @@
         <div class="col-xl">
           <div class="row">
             <div class="col-xl-12">
-              <p class="ib-footer-subheading">IBINEX OFFICES</p>
+              <p class="ib-footer-subheading" id="offices">IBINEX OFFICES</p>
             </div>
-            <div class="col-lg-6 col-xl-6">
+            <div class="col-lg-6 col-xl-6 ib-offices-list-wrapper">
               <ul class="list-unstyled ib-offices-list-first">
                 <li>iBinex Financials</li>
                 <li>315 W 36th St</li>
@@ -82,7 +82,7 @@
                 <li><a href="#" class="ib-footer-subtext">contact@ibinex.com</a></li>
               </ul>
             </div>
-            <div class="col-lg-6 col-xl-6">
+            <div class="col-lg-6 col-xl-6 ib-offices-list-wrapper">
               <ul class="list-unstyled ib-offices-list-second">
                 <li>iBinex Technologies</li>
                 <li>Ha-Tidhar Street 15</li>
@@ -121,7 +121,17 @@
 
 
     <div class="container">
-      <p class="ib-disclosure-text">Risk Disclosure: ibinex Financials (ibinex.com)will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with trading the cryptocurrency markets, it is one of the riskiest investment forms possible. Trading or investing in cryptocurrencies carries with it potential risks. Prices of cryptocurrencies are extremely volatile and may be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable for all investors.Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would like to remind you that the data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual market price, meaning prices are indicative and not appropriate for trading purposes. Therefore Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
+      <p class="ib-disclosure-text">Risk Disclosure: ibinex Financials (ibinex.com) will not accept any liability
+        for loss or damage as a result of reliance on the information contained within this website including data,
+        quotes, charts and buy/sell signals. Please be fully informed regarding the risks and costs associated with
+        trading the cryptocurrency markets, it is one of the riskiest investment forms possible. Trading or investing
+        in cryptocurrencies carries with it potential risks. Prices of cryptocurrencies are extremely volatile and may
+        be affected by external factors such as financial, regulatory or political events. Cryptocurrencies are not suitable
+        for all investors.Before deciding to trade foreign exchange or any other financial instrument or cryptocurrencies you
+        should carefully consider your investment objectives, level of experience, and risk appetite. Ibinex Financials would
+        like to remind you that the data contained in this website is not necessarily real-time nor accurate. Cryptocurrency prices
+        are not provided by exchanges but rather by market makers, and so prices may not be accurate and may differ from the actual
+        market price, meaning prices are indicative and not appropriate for trading purposes. Therefore Ibinex doesn't bear any responsibility for any trading losses you might incur as a result of using this data.</p>
     </div>
 
   </div>
