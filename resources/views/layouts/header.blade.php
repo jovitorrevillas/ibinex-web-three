@@ -20,7 +20,7 @@
             <div class="row">
                 <nav class="navbar navbar-expand-lg nav-menu">
                     <!--Brand-->
-                    <a href="#" class="navbar-brand brand-mobile"><img src="{{asset("./img/home/Vector Smart Object.png")}}" alt="ibinex-logo"></a>
+                    <a href="{{url("/")}}" class="navbar-brand brand-mobile"><img src="{{asset("./img/home/Vector Smart Object.png")}}" alt="ibinex-logo"></a>
                     <!--Toggle-Sidebar-->
                     <span class="toggle d-lg-none" onclick="open_nav()">&#9776;</span>
 
@@ -38,7 +38,7 @@
                     <div class="sidenav" id="mySidenav">
                         <ul class="navbar-nav mr-auto d-flex d-md-none d-lg-none">
                             <li class="nav-item"><a href="javascript:void(0)" class="closebtn" onclick="close_nav()">&times;</a></li>
-                            <a href="#" class="navbar-brand"><img src="./img/Ibinex-logo.png" alt="ibinex-logo" class="logo-ibinex"></a>
+                            <a href="{{url("/")}}" class="navbar-brand"><img src="./img/Ibinex-logo.png" alt="ibinex-logo" class="logo-ibinex"></a>
                             <li class="nav-item"><a href="{{url("/")}}" class="nav-name home-and-why-ibinex-distance">Home</a>
                             <li class="nav-item"><a href="{{url("why")}}" class="nav-name home-and-why-ibinex-distance">Why Ibinex</a>
                             <li class="nav-item"><a href="{{url("pricing")}}" class="nav-name nav-distance">Pricing</a></li>
@@ -48,7 +48,7 @@
                             <li class="nav-item"><a href="#" class="nav-name">Legal</a></li>
                             <li class="nav-item"><a href="{{url("contact")}}" class="nav-name contact-margin">Contact Us</a></li>
                         </ul>
-                        <button class="button-demo button-margin" type="button">Live Demo</button>
+                        <a href="#"><button class="button-demo button-margin" type="button">Live Demo</button></a>
                     </div>
             </nav>
         </div>
