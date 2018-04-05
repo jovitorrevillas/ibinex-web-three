@@ -1,6 +1,14 @@
 @font-face {
+	font-family: pricingFont;
+	src: url('../fonts/Montserrat-ExtraBold.otf');
 
 }
+
+@font-face {
+	font-family: Montserrat-regular;
+	src: url('../fonts/Montserrat-Regular.otf');
+}
+
 nav{
   height: 310px;
   background-color: black;
@@ -18,24 +26,35 @@ div#security{
 	div#bg-blue{
 		background-color: #152C58;
 		color: white;
-		font-family: Verdana, Sans-Serif;
+
 		margin-bottom: 120px;
 
 
 		h2{
-
+			font-family: pricingFont, Sans-Serif;
 			font-weight: bold;
 			font-style: italic;
 			margin: 70px 0px 55px 0px;
 			text-align: center;
+			font-size: 2.4rem;
+			padding-right: 18px;
+			padding-top: 8px;
 		}
 		span{
-			font-size: 0.625vw;
+			//font-size: 0.625vw;
+			font-size: 16px;
+			font-family: Montserrat-regular, Sans-Serif;
+			font-size: 16px;
+			word-spacing: 3px;
+			line-height: 1.7;
 		}
 
 		p{
 			margin: 0px 300px 144px;
 			text-align: center;
+			margin-left: 272px;
+			margin-right: 288px;
+
 		}
 	}
 
