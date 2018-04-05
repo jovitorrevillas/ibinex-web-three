@@ -25,28 +25,28 @@
                     <span class="toggle d-lg-none" onclick="open_nav()">&#9776;</span>
 
                     <div class="collapse navbar-collapse bottom-nav" id="navbarNavAltMarkup">
-                        <a href="#" class="nav-name home-and-why-ibinex-distance">Home</a>
-                        <a href="#" class="nav-name home-and-why-ibinex-distance">Why Ibinex</a>
-                        <a href="#" class="nav-name nav-distance">Pricing</a>
-                        <a href="#" class="nav-name home-and-why-ibinex-distance">Services</a>
-                        <a href="#" class="nav-name nav-distance">About Us</a>
-                        <a href="#" class="nav-name nav-security">Security</a>
+                        <a href="{{url("/")}}" class="nav-name home-and-why-ibinex-distance">Home</a>
+                        <a href="{{url("why")}}" class="nav-name home-and-why-ibinex-distance">Why Ibinex</a>
+                        <a href="{{url("pricing")}}" class="nav-name nav-distance">Pricing</a>
+                        <a href="{{url("services")}}" class="nav-name home-and-why-ibinex-distance">Services</a>
+                        <a href="{{url("about")}}" class="nav-name nav-distance">About Us</a>
+                        <a href="{{url("security")}}" class="nav-name nav-security">Security</a>
                         <a href="#" class="nav-name legal-contact">Legal</a>
-                        <a href="#" class="nav-name contact-margin">Contact Us</a>
+                        <a href="{{url("contact")}}" class="nav-name contact-margin">Contact Us</a>
                         <button class="button-demo" type="button">Live Demo</button>
                     </div>
                     <div class="sidenav" id="mySidenav">
                         <ul class="navbar-nav mr-auto d-flex d-md-none d-lg-none">
                             <li class="nav-item"><a href="javascript:void(0)" class="closebtn" onclick="close_nav()">&times;</a></li>
                             <a href="#" class="navbar-brand"><img src="./img/Ibinex-logo.png" alt="ibinex-logo" class="logo-ibinex"></a>
-                            <li class="nav-item"><a href="#" class="nav-name">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-name">Why Ibinex</a></li>
-                            <li class="nav-item"><a href="#" class="nav-name">Pricing</a></li>
-                            <li class="nav-item"><a href="#" class="nav-name">Services</a></li>
-                            <li class="nav-item"><a href="#" class="nav-name">About Us</a></li>
-                            <li class="nav-item"><a href="#" class="nav-name">Security</a></li>
+                            <li class="nav-item"><a href="{{url("/")}}" class="nav-name home-and-why-ibinex-distance">Home</a>
+                            <li class="nav-item"><a href="{{url("why")}}" class="nav-name home-and-why-ibinex-distance">Why Ibinex</a>
+                            <li class="nav-item"><a href="{{url("pricing")}}" class="nav-name nav-distance">Pricing</a></li>
+                            <li class="nav-item"><a href="{{url("services")}}" class="nav-name home-and-why-ibinex-distance">Services</a>
+                            <li class="nav-item"><a href="{{url("about")}}" class="nav-name nav-distance">About Us</a></li>
+                            <li class="nav-item"><a href="{{url("security")}}" class="nav-name nav-security">Security</a></li>
                             <li class="nav-item"><a href="#" class="nav-name">Legal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-name">Contact Us</a></li>
+                            <li class="nav-item"><a href="{{url("contact")}}" class="nav-name contact-margin">Contact Us</a></li>
                         </ul>
                         <button class="button-demo button-margin" type="button">Live Demo</button>
                     </div>
