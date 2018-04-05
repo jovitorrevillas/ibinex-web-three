@@ -1,4 +1,4 @@
-@section('layouts-header')
+
     <!--Contact Bar-->
     <div class="d-lg-flex justify-content-center d-none">
         <div class="contact-container d-flex justify-content-end align-items-center">
@@ -9,7 +9,7 @@
             <div class="join-telegram-distance">
                 <button type="button" class="join-telegram">
                     <div class="row">
-                        <img src="./img/telegram.png" alt="telegram" class="telegram-logo"><span>join our telegram community</span>
+                        <img src="{{asset("./img/home/telegram.png")}}" alt="telegram" class="telegram-logo"><span>join our telegram community</span>
                     </div>
                 </button>
             </div>
@@ -20,7 +20,7 @@
             <div class="row">
                 <nav class="navbar navbar-expand-lg nav-menu">
                     <!--Brand-->
-                    <a href="#" class="navbar-brand brand-mobile"><img src="./img/Ibinex-logo.png" alt="ibinex-logo"></a>
+                    <a href="#" class="navbar-brand brand-mobile"><img src="{{asset("./img/home/Vector Smart Object.png")}}" alt="ibinex-logo"></a>
                     <!--Toggle-Sidebar-->
                     <span class="toggle d-lg-none" onclick="open_nav()">&#9776;</span>
 
@@ -50,7 +50,6 @@
                         </ul>
                         <button class="button-demo button-margin" type="button">Live Demo</button>
                     </div>
-            </div>
             </nav>
         </div>
         </div>
@@ -70,4 +69,3 @@
             </div>
         </div>
     </header>
-@endsection
