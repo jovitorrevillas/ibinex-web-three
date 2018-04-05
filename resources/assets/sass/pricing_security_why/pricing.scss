@@ -1,38 +1,138 @@
-div.container-fluid{
-	padding: 0px;
+nav{
+  height: 310px;
+  background-color: black;
 }
-#pricing-section{
 
-	background-color: #F6F6F6;
-	padding-top: 100px;
+footer{
+  height: 310px;
+  background-color: black;
+}
 
-	#pricing-text{
-		padding-top: calc(130px + 65px);
-	}
-	.col-lg-3{
+@font-face {
+  font-family: pricingFont;
+  src: url('../fonts/Montserrat-ExtraBold.otf');
+
+}
+
+
+	div.container-fluid{
 		padding: 0px;
+		margin-right: 17.5%;
+	}
 
-		h2{
-			font-size: 27px;
-			margin: 60px 0px;
+  #pricing-section{
+    font-family: 'Montserrat', 'Sans-Serif';
+    background-color: #F6F6F6;
+
+
+
+		#pricing-text{
+			padding: 147px 0px 0px 29px;
 		}
-		ol{
-			text-align: justify;
-			font-size: 12px;
-			margin-bottom: 40px;
+		article.col-md-12.col-12{
+			padding: 0px 20px 0px 0px;
+
+			h2{
+                font-family: pricingFont;
+                line-height: 6px;
+				font-size: 38px;
+				margin: 60px 0px 70px 0;
+                //font-weight: bolder;
+			}
+          p{
+            font-size: 1rem;
+            letter-spacing: .4px;
+            line-height: 167%;
+            margin-bottom: 30px;
+            span{
+              font-weight: 600;
+              letter-spacing: .5px;
+              line-height: 150%;
+            }
+          }
+          ul{
+            padding-left: 0px;
+            //list-style-image: url("../ellipse.png");
+            li{
+              list-style-position: outside;
+              font-size: 101%;
+              //margin-bottom: 20px;
+
+              //padding-bottom: 20px;
+
+                background: url("../ellipse.png") no-repeat left top 7%;
+                padding: 0px 10px 38px 31px;
+                /* reset styles (optional): */
+                list-style: none;
+                margin: 0;
+              word-spacing: 3px;
+              line-height: 1.6;
+              padding-bottom: 30px;
+            }
+            li:first-child{
+              padding-bottom: 22px;
+              text-align: justify;
+            }
+            li:nth-child(2){
+              margin-bottom: 5px;
+            }
+          }
+          margin-bottom: 0px;
 		}
+	}
+
+	div.text-content{
+		margin: 210px 380px;
+        margin-top: 190px;
+        margin-left: 385px;
+      margin-bottom: 159px;
+        article#setup-article{
+          font-size: 19px;
+          padding-right: 105px;
+          h2{
+            font-size: 43px;
+            margin-bottom: 47px;
+          }
+          p:first-child{
+            margin-bottom: 29px;
+          }
+          p:nth-child(2){
+            margin-bottom: 28px;
+          }
+          p:last-child{
+            text-align: justify;
+            padding-right: 27px;
+          }
+        }
+      article#onboarding-article{
+        font-size: 19px;
+        h2{
+          font-size: 43px;
+          margin-bottom: 48px;
+        }
+        p{
+          margin-bottom: 28px;
+          text-align: justify;
+        }
+      }
+		.col-lg-6{
+			h2{
+				margin-bottom: 3.2%;
+			}
+		}
+	}
+
+	h2{
+		font-weight: bolder;
+	}
+
+
+@media (max-width: 767px){
+	img[src="../First-option-Pricing.jpg"]{
+		display: none;
+	}
+	p{
+		text-align: justify;
 	}
 }
 
-div.text-content{
-	margin: 210px 380px;
-	.col-lg-6{
-		h2{
-			margin-bottom: 60px;
-		}
-	}
-}
-
-h2{
-	font-weight: bolder;
-}
