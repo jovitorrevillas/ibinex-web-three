@@ -1,0 +1,89 @@
+@font-face {
+	font-family: pricingFont;
+	src: url('../fonts/Montserrat-ExtraBold.otf');
+
+}
+
+@font-face {
+	font-family: Montserrat-regular;
+	src: url('../fonts/Montserrat-Regular.otf');
+}
+
+nav{
+  height: 310px;
+  background-color: black;
+}
+
+footer{
+  height: 310px;
+  background-color: black;
+}
+
+
+div#security{
+	padding: 0px;
+
+	div#bg-blue{
+		background-color: #152C58;
+		color: white;
+
+		margin-bottom: 120px;
+
+
+		h2{
+			font-family: pricingFont, Sans-Serif;
+			font-weight: bold;
+			font-style: italic;
+			margin: 70px 0px 55px 0px;
+			text-align: center;
+			font-size: 2.4rem;
+			padding-right: 18px;
+			padding-top: 8px;
+		}
+		span{
+			//font-size: 0.625vw;
+			font-size: 16px;
+			font-family: Montserrat-regular, Sans-Serif;
+			font-size: 16px;
+			word-spacing: 3px;
+			line-height: 1.7;
+		}
+
+		p{
+			margin: 0px 300px 144px;
+			text-align: center;
+			margin-left: 272px;
+			margin-right: 288px;
+
+		}
+	}
+
+	div.text-content{
+		margin: 0 232px 54px 250px;
+		.col-lg-6{
+			h3{
+				margin-bottom: 57px;
+			}
+			p{
+				text-align: justify;
+				margin-bottom: 127px;
+			}
+		}
+		span{
+			font-size: 109%;
+		}
+	}
+	
+	div#bg-gray{
+		background-color: #F6F6F7;
+		margin: 0px;
+		h3{
+			margin: 200px 0 47px;
+		}
+		p{
+			margin-bottom: 180px;
+		}
+
+	}
+}
+

@@ -32,3 +32,7 @@ Route::get('about', function () {
 Route::get('contact', function () {
     return view('contact.index');
 });
+
+Route::get('sample', function(){
+   return view('layouts.app');
+});

@@ -1,0 +1,61 @@
+div#why-ibinex{
+	margin-top: 114px;
+
+	h2{
+		font-weight: bolder;
+	}
+
+	div#we-fuse-title{
+		h2{
+			margin-bottom: 70px;
+		}
+	}
+	div#we-fuse-article{
+		p{
+			margin-bottom: 40px;
+		}
+	}
+
+	img[src="../blockchain.png"]{
+		position: absolute;
+		top: 6.8%;
+		right: 5%;
+	}
+
+	div.text-content{
+		margin-left: 388px;
+		margin-right: 500px;
+	}
+
+	div#bg-blue{
+		padding: 58px 0px 85px;
+		background-color: #132C5A;
+		color: white;
+
+		h2{
+			font-size: 2.4em;
+			margin-bottom: 30px;
+		}
+
+	}
+
+	div#why-you-should{
+		#title{
+			margin: 100px 0;
+
+			h2{
+				margin-bottom: 40px;
+			}
+			
+		}
+		img + p{
+			width: 80%;
+			margin-top: 40px;
+			}
+
+		.col-lg-8.offset-lg-2{
+			margin-bottom: 100px;
+		}
+	}
+}
+
