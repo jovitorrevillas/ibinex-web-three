@@ -224,3 +224,116 @@ line-height:26px;
 .ca-items li{
 	padding-bottom:30px;
 }
+
+
+@media only screen and (max-width: 320px) {
+
+	.ccp-phone{
+	display:none;
+	}
+
+	.crm-dashboard{
+
+	display:none;
+	}
+
+	.platform-laptop{
+	
+		
+		display:none;
+
+	
+	}
+
+	.ca-description{
+
+	width:100%;
+	}
+
+	.ca-person{
+
+	display:none;
+	
+	}
+
+	.services-title{
+		margin-top:-35px;
+		margin-left:0px;
+	}
+	
+	#ibinex_services{
+	
+	margin-top:40px;
+
+	}
+
+	#ibinex_ecosystem{
+		margin-top:47px;
+	}
+
+	#services{
+		padding-bottom:60px;
+	}
+
+	.platform-heading{
+
+	margin-top:-10px;
+	margin-left:25px;
+	font-size:40px;
+
+	}
+
+	.platform-description{
+		margin-top:49px;
+		margin-left:20px;
+	}
+
+	.check-items{
+		margin-top:40px;
+		margin-left:-20px;
+	}
+	.check-items li{
+		padding-bottom:39px;
+	}
+	
+
+	.cryptobridge{
+	
+	padding-left:20px;
+	padding-right:20px;
+	margin:0;
+
+	}
+
+	.c3-logo{
+		margin:0;
+	}
+
+	.ccp-heading{
+		margin:0;
+
+	}
+	.ccp-description{
+		margin:0;
+	}
+	.ccp-card{
+		margin:0;
+	}
+
+	
+
+
+	.crm-heading{
+		margin:0;
+	}
+
+	.crm-description{
+		margin:0;
+	}
+
+	.crm-check-items{
+		margin:0;
+	}
+
+
+	}
