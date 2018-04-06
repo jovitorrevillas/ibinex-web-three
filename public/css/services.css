@@ -1,0 +1,200 @@
+
+.heading{
+font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight: bolder;
+}
+
+.platform-laptop{
+	position: absolute;
+	max-width:1130px;
+	left:-128px;
+	top:58px;
+}
+.platform-heading{
+	margin-top:50px;
+	margin-left:-5px;
+}
+.platform-description{
+	margin-top:49px;
+	font-size:16px;
+	margin-left:10px;
+
+}
+
+.services{
+	background: #c01722;
+	color:white;
+	padding-top:103px;
+	padding-bottom:105px;
+
+}
+.services-title{
+	font-size:39px;
+	margin-left:-53px;
+	margin-top:-3px;
+	font-weight:bolder;
+}
+
+#ibinex_services{
+	margin-top:56px;
+	font-size:17px;
+	
+}
+
+#ibinex_ecosystem{
+margin-top:30px;
+font-size: 17px;
+}
+
+
+.check-items{
+	margin:0;
+	margin-top:39px;
+	margin-left:-35px;
+}
+.check-items li{
+background: url(../img/services/ellipse.png) no-repeat left top;
+padding-bottom: 28px;
+list-style: none;
+margin: 0;
+
+}
+
+.check-items li span{
+	padding-left:30px;
+	font-size:17px;
+
+
+}
+
+
+#platform{
+
+	padding-top:60px;
+	padding-bottom: 30px;
+
+}
+
+
+#crm{
+	margin-top:100px;
+}
+
+.crm-heading{
+	font-size:38px;
+	font-weight:bolder;
+margin-top:80px;
+margin-left:-50px;
+
+}
+
+.crm-description{
+	margin-left:-40px;
+	margin-top:50px;
+	font-size:15.9px;
+
+}
+
+.crm-check-items{
+	margin:0;
+	margin-top:62px;
+	margin-left:-87px;
+
+}
+
+.crm-check-items li{
+background: url(../img/services/ellipse.png) no-repeat left top;
+padding-bottom: 28px;
+list-style: none;
+margin: 0;
+
+}
+
+.crm-check-items li span{
+	padding-left:36px;
+	font-size:17px;
+}
+
+.crm-dashboard{
+max-width:1300px;
+margin-left:92px;
+margin-top:55px;
+}
+
+
+
+.cryptobridge{
+
+	background: #132d5c;
+	color:white;
+	padding-bottom:155px;
+	padding-top:120px;
+	margin-top:-50px;
+}
+.c3-logo{
+	margin-left:60px;
+
+}
+
+.crypto-heading{
+margin-top:30px;
+font-size:39px;
+}
+
+.crypto-descritpion{
+margin-top:50px;
+font-size:16.5px;
+margin-left:5px;
+}
+
+
+
+.ccp{
+	padding-top:230px;
+	padding-bottom:15px;
+}
+
+.ccp-heading{
+margin-top:20px;
+margin-left:10px;
+font-size:39px;
+}
+
+.ccp-description{
+margin-top:50px;
+font-size:16px;
+margin-left:10px;
+line-height:28px;
+}
+
+.ccp-cards{
+	margin-top:35px;
+	margin-left:10px;
+}
+
+.ccp-phone{
+	margin-left:130px;
+	margin-top:-90px;
+}
+
+
+#ca{
+
+}
+
+.ca-person{
+
+}
+
+.ca-heading{
+
+}
+
+.ca-description{
+
+}
+
+.ca-items{
+	
+}
