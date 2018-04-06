@@ -3790,6 +3790,7 @@ footer {
 
   #pricing-section #pricing-text {
     padding: 147px 0px 0px 29px;
+    padding-left: 27px;
   }
 
   #pricing-section #pricing-text div.row:first-child {
@@ -3799,6 +3800,7 @@ footer {
   #pricing-section article.col-md-12.col-12:first-child {
     padding: 0px 20px 0px 0px;
     padding-right: 45px;
+    margin-left: 0px;
     margin-bottom: 0px;
   }
 
@@ -3812,6 +3814,14 @@ footer {
     margin-top: 59px;
   }
 
+  #pricing-section article.col-md-12.col-12:first-child h2:nth-child(2) {
+    font-weight: 700;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child p:first-child {
+    padding-left: 2px;
+  }
+
   #pricing-section article.col-md-12.col-12:first-child p {
     text-align: justify;
     line-height: 1.7;
@@ -3822,6 +3832,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     margin-bottom: 27px;
+    padding-left: 2px;
   }
 
   #pricing-section article.col-md-12.col-12:first-child p span {
@@ -3832,7 +3843,7 @@ footer {
   }
 
   #pricing-section article.col-md-12.col-12:first-child ul {
-    padding-left: 0px;
+    padding-left: 2px;
   }
 
   #pricing-section article.col-md-12.col-12:first-child ul li {
@@ -3851,13 +3862,17 @@ footer {
     padding-bottom: 17px;
     text-align: justify;
     background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 12%;
-    word-spacing: 1.5px;
     padding-right: 33px;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 11px;
-    line-height: 1.6;
+    line-height: 1.75;
     padding-top: 0px;
     padding-right: 4px;
+    padding-top: 1px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li:first-child span {
+    font-size: 104%;
   }
 
   #pricing-section article.col-md-12.col-12:first-child ul li:nth-child(2) {
@@ -3865,28 +3880,53 @@ footer {
     background: url("http://localhost:8000/img/services/ellipse.png") no-repeat right 99.7% top 48%;
     padding-bottom: 21px;
     padding-top: 14px;
-    word-spacing: 1.7px;
-    font-size: 16px;
+    word-spacing: -0.5px;
+    font-size: 16.4px;
     padding-top: 17px;
+    font-weight: 600;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li:nth-child(2) span {
+    letter-spacing: -25px;
+    margin-right: 7px;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) {
+    padding-right: 55px;
   }
 
   #pricing-section .col-md-12.col-12:nth-child(2) h2 {
+    font-weight: 700;
     margin-bottom: 69px;
+    font-size: 39px;
+    letter-spacing: -0.9px;
   }
 
   #pricing-section .col-md-12.col-12:nth-child(2) p:first-child {
-    padding-right: 8px;
+    padding-right: 7px;
     margin-bottom: 31px;
+    padding-left: 2px;
+    line-height: 1.73;
   }
 
   #pricing-section .col-md-12.col-12:nth-child(2) p:first-child span {
     padding-right: 55px;
     padding-top: 2px;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+    font-size: 15.7px;
+    font-weight: 700;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) p:first-child span span:first-child {
+    font-size: 17px;
+    font-weight: 700;
   }
 
   #pricing-section .col-md-12.col-12:nth-child(2) p:nth-child(2) {
     margin-bottom: 4px;
     padding-top: 3px;
+    padding-left: 2px;
   }
 
   div.text-content {
@@ -3899,19 +3939,33 @@ footer {
   div.text-content article#setup-article {
     font-size: 19px;
     padding-right: 105px;
+    padding-top: 4px;
+    padding-left: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  div.text-content article#setup-article p span {
+    word-spacing: 2.9px;
+    font-size: 16.5px;
+    font-weight: 500;
   }
 
   div.text-content article#setup-article h2 {
-    font-size: 43px;
-    margin-bottom: 47px;
+    font-size: 41px;
+    margin-bottom: 46px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
   }
 
   div.text-content article#setup-article p:first-child {
     margin-bottom: 29px;
+    font-size: 17px;
   }
 
   div.text-content article#setup-article p:nth-child(2) {
     margin-bottom: 28px;
+    padding-top: 1px;
   }
 
   div.text-content article#setup-article p:last-child {
@@ -3921,18 +3975,32 @@ footer {
   }
 
   div.text-content article#onboarding-article {
+    padding-left: 13px;
     font-size: 19px;
+    padding-right: 10px;
   }
 
-  div.text-content article#onboarding-article h2 {
-    font-size: 43px;
+  div.text-content article#onboarding-article h2:first-child {
+    font-size: 40px;
     margin-bottom: 47px;
+    font-weight: 700;
+    padding-top: 4px;
+    letter-spacing: -0.5px;
+    margin-bottom: 37px;
   }
 
-  div.text-content article#onboarding-article p:first-child {
-    margin-bottom: 28px;
+  div.text-content article#onboarding-article p span {
+    word-spacing: -1.1px;
+    font-size: 16.5px;
+    font-weight: 500;
+  }
+
+  div.text-content article#onboarding-article p.first-paragraph {
     text-align: justify;
     margin-right: 10px;
+    text-align: justify;
+    margin-bottom: 26px;
+    padding-top: 11px;
   }
 
   div.text-content article#onboarding-article p:nth-child(2) {
@@ -3945,10 +4013,6 @@ footer {
 
   div.text-content .col-lg-6 h2 {
     margin-bottom: 3.2%;
-  }
-
-  h2 {
-    font-weight: bolder;
   }
 }
 

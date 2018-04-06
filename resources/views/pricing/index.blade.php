@@ -21,7 +21,7 @@
                                 </p>
 
                                 <ul class="text-gray">
-                                    <li>$150,000 "reserve only, no pay­ment" deposited in a local Escrow account of your choice for 180 days</li>
+                                    <li><span>$150,000</span> "reserve only, no pay­ment" deposited in a local Escrow account of your choice for 180 days</li>
                                     <li>Your first 90 days of Ibinex are gratis while you build your book.</li>
                                 </ul>
                                 <!--<p>-->
@@ -94,7 +94,7 @@
                     <article class="col-md-6 col-12" id="onboarding-article">
 
                         <h2>Onboarding time</h2>
-                        <p>
+                        <p class="first-paragraph">
 								<span>
 									Please note that, due to incredibly high demand of the Ibinex exchange solutions suite, the current onboarding waiting time is 4 months.
 								</span>
