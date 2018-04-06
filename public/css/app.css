@@ -3100,18 +3100,6 @@
   display: none;
 }
 
-header {
-  height: 120px;
-  background-color: #000;
-  width: 100%;
-}
-
-footer {
-  height: 120px;
-  background-color: #000;
-  width: 100%;
-}
-
 #about {
   overflow: hidden;
 }
@@ -3204,7 +3192,7 @@ footer {
 }
 
 #about #media-coverage {
-  padding: 153px 0 68px;
+  padding: 154px 0 65px;
 }
 
 #about #media-coverage .content {
@@ -3218,13 +3206,46 @@ footer {
   margin-right: 27px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 118px;
+  margin-bottom: 112px;
   margin-top: 1px;
   word-spacing: 4px;
 }
 
-#about #media-coverage .content .media-lockup {
-  margin: 45px 0;
+#about #media-coverage .media-lockup {
+  margin: 29px 0;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:first-child {
+  margin-top: -10px;
+  margin-left: -24px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(2) {
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(3) {
+  margin-left: -1px;
+  margin-top: -7px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(4) {
+  margin-top: -2px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(5) {
+  margin-top: 5px;
+  margin-left: -2px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(6) {
+  margin-top: -3px;
+  margin-left: 3px;
+}
+
+#about #media-coverage .media-lockup:nth-child(3) {
+  margin-left: -23px;
 }
 
 #about #team {
@@ -3238,7 +3259,7 @@ footer {
 
 #about #team #executive-team {
   max-width: 1325px;
-  padding: 55px 80px 105px;
+  padding: 57px 80px 104px;
 }
 
 #about #team #executive-team h1 {
@@ -3264,9 +3285,9 @@ footer {
 #about #team #executive-team h3 {
   margin-top: 0;
   margin-bottom: 6px;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.6px;
   word-spacing: -3px;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 #about #team #executive-team .heading {
@@ -3279,14 +3300,14 @@ footer {
 }
 
 #about #team #executive-team article:first-child {
-  margin-bottom: 50.5px;
+  margin-bottom: 53.5px;
 }
 
 #about #team #executive-team article h4 {
-  font-size: 21px;
-  letter-spacing: 1.3px;
+  font-size: 19.5px;
+  letter-spacing: 1.1px;
   word-spacing: 1;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 
 #about #team #executive-team article p {
@@ -3294,26 +3315,30 @@ footer {
   letter-spacing: -0.1px;
   word-spacing: -0px;
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   margin-left: -1px;
 }
 
+#about #team #executive-team article .links {
+  margin-left: -3px;
+}
+
 #about #team #executive-team article .links a {
-  letter-spacing: -0.7px;
-  font-size: 16px;
+  letter-spacing: -0.9px;
+  font-size: 14px;
   text-decoration: underline;
   color: #3b55e6;
   font-style: italic;
 }
 
 #about #team #executive-team article .links a:last-child {
-  margin-left: 30px;
+  margin-left: 29px;
   letter-spacing: -1px;
 }
 
 #about #team #executive-team .designation {
   margin-bottom: 9px;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0px;
   word-spacing: 0px;
 }
@@ -3345,16 +3370,21 @@ footer {
 
 #about #team #executive-team .executive-slider {
   position: relative;
+  margin-left: -1px;
 }
 
 #about #team #executive-team .executive-slider .slider-control {
   position: absolute;
-  top: 14px;
-  right: -5px;
+  top: 8px;
+  right: -14px;
 }
 
 #about #team #executive-team .executive-slider .slider-control a {
-  padding-left: 10px;
+  padding: 0 7px;
+}
+
+#about #team #executive-team .executive-slider .slider-control img {
+  width: 24px;
 }
 
 #about #team #executive-team .card-stack {
@@ -3394,7 +3424,7 @@ footer {
 }
 
 #about #team #executive-team .card-stack .card-list li:nth-child(3) {
-  top: 77px;
+  top: 75px;
   left: -35px;
 }
 
@@ -3448,16 +3478,17 @@ footer {
 }
 
 #about #team #advisory-board .board-lockup {
-  padding: 26px 0 134px;
+  padding: 24px 0 141px;
 }
 
 #about #team #advisory-board img {
-  width: 100%;
+  width: 279px;
+  height: 338px;
 }
 
 #about #team #advisory-board article {
   text-align: center;
-  padding: 39px 0 15px;
+  padding: 39px 0 5px;
   width: 286px;
   font-family: "Montserrat", sans-serif;
 }
@@ -3482,6 +3513,8 @@ footer {
   letter-spacing: 0.5px;
   font-size: 14.1px;
   font-weight: 600;
+  padding-left: 1px;
+  margin-top: -1px;
 }
 
 #about #team #advisory-board .col-md-3 {
@@ -3497,9 +3530,14 @@ footer {
   letter-spacing: 0px;
 }
 
+#about #team #advisory-board .col-md-3:nth-child(4) .name,
+#about #team #advisory-board .col-md-3:last-child .name {
+  padding-right: 9px;
+}
+
 #about #team #advisory-board .col-md-3:nth-child(4),
 #about #team #advisory-board .col-md-3:nth-child(7) {
-  padding-right: 3px;
+  padding: 0 13px !important;
 }
 
 #about #team #advisory-board .col-md-3:nth-child(2) .designation {
@@ -3508,6 +3546,8 @@ footer {
   letter-spacing: 0.4px;
   line-height: 20px;
   font-size: 14.5px;
+  padding-left: 4px;
+  margin-top: -1px;
 }
 
 #about #team #advisory-board .col-md-3:nth-child(3) .designation {
@@ -3536,7 +3576,7 @@ footer {
   line-height: 19px;
   letter-spacing: -0.5px;
   word-spacing: -1px;
-  padding: 0 14px 0 16px;
+  padding: 0 14px 0 9px;
 }
 
 .transformThis {
@@ -3773,6 +3813,444 @@ footer {
   }
 }
 
+.text-gray {
+  color: #6B7C93;
+}
+
+@media only screen and (min-width: 768px) {
+  div.container-fluid {
+    padding: 0px;
+    margin-right: 17.5%;
+  }
+
+  #pricing-section {
+    font-family: 'Montserrat', 'Sans-Serif';
+    background-color: #F6F6F6;
+  }
+
+  #pricing-section #pricing-text {
+    padding: 147px 0px 0px 29px;
+    padding-left: 27px;
+  }
+
+  #pricing-section #pricing-text div.row:first-child {
+    padding-right: 8px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child {
+    padding: 0px 20px 0px 0px;
+    padding-right: 45px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child h2 {
+    font-family: Montserrat, Sans-Serif;
+    font-weight: 800;
+    line-height: 6px;
+    font-size: 38px;
+    margin: 59px 0px 68px 0px;
+    margin-bottom: 68px;
+    margin-top: 59px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child h2:nth-child(2) {
+    font-weight: 700;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child p:first-child {
+    padding-left: 2px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child p {
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 27px;
+    font-size: 1rem;
+    letter-spacing: .4px;
+    line-height: 167%;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 27px;
+    padding-left: 2px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child p span {
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 16.5px;
+    letter-spacing: -0.1px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul {
+    padding-left: 2px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li {
+    list-style-position: outside;
+    font-size: 101%;
+    padding: 0px 10px 38px 31px;
+    /* reset styles (optional): */
+    list-style: none;
+    margin: 0;
+    line-height: 1.6;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li:first-child {
+    padding-bottom: 17px;
+    text-align: justify;
+    background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 12%;
+    padding-right: 33px;
+    font-weight: 600;
+    padding-bottom: 11px;
+    line-height: 1.75;
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-top: 1px;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li:first-child span {
+    font-size: 104%;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li:nth-child(2) {
+    margin-bottom: 5px;
+    background: url("http://localhost:8000/img/services/ellipse.png") no-repeat right 99.7% top 48%;
+    padding-bottom: 21px;
+    padding-top: 14px;
+    word-spacing: -0.5px;
+    font-size: 16.4px;
+    padding-top: 17px;
+    font-weight: 600;
+  }
+
+  #pricing-section article.col-md-12.col-12:first-child ul li:nth-child(2) span {
+    letter-spacing: -25px;
+    margin-right: 7px;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) {
+    padding-right: 55px;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) h2 {
+    font-weight: 700;
+    margin-bottom: 69px;
+    font-size: 39px;
+    letter-spacing: -0.9px;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) p:first-child {
+    padding-right: 7px;
+    margin-bottom: 31px;
+    padding-left: 2px;
+    line-height: 1.73;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) p:first-child span {
+    padding-right: 55px;
+    padding-top: 2px;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+    font-size: 15.7px;
+    font-weight: 700;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) p:first-child span span:first-child {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  #pricing-section .col-md-12.col-12:nth-child(2) p:nth-child(2) {
+    margin-bottom: 4px;
+    padding-top: 3px;
+    padding-left: 2px;
+  }
+
+  div.text-content {
+    margin: 210px 380px;
+    margin-top: 190px;
+    margin-left: 385px;
+    margin-bottom: 208px;
+  }
+
+  div.text-content article#setup-article {
+    font-size: 19px;
+    padding-right: 105px;
+    padding-top: 4px;
+    padding-left: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  div.text-content article#setup-article p span {
+    word-spacing: 2.9px;
+    font-size: 16.5px;
+    font-weight: 500;
+  }
+
+  div.text-content article#setup-article h2 {
+    font-size: 41px;
+    margin-bottom: 46px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+  }
+
+  div.text-content article#setup-article p:first-child {
+    margin-bottom: 29px;
+    font-size: 17px;
+  }
+
+  div.text-content article#setup-article p:nth-child(2) {
+    margin-bottom: 28px;
+    padding-top: 1px;
+  }
+
+  div.text-content article#setup-article p:last-child {
+    text-align: justify;
+    padding-right: 28px;
+    padding-top: 12px;
+  }
+
+  div.text-content article#onboarding-article {
+    padding-left: 13px;
+    font-size: 19px;
+    padding-right: 10px;
+  }
+
+  div.text-content article#onboarding-article h2:first-child {
+    font-size: 40px;
+    margin-bottom: 47px;
+    font-weight: 700;
+    padding-top: 4px;
+    letter-spacing: -0.5px;
+    margin-bottom: 37px;
+  }
+
+  div.text-content article#onboarding-article p span {
+    word-spacing: -1.1px;
+    font-size: 16.5px;
+    font-weight: 500;
+  }
+
+  div.text-content article#onboarding-article p.first-paragraph {
+    text-align: justify;
+    margin-right: 10px;
+    text-align: justify;
+    margin-bottom: 26px;
+    padding-top: 11px;
+  }
+
+  div.text-content article#onboarding-article p:nth-child(2) {
+    font-size: 19px;
+    margin-right: 7px;
+    word-spacing: -1px;
+    padding-right: 6px;
+    padding-top: 12px;
+  }
+
+  div.text-content .col-lg-6 h2 {
+    margin-bottom: 3.2%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  div.container-fluid {
+    padding-right: 0px;
+  }
+
+  article.col-md-12.col-12:first-child {
+    padding-top: 67px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  article.col-md-12.col-12:first-child h2 {
+    font-family: Montserrat, Sans-Serif;
+    font-size: 38.6px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+
+  article.col-md-12.col-12:first-child p {
+    padding-top: 8px;
+    padding-right: 0px;
+    margin-bottom: 27px;
+    text-align: justify;
+  }
+
+  article.col-md-12.col-12:first-child p span {
+    font-family: 'Montserrat', 'Sans-Serif';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  article.col-md-12.col-12:first-child ul {
+    list-style: none;
+    font-family: 'Montserrat', 'Sans-Serif';
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  article.col-md-12.col-12:first-child ul li:first-child {
+    background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 7%;
+    padding-left: 28px;
+    font-size: 17px;
+    margin-bottom: 32px;
+    text-align: justify;
+    font-weight: 500;
+    word-spacing: -1.7px;
+    line-height: 1.69;
+    margin-bottom: 28px;
+  }
+
+  article.col-md-12.col-12:first-child ul li:nth-child(2) {
+    padding-left: 28px;
+    font-size: 18px;
+    padding-bottom: 1px;
+    background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 7%;
+    text-align: justify;
+  }
+
+  article.col-md-12.col-12:nth-child(2) {
+    padding-top: 63px;
+    padding-left: 13px;
+  }
+
+  article.col-md-12.col-12:nth-child(2) h2 {
+    margin-bottom: 40px;
+  }
+}
+
+div#why-ibinex {
+  margin-top: 114px;
+}
+
+div#why-ibinex h2 {
+  font-weight: bolder;
+}
+
+div#why-ibinex div#we-fuse-title h2 {
+  margin-bottom: 70px;
+}
+
+div#why-ibinex div#we-fuse-article p {
+  margin-bottom: 40px;
+}
+
+div#why-ibinex img[src="../blockchain.png"] {
+  position: absolute;
+  top: 6.8%;
+  right: 5%;
+}
+
+div#why-ibinex div.text-content {
+  margin-left: 388px;
+  margin-right: 500px;
+}
+
+div#why-ibinex div#bg-blue {
+  padding: 58px 0px 85px;
+  background-color: #132C5A;
+  color: white;
+}
+
+div#why-ibinex div#bg-blue h2 {
+  font-size: 2.4em;
+  margin-bottom: 30px;
+}
+
+div#why-ibinex div#why-you-should #title {
+  margin: 100px 0;
+}
+
+div#why-ibinex div#why-you-should #title h2 {
+  margin-bottom: 40px;
+}
+
+div#why-ibinex div#why-you-should img + p {
+  width: 80%;
+  margin-top: 40px;
+}
+
+div#why-ibinex div#why-you-should .col-lg-8.offset-lg-2 {
+  margin-bottom: 100px;
+}
+
+div#security {
+  padding: 0px;
+}
+
+div#security div#bg-blue {
+  background-color: #152C58;
+  color: white;
+  margin-bottom: 120px;
+}
+
+div#security div#bg-blue h2 {
+  font-family: pricingFont, Sans-Serif;
+  font-weight: bold;
+  font-style: italic;
+  margin: 70px 0px 55px 0px;
+  text-align: center;
+  font-size: 2.4rem;
+  padding-right: 18px;
+  padding-top: 8px;
+}
+
+div#security div#bg-blue span {
+  font-size: 16px;
+  font-family: Montserrat-regular, Sans-Serif;
+  font-size: 16px;
+  word-spacing: 3px;
+  line-height: 1.7;
+}
+
+div#security div#bg-blue p {
+  margin: 0px 300px 144px;
+  text-align: center;
+  margin-left: 272px;
+  margin-right: 288px;
+}
+
+div#security div.text-content {
+  margin: 0 232px 54px 250px;
+}
+
+div#security div.text-content .col-lg-6 h3 {
+  margin-bottom: 57px;
+}
+
+div#security div.text-content .col-lg-6 p {
+  text-align: justify;
+  margin-bottom: 127px;
+}
+
+div#security div.text-content span {
+  font-size: 109%;
+}
+
+div#security div#bg-gray {
+  background-color: #F6F6F7;
+  margin: 0px;
+}
+
+div#security div#bg-gray h3 {
+  margin: 200px 0 47px;
+}
+
+div#security div#bg-gray p {
+  margin-bottom: 180px;
+}
+
 @media only screen and (max-width: 768px) {
   .hidden-md {
     display: none;
@@ -3819,20 +4297,48 @@ footer {
   }
 
   #about #transparency .transparency h1 {
-    margin-bottom: 33px;
-    letter-spacing: 0px;
+    margin-bottom: 34px;
+    letter-spacing: -0.1px;
     padding-left: 1px;
+    margin-top: 23px;
   }
 
-  #about #transparency .transparency p {
+  #about #transparency .transparency p:nth-child(2) {
+    letter-spacing: 0.45px;
+    word-spacing: -0.3px;
+    margin-left: -4px;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+
+  #about #transparency .transparency p:nth-child(3) {
+    padding-left: 0px;
+    margin-left: -1px;
+    letter-spacing: 0.01px;
+    word-spacing: 0.79px;
+    padding-right: 3.8px;
+    line-height: 28px;
     margin-bottom: 28px;
-    line-height: 28.9px;
+  }
+
+  #about #transparency .transparency p:nth-child(4) {
+    padding-left: 0px;
+    margin-left: -2px;
     letter-spacing: 1px;
-    word-spacing: 3px;
+    padding-right: 3px;
+    word-spacing: 1px;
+  }
+
+  #about #transparency .transparency p:nth-child(5) {
+    padding-left: 0px;
+    word-spacing: -0.9px;
+    letter-spacing: 0.2px;
+    padding-right: 3.5px;
+    margin-bottom: 28px;
   }
 
   #about #media-coverage {
-    padding: 114px 0 0px;
+    padding: 112px 0 0px;
   }
 
   #about #media-coverage .content {
@@ -3840,15 +4346,20 @@ footer {
   }
 
   #about #media-coverage .content h1 {
-    line-height: 37px;
-    font-size: 25px;
-    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 7px;
+    font-size: 26.5px;
+    line-height: 40px;
+    letter-spacing: 0.05px;
+    padding-left: 2px;
+    word-spacing: 0px;
+    margin-bottom: 16px;
   }
 
   #about #media-coverage .content .media-lockup {
     display: block;
     padding-left: 13px;
-    margin: 30px 0;
+    margin: 16px 0 30px;
   }
 
   #about #media-coverage .content .media-lockup:last-child {
@@ -3859,40 +4370,45 @@ footer {
     width: 199px;
     display: block;
     margin: auto;
-    margin-bottom: 12.5px;
   }
 
   #about #media-coverage .content img:nth-child(1) {
-    width: 198px;
+    width: 192px;
+    padding-right: 3px;
+    padding-top: 1px;
   }
 
   #about #media-coverage .content img:nth-child(2) {
-    width: 205px;
-    margin-left: 29px;
+    width: 198px;
+    margin-top: -5px;
+    margin-left: 12.5%;
   }
 
   #about #media-coverage .content img:nth-child(3) {
-    width: 202px;
-    margin-bottom: 5px;
-    margin-left: 36px;
+    margin-top: -7px;
+    margin-left: 13%;
   }
 
   #about #media-coverage .content img:nth-child(4) {
-    margin-bottom: 16px;
+    margin-top: -10px;
+    margin-left: 13.5%;
+    width: 201px;
   }
 
   #about #media-coverage .content img:nth-child(5) {
-    width: 205px;
+    width: 200px;
+    margin-top: -1px;
+    margin-left: 13.5%;
   }
 
   #about #media-coverage .content img:last-child {
-    margin-top: 46px;
-    width: 220px;
-    margin-left: 32px;
+    margin-top: 26px;
+    width: 203px;
+    margin-left: 12%;
   }
 
   #about #team {
-    padding-top: 42px;
+    padding-top: 24px;
   }
 
   #about #team .desktop {
@@ -3912,11 +4428,7 @@ footer {
   }
 
   #about #team .mobile #executive-team h3 {
-    font-size: 24px;
-    margin-bottom: 132px;
-    padding: 0 3px;
-    line-height: 1.3px;
-    word-spacing: -2px;
+    margin-bottom: 119px;
   }
 
   #about #team .mobile #executive-team article:first-child {
@@ -3924,9 +4436,10 @@ footer {
   }
 
   #about #team .mobile #executive-team .heading {
+    letter-spacing: -0.01px;
+    padding-right: 17px;
+    word-spacing: 0.5px;
     font-size: 16.2px;
-    letter-spacing: 1.1px;
-    word-spacing: -4px;
     line-height: 22.8px;
   }
 
