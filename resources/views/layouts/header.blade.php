@@ -1,4 +1,4 @@
-<header>
+<header> 
         <!-- Contact Details -->
         <section class="contact-details d-none d-lg-block">
             <div class="wrapper d-flex justify-content-end align-items-center">
