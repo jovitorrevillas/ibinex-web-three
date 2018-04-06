@@ -11,15 +11,15 @@
 
     {{--custom stylesheet--}}
     <link href="{{ asset("css/global.css") }}" rel="stylesheet"/>
-    @stack('stylesheets')
-    
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/app.css">
+    @stack('stylesheets')
 </head>
 <body>
-@include('layouts.header')
+{{--@include('layouts.header')--}}
 <main>
     @yield('content')
 </main>
