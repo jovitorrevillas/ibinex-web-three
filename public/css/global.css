@@ -1,8 +1,6 @@
 /*Nav CSS*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,600');
-
 * {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 div.contact-container{
     background-color: rgb(227, 227, 227);
