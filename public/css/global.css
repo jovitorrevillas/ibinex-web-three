@@ -1,8 +1,6 @@
 /*Nav CSS*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,600');
-
 * {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 div.contact-container{
     background-color: rgb(227, 227, 227);
@@ -327,6 +325,11 @@ a.ib-footer-subtext{
 
 p.ib-footer-subheading, a.ib-footer-subtext{
     margin-right: 15px;
+    font-weight: 600;
+}
+
+a.ib-footer-subtext:hover{
+    color: white;
 }
 
 div p#legal ~ a{
@@ -339,7 +342,6 @@ div p#legal ~ a{
 
 div.ib-bottom-section{
     background-color: rgb(7,29,45);
-    height: 100%;
 }
 
 div.ib-bottom-section-wrapper{
@@ -382,9 +384,11 @@ div.ib-contact-section{
     padding-right: 11px;
 }
 input.ib-input-custom{
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding: 15px 0 15px 20px;
+    font-size: small;
+    font-weight: bolder;
 }
 
 button.ib-btn-custom{
@@ -392,8 +396,8 @@ button.ib-btn-custom{
     font-size: x-small;
     padding: 18px 35px 20px 36px;
     font-weight: bold;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 p#ib-fuo-text{
@@ -409,7 +413,6 @@ div.ib-contact-input{
     max-width: 500px;
     height: 51px;
 }
-
 
 p.ib-disclosure-text{
     text-align: justify;
@@ -559,7 +562,6 @@ p.ib-disclosure-text{
         text-align: left;
         text-decoration: none;
         line-height: 2.3;
-        font-weight: 500;
     }
 
 

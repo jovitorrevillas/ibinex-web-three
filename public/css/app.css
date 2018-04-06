@@ -3100,18 +3100,6 @@
   display: none;
 }
 
-header {
-  height: 120px;
-  background-color: #000;
-  width: 100%;
-}
-
-footer {
-  height: 120px;
-  background-color: #000;
-  width: 100%;
-}
-
 #about {
   overflow: hidden;
 }
@@ -3204,7 +3192,7 @@ footer {
 }
 
 #about #media-coverage {
-  padding: 153px 0 68px;
+  padding: 154px 0 65px;
 }
 
 #about #media-coverage .content {
@@ -3218,13 +3206,46 @@ footer {
   margin-right: 27px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 118px;
+  margin-bottom: 112px;
   margin-top: 1px;
   word-spacing: 4px;
 }
 
-#about #media-coverage .content .media-lockup {
-  margin: 45px 0;
+#about #media-coverage .media-lockup {
+  margin: 29px 0;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:first-child {
+  margin-top: -10px;
+  margin-left: -24px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(2) {
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(3) {
+  margin-left: -1px;
+  margin-top: -7px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(4) {
+  margin-top: -2px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(5) {
+  margin-top: 5px;
+  margin-left: -2px;
+}
+
+#about #media-coverage .media-lockup:nth-child(2) img:nth-child(6) {
+  margin-top: -3px;
+  margin-left: 3px;
+}
+
+#about #media-coverage .media-lockup:nth-child(3) {
+  margin-left: -23px;
 }
 
 #about #team {
@@ -3238,7 +3259,7 @@ footer {
 
 #about #team #executive-team {
   max-width: 1325px;
-  padding: 55px 80px 105px;
+  padding: 57px 80px 104px;
 }
 
 #about #team #executive-team h1 {
@@ -3264,9 +3285,9 @@ footer {
 #about #team #executive-team h3 {
   margin-top: 0;
   margin-bottom: 6px;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.6px;
   word-spacing: -3px;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 #about #team #executive-team .heading {
@@ -3279,14 +3300,14 @@ footer {
 }
 
 #about #team #executive-team article:first-child {
-  margin-bottom: 50.5px;
+  margin-bottom: 53.5px;
 }
 
 #about #team #executive-team article h4 {
-  font-size: 21px;
-  letter-spacing: 1.3px;
+  font-size: 19.5px;
+  letter-spacing: 1.1px;
   word-spacing: 1;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 
 #about #team #executive-team article p {
@@ -3294,26 +3315,30 @@ footer {
   letter-spacing: -0.1px;
   word-spacing: -0px;
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   margin-left: -1px;
 }
 
+#about #team #executive-team article .links {
+  margin-left: -3px;
+}
+
 #about #team #executive-team article .links a {
-  letter-spacing: -0.7px;
-  font-size: 16px;
+  letter-spacing: -0.9px;
+  font-size: 14px;
   text-decoration: underline;
   color: #3b55e6;
   font-style: italic;
 }
 
 #about #team #executive-team article .links a:last-child {
-  margin-left: 30px;
+  margin-left: 29px;
   letter-spacing: -1px;
 }
 
 #about #team #executive-team .designation {
   margin-bottom: 9px;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0px;
   word-spacing: 0px;
 }
@@ -3345,16 +3370,21 @@ footer {
 
 #about #team #executive-team .executive-slider {
   position: relative;
+  margin-left: -1px;
 }
 
 #about #team #executive-team .executive-slider .slider-control {
   position: absolute;
-  top: 14px;
-  right: -5px;
+  top: 8px;
+  right: -14px;
 }
 
 #about #team #executive-team .executive-slider .slider-control a {
-  padding-left: 10px;
+  padding: 0 7px;
+}
+
+#about #team #executive-team .executive-slider .slider-control img {
+  width: 24px;
 }
 
 #about #team #executive-team .card-stack {
@@ -3394,7 +3424,7 @@ footer {
 }
 
 #about #team #executive-team .card-stack .card-list li:nth-child(3) {
-  top: 77px;
+  top: 75px;
   left: -35px;
 }
 
@@ -3448,16 +3478,17 @@ footer {
 }
 
 #about #team #advisory-board .board-lockup {
-  padding: 26px 0 134px;
+  padding: 25px 0 141px;
 }
 
 #about #team #advisory-board img {
-  width: 100%;
+  width: 279px;
+  height: 338px;
 }
 
 #about #team #advisory-board article {
   text-align: center;
-  padding: 39px 0 15px;
+  padding: 39px 0 5px;
   width: 286px;
   font-family: "Montserrat", sans-serif;
 }
@@ -3482,6 +3513,8 @@ footer {
   letter-spacing: 0.5px;
   font-size: 14.1px;
   font-weight: 600;
+  padding-left: 1px;
+  margin-top: -1px;
 }
 
 #about #team #advisory-board .col-md-3 {
@@ -3497,9 +3530,14 @@ footer {
   letter-spacing: 0px;
 }
 
+#about #team #advisory-board .col-md-3:nth-child(4) .name,
+#about #team #advisory-board .col-md-3:last-child .name {
+  padding-right: 9px;
+}
+
 #about #team #advisory-board .col-md-3:nth-child(4),
 #about #team #advisory-board .col-md-3:nth-child(7) {
-  padding-right: 3px;
+  padding: 0 13px !important;
 }
 
 #about #team #advisory-board .col-md-3:nth-child(2) .designation {
@@ -3508,6 +3546,8 @@ footer {
   letter-spacing: 0.4px;
   line-height: 20px;
   font-size: 14.5px;
+  padding-left: 4px;
+  margin-top: -1px;
 }
 
 #about #team #advisory-board .col-md-3:nth-child(3) .designation {
@@ -3536,7 +3576,7 @@ footer {
   line-height: 19px;
   letter-spacing: -0.5px;
   word-spacing: -1px;
-  padding: 0 14px 0 16px;
+  padding: 0 14px 0 9px;
 }
 
 .transformThis {
