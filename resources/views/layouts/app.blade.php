@@ -29,7 +29,7 @@
     @stack('stylesheets')
 </head>
 <body>
-{{--@include('layouts.header')--}}
+@include('layouts.header')
 <main>
     @yield('content')
 </main>
