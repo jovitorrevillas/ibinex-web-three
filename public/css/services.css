@@ -8,21 +8,21 @@ font-family: 'Montserrat', sans-serif;
 .platform-laptop{
 	position: absolute;
 	max-width:1130px;
-	left:-128px;
+	left:-160px;
 	top:58px;
 }
 .platform-heading{
-	margin-top:50px;
-	margin-left:-5px;
+	margin-top:58px;
+	margin-left:-10px;
 }
 .platform-description{
 	margin-top:49px;
 	font-size:16px;
-	margin-left:10px;
-
+	line-height:25px;
+	margin-left:5px;
 }
 
-.services{
+#services{
 	background: #c01722;
 	color:white;
 	padding-top:103px;
@@ -34,6 +34,8 @@ font-family: 'Montserrat', sans-serif;
 	margin-left:-53px;
 	margin-top:-3px;
 	font-weight:bolder;
+	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #ibinex_services{
@@ -50,8 +52,8 @@ font-size: 17px;
 
 .check-items{
 	margin:0;
-	margin-top:39px;
-	margin-left:-35px;
+	margin-top:40px;
+	margin-left:-38px;
 }
 .check-items li{
 background: url(../img/services/ellipse.png) no-repeat left top;
@@ -62,10 +64,8 @@ margin: 0;
 }
 
 .check-items li span{
-	padding-left:30px;
+	padding-left:35px;
 	font-size:17px;
-
-
 }
 
 
@@ -84,8 +84,8 @@ margin: 0;
 .crm-heading{
 	font-size:38px;
 	font-weight:bolder;
-margin-top:80px;
-margin-left:-50px;
+margin-top:150px;
+margin-left:-20px;
 
 }
 
@@ -98,8 +98,8 @@ margin-left:-50px;
 
 .crm-check-items{
 	margin:0;
-	margin-top:62px;
-	margin-left:-87px;
+	margin-top:65px;
+	margin-left:-60px;
 
 }
 
@@ -117,9 +117,8 @@ margin: 0;
 }
 
 .crm-dashboard{
-max-width:1300px;
-margin-left:92px;
-margin-top:55px;
+	margin-top:125px;
+	margin-left:90px;
 }
 
 
@@ -130,10 +129,10 @@ margin-top:55px;
 	color:white;
 	padding-bottom:155px;
 	padding-top:120px;
-	margin-top:-50px;
+	margin-top:12px;
 }
 .c3-logo{
-	margin-left:60px;
+	margin-left:20px;
 
 }
 
@@ -144,7 +143,8 @@ font-size:39px;
 
 .crypto-descritpion{
 margin-top:50px;
-font-size:16.5px;
+line-height:27px;
+font-size:16px;
 margin-left:5px;
 }
 
@@ -152,49 +152,75 @@ margin-left:5px;
 
 .ccp{
 	padding-top:230px;
-	padding-bottom:15px;
+	padding-bottom:40px;
 }
 
 .ccp-heading{
 margin-top:20px;
-margin-left:10px;
+margin-left:-25px;
 font-size:39px;
 }
 
 .ccp-description{
 margin-top:50px;
 font-size:16px;
-margin-left:10px;
+margin-left:-21px;
 line-height:28px;
 }
 
 .ccp-cards{
 	margin-top:35px;
-	margin-left:10px;
+	margin-left:-25px;
 }
 
 .ccp-phone{
-	margin-left:130px;
-	margin-top:-90px;
+	margin-top:-105px;
+	margin-left:125px;
 }
 
 
 #ca{
+	background: #fbfbfb;
 
+}
+
+.custodian-right{
+	padding-top:120px;
 }
 
 .ca-person{
 
+	max-width:1000%;
+	margin-top:-40px;
+	margin-left:-294px;
+
 }
 
 .ca-heading{
-
+margin-top:80px;
+font-weight:700;
+font-size:39px;
+margin-left:-5px;
 }
 
 .ca-description{
+margin-top:50px;
+width:700px;
+word-spacing:2px;
+line-height:26px;
 
 }
 
 .ca-items{
-	
+	list-style:none;
+	margin:0;
+
+	padding:0;
+	margin-left:-5px;
+	margin-top:35px;
+	word-spacing:2px;
+}
+
+.ca-items li{
+	padding-bottom:30px;
 }

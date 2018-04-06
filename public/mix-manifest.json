@@ -1,9 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
     "/css/bootstrap.min.css": "/css/bootstrap.min.css",
     "/css/font-awesome.min.css": "/css/font-awesome.min.css",
     "/css/normalize.css": "/css/normalize.css",
     "/css/swiper.min.css": "/css/swiper.min.css",
-    "/js/swiper.min.js": "/js/swiper.min.js"
+    "/js/swiper.min.js": "/js/swiper.min.js",
+    "/css/app.css": "/css/app.css"
 }

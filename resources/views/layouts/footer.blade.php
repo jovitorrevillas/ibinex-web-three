@@ -19,7 +19,7 @@
         </div>
 
         <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading" id="services">SERVICES</p>
+          <p class="ib-footer-subheading" id="services-heading">SERVICES</p>
           <a href="#" class="ib-footer-subtext">Platform</a><br>
           <a href="#" class="ib-footer-subtext">CRM / BackOffice</a><br>
           <a href="#" class="ib-footer-subtext">CryptoBridge</a><br>
@@ -104,15 +104,15 @@
           </div>
           <p id="ib-fuo-text" class="ib-footer-subheading">FIND US ONLINE</p>
           <ul class="list-inline ib-logo-list">
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\fb.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\tw.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\wa.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\me.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\sk.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\g.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\te.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\yt.png') }}"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\vb.png') }}"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\fb.png') }}" title="Facebook"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\tw.png') }}" title="Twitter"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\wa.png') }}" title="WhatsApp"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\me.png') }}" title="Messenger"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\sk.png') }}" title="Skype"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\g.png') }}" title="Google+"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\te.png') }}" title="Telegram"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\yt.png') }}" title="YouTube"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('img\footer\icons\vb.png') }}" title="Viber"></a></li>
           </ul>
         </div>
 
