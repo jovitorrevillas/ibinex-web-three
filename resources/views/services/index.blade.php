@@ -10,7 +10,7 @@
 
 	
 
-	<div class="jumbotron services text-center"  >
+	<div class="jumbotron text-center"  id="services" >
 			
 			<h1 class="services-title" style="font-style: italic;font-family: 'Montserrat', sans-serif;">Services</h1>
 

@@ -8,21 +8,21 @@ font-family: 'Montserrat', sans-serif;
 .platform-laptop{
 	position: absolute;
 	max-width:1130px;
-	left:-128px;
+	left:-160px;
 	top:58px;
 }
 .platform-heading{
-	margin-top:50px;
-	margin-left:-5px;
+	margin-top:58px;
+	margin-left:-8px;
 }
 .platform-description{
 	margin-top:49px;
 	font-size:16px;
-	margin-left:10px;
-
+	line-height:25px;
+	margin-left:5px;
 }
 
-.services{
+#services{
 	background: #c01722;
 	color:white;
 	padding-top:103px;
@@ -50,8 +50,8 @@ font-size: 17px;
 
 .check-items{
 	margin:0;
-	margin-top:39px;
-	margin-left:-35px;
+	margin-top:40px;
+	margin-left:-38px;
 }
 .check-items li{
 background: url(../img/services/ellipse.png) no-repeat left top;
@@ -62,10 +62,8 @@ margin: 0;
 }
 
 .check-items li span{
-	padding-left:30px;
+	padding-left:35px;
 	font-size:17px;
-
-
 }
 
 
