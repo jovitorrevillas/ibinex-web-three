@@ -330,6 +330,10 @@ p.ib-footer-subheading, a.ib-footer-subtext{
     font-weight: 600;
 }
 
+a.ib-footer-subtext:hover{
+    color: white;
+}
+
 div p#legal ~ a{
     margin-left: 0px;
 }
