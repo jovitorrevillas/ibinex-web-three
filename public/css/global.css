@@ -384,6 +384,8 @@ input.ib-input-custom{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 15px 0 15px 20px;
+    font-size: small;
+    font-weight: bolder;
 }
 
 button.ib-btn-custom{
@@ -408,7 +410,6 @@ div.ib-contact-input{
     max-width: 500px;
     height: 51px;
 }
-
 
 p.ib-disclosure-text{
     text-align: justify;
