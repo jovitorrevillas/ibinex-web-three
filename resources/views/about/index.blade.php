@@ -1,22 +1,52 @@
-<!DOCTYPE html  lang=en>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-	<title>Ibinex | About us</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/app.css">
-</head>
-<body>
-	
-	<header>
-		
-	</header>
+@extends('layouts.app')
+@section('title','About us')
 
+@push('scripts')
+	<script src="js/swiper.min.js"></script>
+	<script>
+		var $card = $('.card');
+		var lastCard = $(".card-list .card").length - 1;
+
+		$('.next').click(function(e){
+			e.preventDefault(); 
+			var prependList = function() {
+				if( $('.card').hasClass('activeNow') ) {
+					var $slicedCard = $('.card').slice(lastCard).removeClass('transformThis activeNow');
+					$('ul').prepend($slicedCard);
+				}
+			}
+			$('li').last().removeClass('transformPrev').addClass('transformThis').prev().addClass('activeNow');
+			setTimeout(function(){prependList(); }, 150);
+		});
+
+		$('.prev').click(function(e) {
+			e.preventDefault(); 
+			var appendToList = function() {
+				if( $('.card').hasClass('activeNow') ) {
+					$('.card.activeNow').removeClass('activeNow');
+					var $slicedCard = $('.card').slice(0, 1).addClass('transformPrev');
+					$('.card-list').append($slicedCard);
+				}}
+			
+					$('li').removeClass('transformPrev').last().addClass('activeNow').prevAll().removeClass('activeNow');
+			setTimeout(function(){appendToList();}, 150);
+		});
+
+		var mySwiper = new Swiper ('.swiper-container', {
+		    // Optional parameters
+		    direction: 'horizontal',
+		    loop: true,
+
+		    // Navigation arrows
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		    },
+		});
+	</script>
+@endpush
+
+@section('content')
 	<div id="about">
 		<section class="flex" id="transparency">
 			<div class="img-lockup">
@@ -94,10 +124,10 @@
 							<article class="executive-slider">
 								<div class="slider-control">
 									<a class="buttons prev" href="#">
-										<i class="fa fa-long-arrow-left fa-lg"></i>
+										<img src="img/about/arrow-long-left.svg" alt="">
 									</a>
 									<a class="buttons next" href="#">
-										<i class="fa fa-long-arrow-right fa-lg"></i>
+										<img src="img/about/arrow-long-right.svg" alt="">
 									</a>
 								</div>
 
@@ -106,8 +136,8 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
 								
 								<div class="links">
-									<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin Profile</a>
-									<a href=""><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a>
+									<a href=""><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> Linkedin Profile</a>
+									<a href=""><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> Download CV</a>
 								</div>
 							</article>
 						</div>
@@ -277,53 +307,4 @@
 			</div>
 		</section>
 	</div>
-
-	<footer>
-		
-	</footer>
-	
-	<script src="js/swiper.min.js"></script>
-	<script type="application/javascript" src="js/app.js"></script>
-	<script>
-		var $card = $('.card');
-		var lastCard = $(".card-list .card").length - 1;
-
-		$('.next').click(function(e){
-			e.preventDefault(); 
-			var prependList = function() {
-				if( $('.card').hasClass('activeNow') ) {
-					var $slicedCard = $('.card').slice(lastCard).removeClass('transformThis activeNow');
-					$('ul').prepend($slicedCard);
-				}
-			}
-			$('li').last().removeClass('transformPrev').addClass('transformThis').prev().addClass('activeNow');
-			setTimeout(function(){prependList(); }, 150);
-		});
-
-		$('.prev').click(function(e) {
-			e.preventDefault(); 
-			var appendToList = function() {
-				if( $('.card').hasClass('activeNow') ) {
-					$('.card.activeNow').removeClass('activeNow');
-					var $slicedCard = $('.card').slice(0, 1).addClass('transformPrev');
-					$('.card-list').append($slicedCard);
-				}}
-			
-					$('li').removeClass('transformPrev').last().addClass('activeNow').prevAll().removeClass('activeNow');
-			setTimeout(function(){appendToList();}, 150);
-		});
-
-		var mySwiper = new Swiper ('.swiper-container', {
-		    // Optional parameters
-		    direction: 'horizontal',
-		    loop: true,
-
-		    // Navigation arrows
-		    navigation: {
-		      nextEl: '.swiper-button-next',
-		      prevEl: '.swiper-button-prev',
-		    },
-		});
-	</script>
-</body>
-</html>
+@endsection
