@@ -117,37 +117,72 @@
 				<div id="advisory-board">
 					<div class="container">
 						<h1>Advisory <span class="italic">Board</span></h1>
-						<div class="row board-lockup">
-							<div class="col-md-3">
-								<img src="img/about/board1.png" alt="">
-								<article>
-									<h5 class="name">Jeremy Corbein</h5>
-									<p class="designation">Chief Operational Officer, Deiteriy</p>
-								</article>
-							</div>
+						<div class="board-lockup">
+							<div class="row"> 
+								<div class="col-md-3">
+									<img src="img/about/board1.png" alt="">
+									<article>
+										<h5 class="name">Jeremy Corbein</h5>
+										<p class="designation">Chief Operational Officer, Deiteriy</p>
+									</article>
+								</div>
 
-							<div class="col-md-3">
-								<img src="img/about/board2.png" alt="">
-								<article>
-									<h5 class="name">Jimmy Fallon</h5>
-									<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
-								</article>
-							</div>
+								<div class="col-md-3">
+									<img src="img/about/board2.png" alt="">
+									<article>
+										<h5 class="name">Jimmy Fallon</h5>
+										<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
+									</article>
+								</div>
 
-							<div class="col-md-3">
-								<img src="img/about/board3.png" alt="">
-								<article>
-									<h5 class="name">Stephen Colbert</h5>
-									<p class="designation">Head of Products and Services <span>Development Department, XB Software</span></p>
-								</article>
-							</div>
+								<div class="col-md-3">
+									<img src="img/about/board3.png" alt="">
+									<article>
+										<h5 class="name">Stephen Colbert</h5>
+										<p class="designation">Head of Products and Services <span>Development Department, XB Software</span></p>
+									</article>
+								</div>
 
-							<div class="col-md-3">
-								<img src="img/about/board4.png" alt="">
-								<article>
-									<h5 class="name">Artem Kushik</h5>
-									<p class="designation">Business Analyst, Crédit Agricole CIB</p>
-								</article>
+								<div class="col-md-3">
+									<img src="img/about/board4.png" alt="">
+									<article>
+										<h5 class="name">Artem Kushik</h5>
+										<p class="designation">Business Analyst, Crédit Agricole CIB</p>
+									</article>
+								</div>
+							</div>
+							<div class="row"> 
+								<div class="col-md-3">
+									<img src="img/about/board1.png" alt="">
+									<article>
+										<h5 class="name">Jeremy Corbein</h5>
+										<p class="designation">Chief Operational Officer, Deiteriy</p>
+									</article>
+								</div>
+
+								<div class="col-md-3">
+									<img src="img/about/board2.png" alt="">
+									<article>
+										<h5 class="name">Jimmy Fallon</h5>
+										<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
+									</article>
+								</div>
+
+								<div class="col-md-3">
+									<img src="img/about/board3.png" alt="">
+									<article>
+										<h5 class="name">Stephen Colbert</h5>
+										<p class="designation">Head of Products and Services <span>Development Department, XB Software</span></p>
+									</article>
+								</div>
+
+								<div class="col-md-3">
+									<img src="img/about/board4.png" alt="">
+									<article>
+										<h5 class="name">Artem Kushik</h5>
+										<p class="designation">Business Analyst, Crédit Agricole CIB</p>
+									</article>
+								</div>
 							</div>
 						</div>
 					</div>

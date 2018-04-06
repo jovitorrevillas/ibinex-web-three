@@ -3215,12 +3215,12 @@ footer {
 #about #media-coverage .content h1 {
   font-size: 37px;
   letter-spacing: 0.2px;
-  margin-right: 29px;
+  margin-right: 27px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 118px;
   margin-top: 1px;
-  word-spacing: 6px;
+  word-spacing: 4px;
 }
 
 #about #media-coverage .content .media-lockup {
@@ -3327,11 +3327,6 @@ footer {
   border: none;
 }
 
-#about #team #executive-team .card img {
-  width: 465px;
-  height: 430px;
-}
-
 #about #team #executive-team .card:after {
   position: absolute;
   content: '';
@@ -3399,8 +3394,8 @@ footer {
 }
 
 #about #team #executive-team .card-stack .card-list li:nth-child(3) {
-  top: 78px;
-  left: -36px;
+  top: 77px;
+  left: -35px;
 }
 
 #about #team #executive-team .card-stack:hover > .buttons.prev {
