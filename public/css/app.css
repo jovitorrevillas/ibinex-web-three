@@ -3315,12 +3315,16 @@
   letter-spacing: -0.1px;
   word-spacing: -0px;
   font-size: 14px;
-  margin-bottom: 14px;
+  margin-bottom: 15px;
   margin-left: -1px;
 }
 
+#about #team #executive-team article .links {
+  margin-left: -3px;
+}
+
 #about #team #executive-team article .links a {
-  letter-spacing: -0.7px;
+  letter-spacing: -0.9px;
   font-size: 14px;
   text-decoration: underline;
   color: #3b55e6;
@@ -3328,7 +3332,7 @@
 }
 
 #about #team #executive-team article .links a:last-child {
-  margin-left: 30px;
+  margin-left: 29px;
   letter-spacing: -1px;
 }
 
