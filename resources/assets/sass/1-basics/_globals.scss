@@ -1,0 +1,21 @@
+.flex {
+	display: flex;
+}
+
+.full-width {
+	flex-grow: 2;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.visible-md {
+	display: none;
+}
