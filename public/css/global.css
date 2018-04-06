@@ -327,6 +327,7 @@ a.ib-footer-subtext{
 
 p.ib-footer-subheading, a.ib-footer-subtext{
     margin-right: 15px;
+    font-weight: 600;
 }
 
 div p#legal ~ a{
@@ -559,7 +560,6 @@ p.ib-disclosure-text{
         text-align: left;
         text-decoration: none;
         line-height: 2.3;
-        font-weight: 500;
     }
 
 
