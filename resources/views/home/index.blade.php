@@ -1,79 +1,41 @@
 @extends('layouts.app')
-@section('title','Contact Us')
+@section('title', 'Welcome to Ibinex')
 @push('stylesheets')
-    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+<link rel="stylesheet" href="{{ asset('css/home.css') }}">
 @endpush
 
-@section('title', 'Content unavailable')
 
 @section('content')
 
-
-
 <section id="intro-cryptobridge">
-		
-	<article class="container" style="width:600px;">
-		
-
+	<article>
 		<h2>Introducing</h2>
-
-	<h1>CryptoBridge™</h1>
-
-	<p>Our patent-pending proprietary software, CryptoBridge, is the nexus that aggregates premier cryptocurrency exchanges and in­dexes for your customers, in real­-time.</p>
-
-	<p>
-		The CryptoBridge algorithm benefits your customers by showing them a unique combination of the best and most select crypto­currency exchanges and most at­tractive live prices — only available via the Ibinex trading platform.
-	</p>
-
-
-	<div class="input-group mb-3" style="width:350px;float: right;">
-  <input type="text" class="form-control" placeholder="Type your email" aria-label="Type your email" aria-describedby="basic-addon2" style="padding-top:13px;padding-bottom:13px;">
-  <div class="input-group-append" style="width:50px;">
-    <span style="background: #c01722;color:white;border: 0;font-size:13px;" class="input-group-text" id="basic-addon2">REQUEST A DEMO</span>
-  </div>
-</div>
-
+		<h1>CryptoBridge&trade;</h1>
+		<p>
+			Our patent-pending proprietary software, CryptoBridge, is the nexus that aggregates premier cryptocurrency exchanges and in­dexes for your customers, in real­-time.
+		</p>
+		<p>
+			The CryptoBridge algorithm benefits your customers by showing them a unique combination of the best and most select crypto­currency exchanges and most at­tractive live prices — only available via the Ibinex trading platform.
+		</p>
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Type your email" aria-label="Type your email" aria-describedby="basic-addon2">
+			<button type="submit" class="btn ">REQUEST A DEMO</button>
+		</div>
 	</article>
-
-	
-
-
-
+	<div class="hollow-box"></div>
 </section>
-
-
-
 
 <div class="container-fluid" id="gateway">
-
-<div class="container">
-
-<section class="row">
-
-		
-		
-			
-			<article class="col-md-6 col-sm-6"> 
-
-		<img src="img/home/laptop.png" class="img-fluid">
-
-	</article>
-
-	<article class="col-md-6 col-sm-12">
-
-		<h1>Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h1>
-		
-		<p>With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with your own web-based platform, Ibinex will show you definitively how to build a cryptocurrency exchange, your way.</p>
-	</article>
-
-	
-		
-	
-
-
-	
-</section>
-
+	<div class="container">
+		<section class="row">
+			<article class="col-md-6 col-sm-6">
+				<img src="img/home/laptop.png" class="img-fluid">
+			</article>
+			<article class="col-md-6 col-sm-12">
+				<h1>Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h1>
+				<p>With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with your own web-based platform, Ibinex will show you definitively how to build a cryptocurrency exchange, your way.</p>
+			</article>
+		</section>
 	</div>
 </div>
 

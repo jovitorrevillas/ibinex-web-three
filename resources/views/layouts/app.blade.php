@@ -25,10 +25,11 @@
     <!-- Global CSS -->
     {{--custom stylesheet--}}
     <link href="{{ asset("css/global.css") }}" rel="stylesheet"/>
+
     @stack('stylesheets')
 </head>
 <body>
-@include('layouts.header')
+{{--@include('layouts.header')--}}
 <main>
     @yield('content')
 </main>

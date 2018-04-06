@@ -19,7 +19,7 @@
         </div>
 
         <div class="col-lg-4 col-xl">
-          <p class="ib-footer-subheading" id="services">SERVICES</p>
+          <p class="ib-footer-subheading" id="services-heading">SERVICES</p>
           <a href="#" class="ib-footer-subtext">Platform</a><br>
           <a href="#" class="ib-footer-subtext">CRM / BackOffice</a><br>
           <a href="#" class="ib-footer-subtext">CryptoBridge</a><br>
