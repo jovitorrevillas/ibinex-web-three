@@ -506,13 +506,13 @@ p.ib-disclosure-text{
         margin-left: -3px;
     }
 
-    p#services{
+    p#services-heading{
         margin-top: 35px;
         margin-left: -2px;
         margin-bottom: 27px;
     }
 
-    div p#services ~ a{
+    div p#services-heading ~ a{
         margin-left: -2px;
     }
 
