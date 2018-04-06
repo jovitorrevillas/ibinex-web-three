@@ -381,8 +381,8 @@ div.ib-contact-section{
     padding-right: 11px;
 }
 input.ib-input-custom{
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding: 15px 0 15px 20px;
 }
 
@@ -391,8 +391,8 @@ button.ib-btn-custom{
     font-size: x-small;
     padding: 18px 35px 20px 36px;
     font-weight: bold;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 p#ib-fuo-text{
