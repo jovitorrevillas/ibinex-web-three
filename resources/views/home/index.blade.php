@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 @endpush
 
+@section('title', 'Content unavailable')
+
 @section('content')
 
 
