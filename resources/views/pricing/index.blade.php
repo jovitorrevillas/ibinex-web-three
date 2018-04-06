@@ -1,8 +1,5 @@
 @extends('layouts.app')
 @section('title','Pricing')
-@push('stylesheets')
-    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
-@endpush
 
 @section('content')
     <div class="container-fluid">
