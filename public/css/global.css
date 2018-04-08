@@ -5,6 +5,24 @@
     font-style: normal;
 }
 
+/*
+All fonts are set to Montserrat unless specified
+*/
+*{
+    font-family: Montserrat, san-serif;
+}
+/*
+All static images are not draggable*/
+img{
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/*Start of Nav Stylesheet*/
 header{
     font-family: Montserrat, san-serif;
     letter-spacing: -0.3px;
@@ -64,6 +82,12 @@ header .contact-community .separator{
     }
 }
 
+@media all and (min-width:991px){
+    header div.wrapper{
+        height:62px;
+    }
+}
+
 /*second*/
 header nav{
     height: 105px;
@@ -82,7 +106,7 @@ nav a.navbar-brand{
     height:42px;
 }
 header nav .separator{
-    width:111px;
+    width:108px;
 }
 
 header nav div.navbar-collapse{
@@ -140,7 +164,7 @@ header nav button.btn-primary{
         max-width: 1253px;
     }
     nav a.navbar-brand{
-        margin: 6px 0 0 44px;
+        margin: 6px 0 0 47px;
     }
 }
 
@@ -230,7 +254,7 @@ section.gradient div.div-wrapper > div{
     align-items: center !important;
     color:white;
     font-family: "BitCoinFont";
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.3px;
 }
 
@@ -274,6 +298,7 @@ span.red{
         margin: 0 auto;
     }
 }
+/*Nav Stylesheet*/
 
 /* ------------ FOOTER By Philip---------------*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
@@ -421,6 +446,7 @@ p.ib-disclosure-text{
     font-size: .7rem;
     word-spacing: -1.92px;
     line-height: 13px;
+    margin: 0;
 }
 
 @media (max-width: 1199px) {

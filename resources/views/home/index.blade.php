@@ -25,21 +25,23 @@
 	<div class="hollow-box"></div>
 </section>
 
-<div class="container-fluid" id="gateway">
+<div class="container-fluid position-relative" id="gateway">
 	<div class="container">
 		<section class="row">
 			<article class="col-md-6 col-sm-6">
 				<img src="img/home/laptop.png" class="img-fluid">
 			</article>
+			<article class="col-md-6 col-sm-6">
+			</article>
 			<article class="col-md-6 col-sm-12">
 				<h1>Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h1>
-				<p>With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with your own web-based platform, Ibinex will show you definitively how to build a cryptocurrency exchange, your way.</p>
+				<p>With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trail&shy;blazing turnkey solutions to merge with your own web-based plat&shy;form, Ibinex will show you definitively how to build a cryptocurrency exchange, your way.</p>
 			</article>
 		</section>
 	</div>
 </div>
 
-<div class="container">
+<div class="container" id="exchange">
 			
 	<section id="exchange-title">
 		<h2 class="text-center">Exchange your Way with Ibinex.</h2>
@@ -110,29 +112,32 @@
 
 
 
-<div class="container" id="vision">
-		
-		<section class="row">
+<div class="container-fluid" id="vision">
+	<div class="container">
+		<section class="row position-relative">
 			
 
-		<article class="col-md-5">
+		<article class="col-md-6 position-absolute">
 			
-			<img src="img/home/vision--video.png" style="position: absolute;width:550px;z-index: 1;top:95px;box-shadow:0 0 50px black;">
+			<img src="img/home/vision--video.png">
 			
 
 		</article>
 
-		<article class="col-md-7" style="background: white;padding-top:220px;padding-bottom:220px;">
+		<article class="col-md-5">
+		</article>
+
+		<article class="col-md-7">
 			<h1 class="text-center align-middle" >
 			
-		 	<span style="">Our</span><span style="font-family: 'Playfair Display', serif;">Vision.</span>
+		 	<span>Our</span><span>vision.</span>
 		</h1>
 		</article>
 
 		
 
-</section>
-
+		</section>
+	</div>
 </div>
 
 
@@ -147,37 +152,38 @@
 	<section class="row">
 
 
-	<article class="col-md-4" style="margin-top:30px;">
+	<article class="col-md-4">
 
-		<img src="img/home/manual-blue.png" class="img-fluid">
-
-			
-		<div style="margin-top:22px;">
-				<h3>Business Model</h3>
-		<h4>PDF-1.3MB</h4>
+		<img src="img/home/business.png" class="img-fluid">
+		<div>
+		<h3 style="color: #243555;">Business Model</h3>
+		<h4>PDF - 1.3MB</h4>
 		<button class="btn btn-default rounded-button ">
 			Download
 		</button>
 		</div>
-
 	</article>
 
 	<article class="col-md-4">
-		<img src="img/home/manual-orange.png" class="img-fluid">
-		<h3>One Page Brochure</h3>
-		<h4>PDF-1.3MB</h4>
+		<img src="img/home/one-page.png" class="img-fluid">
+		<div>
+		<h3 style="color: #9e664c;">One Page Brochure</h3>
+		<h4>PDF - 1.3MB</h4>
 		<button class="btn btn-default rounded-button">
 			Download
 		</button>
+		</div>
 	</article>
 
 	<article class="col-md-4">
-		<img src="img/home/manual-red.png" class="img-fluid">
-		<h3>Custodian Guidelines</h3>
-		<h4>PDF-1.3MB</h4>
+		<img src="img/home/custodian.png" class="img-fluid">
+		<div>
+		<h3 style="color: #9a4c47;">Custodian Guidelines</h3>
+		<h4>PDF - 1.3MB</h4>
 		<button class="btn btn-default rounded-button ">
 			Download
 		</button>
+		</div>
 	</article>
 
 </section>
@@ -187,31 +193,36 @@
 
 	<article class="col-md-4">
 
-		<img src="img/home/manual-green.png" class="img-fluid">
-
-		<h3>Pricing Model</h3>
-		<h4>PDF-1.3MB</h4>
+		<img src="img/home/pricing.png" class="img-fluid">
+		<div>
+		<h3 style="color: #708158;">Pricing Model</h3>
+		<h4>PDF - 1.3MB</h4>
 		<button class="btn btn-default rounded-button center-block ">
 			Download
 		</button>
+		</div>
 	</article>
 
 	<article class="col-md-4">
-		<img src="img/home/manual-violet.png" class="img-fluid">
-		<h3>Terms & Conditions</h3>
-		<h4>PDF-1.3MB</h4>
+		<img src="img/home/terms.png" class="img-fluid">
+		<div>
+		<h3 style="color: #8154a7;">Terms & Conditions</h3>
+		<h4>PDF - 1.3MB</h4>
 		<button class="btn btn-default rounded-button">
 			Download
 		</button>
+		</div>
 	</article>
 
-	<article class="col-md-4" style="margin-top:-55px;">
-		<img src="img/home/manual-blue2.png" class="img-fluid">
-		<h3>KYC & AML Requirments</h3>
-		<h4>PDF-1.3MB</h4>
+	<article class="col-md-4">
+		<img src="img/home/kyc.png" class="img-fluid">
+		<div>
+		<h3 style="color: #44577f;">KYC & AML Requirments</h3>
+		<h4>PDF - 1.3MB</h4>
 		<button class="btn btn-default rounded-button ">
 			Download
 		</button>
+		</div>
 	</article>
 
 
