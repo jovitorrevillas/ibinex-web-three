@@ -260,7 +260,12 @@ title:
 	color: black;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+	#gateway article:nth-child(1) {
+    	padding-top: 2em;
+	}
+}
+@media only screen and (min-width: 992px) {
 	#vision .vision-mobile article:nth-child(2) h1 {
 		font-size: 4em;
 		margin: 0.25em 0;

@@ -28,12 +28,12 @@
 <div class="container-fluid position-relative" id="gateway">
 	<div class="container">
 		<section class="row">
-			<article class="col-md-6 col-sm-6">
+			<article class="col-md-12 col-lg-6">
 				<img src="images/home/laptop.png" class="img-fluid">
 			</article>
-			<article class="col-md-6 col-sm-6">
+			<article class="col-md-12 col-lg-6">
 			</article>
-			<article class="col-md-6 col-sm-12">
+			<article class="col-md-12 col-lg-6">
 				<h1>Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h1>
 				<p>With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trail&shy;blazing turnkey solutions to merge with your own web-based plat&shy;form, Ibinex will show you definitively how to build a cryptocurrency exchange, your way.</p>
 			</article>
