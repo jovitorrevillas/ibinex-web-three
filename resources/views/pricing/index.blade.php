@@ -43,15 +43,15 @@
                         </div>
 
                         <div class="row">
-                            <article class="col-md-12 col-12">
+                            <article class="col-md-12 col-12" id="our-fees-article">
                                 <h2>Our Fees</h2>
-                                <p>
+                                <p class="first-paragraph">
 									<span>
 										0.1% flat-rate fee based on exchange volume with a minimum fee of $20,000 per month
 									</span>
                                 </p>
 
-                                <p>
+                                <p class="second-paragraph">
 									<span>
 										Fees begin only at day 91.
 									</span>

@@ -1,4 +1,12 @@
+nav{
+  height: 310px;
+  background-color: black;
+}
 
+footer{
+  height: 310px;
+  background-color: black;
+}
 
 .text-gray{
   color: #6B7C93;
@@ -14,15 +22,11 @@
   #pricing-section{
     font-family: 'Montserrat', 'Sans-Serif';
     background-color: #F6F6F6;
-    .col-md-4.col{
-
-    }
 
 
 
     #pricing-text{
       padding: 147px 0px 0px 29px;
-      padding-left: 27px;
       div.row:first-child{
         padding-right: 8px;
       }
@@ -30,23 +34,16 @@
     article.col-md-12.col-12:first-child{
       padding: 0px 20px 0px 0px;
       padding-right: 45px;
-      margin-left: 0px;
 
       h2{
-        font-family: Montserrat, Sans-Serif;
+        font-family: 'Montserrat', 'Sans-Serif';
         font-weight: 800;
         line-height: 6px;
         font-size: 38px;
         margin: 59px 0px 68px 0px;
-        margin-bottom: 68px;
+        margin-bottom: 71px;
         margin-top: 59px;
         //font-weight: bolder;
-      }
-      h2:nth-child(2){
-        font-weight: 700;
-      }
-      p:first-child{
-        padding-left: 2px;
       }
       p{
         text-align: justify;
@@ -58,19 +55,19 @@
         text-align: justify;
         line-height: 1.7;
         margin-bottom: 27px;
-        padding-left: 2px;
         span{
           font-weight: 600;
           letter-spacing: .5px;
-          //line-height: 150%;
+          line-height: 150%;
           font-size: 16.5px;
-          //word-spacing: -2px;
+          word-spacing: -2px;
           letter-spacing: -0.1px;
           
         }
       }
       ul{
-        padding-left: 2px;
+        padding-left: 0px;
+        //list-style-image: url("http://localhost:8000/img/services/ellipse.png");
         li{
           list-style-position: outside;
           font-size: 101%;
@@ -86,73 +83,47 @@
           // word-spacing: 3px;
           line-height: 1.6;
           padding-bottom: 30px;
-          padding-top: 0px;
         }
         li:first-child{
-          span{
-            font-size: 104%;
-          }
           padding-bottom: 17px;
           text-align: justify;
-          background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 12%;
-         // word-spacing: 1.5px;
+          background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 15%;
+          word-spacing: 1.5px;
           padding-right: 33px;
-          font-weight: 600;
-          padding-bottom: 11px;
-          line-height: 1.75;
-          padding-top: 0px;
+          font-weight: 500;
+          padding-bottom: 15px;
+          line-height: 1.6;
+          padding-top: 4px;
           padding-right: 4px;
-          padding-top: 1px;
         }
         li:nth-child(2){
           margin-bottom: 5px;
           background: url("http://localhost:8000/img/services/ellipse.png") no-repeat right 99.7% top 48%;
           padding-bottom: 21px;
           padding-top: 14px;
-          word-spacing: -0.5px;
-          font-size: 16.4px;
+          word-spacing: 1.7px;
+          font-size: 16px;
           padding-top: 17px;
-          font-weight: 600;
-          span{
-            letter-spacing: -25px;
-            margin-right: 7px;
-          }
 
         }
       }
       margin-bottom: 0px;
     }
     .col-md-12.col-12:nth-child(2){
-      padding-right: 55px;
       h2{
-        font-weight: 700;
         margin-bottom: 69px;
-        font-size: 39px;
-        letter-spacing: -0.9px;
-
       }
       p:first-child{
-        padding-right: 7px;
+        padding-right: 8px;
         margin-bottom: 31px;
-        padding-left: 2px;
-        line-height: 1.73;
         span{
           padding-right: 55px;
           padding-top: 2px;
-          letter-spacing: 0.1px;
-          word-spacing: 1px;
-          font-size: 15.7px;
-          font-weight: 700;
-          span:first-child{
-            font-size: 17px;
-            font-weight: 700;
-          }
         }
       }
       p:nth-child(2){
         margin-bottom: 4px;
         padding-top: 3px;
-        padding-left: 2px;
         span{
 
         }
@@ -168,31 +139,15 @@
     article#setup-article{
       font-size: 19px;
       padding-right: 105px;
-      padding-top: 4px;
-      padding-left: 15px;
-      letter-spacing: -0.5px;
-      font-weight: 700;
-      p{
-        span{
-          word-spacing: 2.9px;
-          font-size: 16.5px;
-          font-weight: 500;
-        }
-      }
       h2{
-        font-size: 41px;
-        margin-bottom: 46px;
-        font-weight: 700;
-        letter-spacing: -1.5px;
+        font-size: 43px;
+        margin-bottom: 47px;
       }
       p:first-child{
         margin-bottom: 29px;
-        font-size: 17px;
-
       }
       p:nth-child(2){
         margin-bottom: 28px;
-        padding-top: 1px;
       }
       p:last-child{
         text-align: justify;
@@ -200,36 +155,17 @@
         padding-top: 12px;
 
       }
-
     }
     article#onboarding-article{
-      padding-left: 13px;
       font-size: 19px;
-      padding-right: 10px;
-      h2:first-child{
-        font-size: 40px;
+      h2{
+        font-size: 43px;
         margin-bottom: 47px;
-        font-weight: 700;
-        padding-top: 4px;
-        letter-spacing: -0.5px;
-        margin-bottom: 37px;
       }
-      p{
-        span{
-          word-spacing: -1.1px;
-          font-size: 16.5px;
-          font-weight: 500;
-        }
-      }
-
-      p.first-paragraph{
-
+      p:first-child{
+        margin-bottom: 28px;
         text-align: justify;
         margin-right: 10px;
-
-        text-align: justify;
-        margin-bottom: 26px;
-        padding-top: 11px;
       }
       p:nth-child(2){
         font-size: 19px;
@@ -238,7 +174,6 @@
         padding-right: 6px;
         padding-top: 12px;
       }
-
     }
     .col-lg-6{
       h2{
@@ -247,7 +182,9 @@
     }
   }
 
-
+  h2{
+    font-weight: bolder;
+  }
 }
 
 
@@ -260,7 +197,7 @@
     padding-right: 0px;
   }
   article.col-md-12.col-12:first-child{
-    padding-top: 67px;
+    padding-top: 38px;
     padding-right: 15px;
     padding-left: 15px;
     h2{
@@ -307,10 +244,13 @@
       }
       li:nth-child(2){
         padding-left: 28px;
-        font-size: 18px;
+        font-size: 17px;
         padding-bottom: 1px;
-        background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 7%;
+        background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 9%;
         text-align: justify;
+        line-height: 1.6;
+        font-weight: 500;
+        padding-top: 3px;
       }
     }
   }
@@ -322,9 +262,97 @@
       margin-bottom: 40px;
     }
   }
-	p{
-		//text-align: justify;
+  	section#pricing-section{
+  		div#pricing-text{
+        padding-right: 15px;
+  			article.col-md-12.col-12:first-child{
+  				h2{
+  					padding-left: 1px;
+  				}
+  				p:first-child{
+  					padding-right: 16px;
+  				}
+  				ul{
+  			
+            li:nth-child(2){
+              font-size: 17px;
+              font-weight: 500;
+              line-height: 1.7;
+              padding-top: 0px;
+            }
+  				}
+  			}
+  			article#our-fees-article{
+  				padding-left: 11px;
+  				padding-top: 63px;
+          padding-right: 0px;
+  				p.first-paragraph{
+  					padding-left: 3px;
+  					padding-right: 14px;
+            padding-top: 41px;
+  					span{
+  						font-size: 17px;
+              line-height: 1.7;
+  					}
+  				}
+          p:last-child{
+            padding-top: 2px;
+            padding-left: 3px;
+          }
+  			}
+  		}
+  	}
 
+	section#setup-onboarding-section{
+		padding-top: 147px;
+    margin-bottom: 51px;
+		article#setup-article{
+      padding-left: 14px;
+      padding-right: 0px;
+      padding-top: 0px;
+      p{
+        font-size: 17px;
+        font-weight: 500;
+      }
+      h2{
+        font-size: 38.6px;
+        font-weight: 700;
+        padding-left: 2px;
+        padding-top: 2px;
+        margin-bottom: 7px;
+      }
+			p:nth-child(2){
+				padding-top: 44px;
+			}
+			p:nth-child(3){
+				padding-top: 17px;
+			}
+			p:last-child{
+				padding-top: 15px;
+        line-height: 1.7;	
+			}
+
+		}
+		article#onboarding-article{
+			h2{
+				padding-top: 28px;
+        font-size: 38.6px;
+        font-weight: 700;
+			}
+			p.first-paragraph{
+				padding-top: 35px;
+        text-align: justify;
+        span{
+          font-size: 16.5px;
+          font-weight: 500;
+          line-height: 1.7;
+        }
+			}
+			p:last-child{
+				padding-top: 11px;
+        text-align: justify;
+			}
+		}
 	}
 }
 
