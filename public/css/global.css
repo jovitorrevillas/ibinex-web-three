@@ -385,6 +385,10 @@ img.ib-logo{
     float: left;
 }
 
+p.ib-text-bold{
+    font-weight: 800;
+}
+
 div.ib-offices-list-wrapper{
     max-width: 46%;
 }
@@ -474,9 +478,6 @@ p.ib-disclosure-text{
         padding-right: 0;
     }
 
-    div.ib-contact-section{
-        display: none;
-    }
 
     div.ib-offices-list-wrapper {
         max-width: 100%;
@@ -484,6 +485,13 @@ p.ib-disclosure-text{
 
     p.ib-footer-heading {
         margin-right: 0;
+    }
+}
+
+@media (max-width: 575px) {
+
+    div.ib-contact-section{
+        display: none;
     }
 }
 

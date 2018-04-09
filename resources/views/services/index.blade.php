@@ -27,7 +27,7 @@
 
 				    <div class="col-md-6" >
 				    	
-				 		   <img src="img/services/Ibinex-Platform2.png" class="platform-laptop" >
+				 		   <img src="images/services/Ibinex-Platform2.png" class="platform-laptop" >
 
 				    </div>
 
@@ -50,7 +50,7 @@
 				  	 </ul>
 
 
-				  	 <img src="img/services/Ibinex-Platform2.png" class="platform-mobile-laptop" >
+				  	 <img src="images/services/Ibinex-Platform2.png" class="platform-mobile-laptop" >
 				  	
 
 				    </div>
@@ -97,7 +97,7 @@
 
 				    <div class="col-xl-6">
 				    
-				    	<img src="img/services/docs.png" class="crm-dashboard">
+				    	<img src="images/services/docs.png" class="crm-dashboard">
 
 				    </div>
 
@@ -120,9 +120,9 @@
 					   <div class="col-xl-6">
 
 						
-					   	<img src="img/services/cryptobridge.png" class="img-fluid c3-logo" >
+					   	<img src="images/services/cryptobridge.png" class="img-fluid c3-logo" >
 
-					   	 <img src="img/services/cryptobridge_mobile.png" class="img-fluid c3-mobile-logo" >
+					   	 <img src="images/services/cryptobridge_mobile.png" class="img-fluid c3-mobile-logo" >
 				
 
 				   		</div>
@@ -161,7 +161,7 @@
 
 				    	<p class="ccp-description">We offer full spectrum payment processing for cryptocurrencies, and a complete selection that is unavailable elsewhere. Exchanging your way with Ibinex means experiencing a whole new world of payment options including: credit cards, debit cards, wire transfers, alternative payments, hosted wallets and cold wallets.</p>
 
-				    	<img src="img/services/cards.png" class="img-fluid ccp-cards" >
+				    	<img src="images/services/cards.png" class="img-fluid ccp-cards" >
 			
 
 				   		</div>
@@ -169,7 +169,7 @@
 
 				    <div class="col-xl-6">
 
-				    	<img src="img/services/creditcard-phone.png" class="ccp-phone">
+				    	<img src="images/services/creditcard-phone.png" class="ccp-phone">
 
 
 
@@ -193,7 +193,7 @@
 					   <div class="col-xl-6">
 
 						
-						<img src="img/services/custodian_accounts.png" class="ca-person">
+						<img src="images/services/custodian_accounts.png" class="ca-person">
 			
 
 				   		</div>
