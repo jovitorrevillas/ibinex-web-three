@@ -7,7 +7,7 @@
             <div>
                 <div class="row">
                     <div class="col-md-6 hide-on-mobile">
-                        <img  src="img/pricing/First-option-Pricing.jpg">
+                        <img  src="img/pricing/First-option.png">
                     </div>
 
                     <div class="col-md-4 col-12" id="pricing-text">
