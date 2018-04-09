@@ -53,7 +53,7 @@
 				<img src="img/about/about-banner.jpg" alt="" class="hidden-md">
 				<img src="img/about/about-banner-mobile.jpg" alt="" class="visible-md">
 			</div>
-			<div class="transparency-lockup flex m-container">
+			<div class="transparency-lockup flex">
 				<article class="transparency">
 					<h1>Transparency</h1>
 					<p>
@@ -73,7 +73,7 @@
 		</section>
 
 		<section id="media-coverage">
-			<div class="content m-container">
+			<div class="content">
 				<h1 class="hidden-md">Ibinex media coverage</h1>
 				<h1 class="visible-md">Ibinex Media Coverage</h1>
 
@@ -112,13 +112,13 @@
 									<li class="card">
 										<img src="img/about/exec1.png" alt="Executive">
 									</li>
-								</ul>	
+								</ul>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<article>
 								<h3>Executive team</h3>
-								<h1>The people <br> <span>behind</span> <span>iBinex.</span></h1>
+								<h1>The people <br> behind iBinex.</h1>
 
 								<p class="heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 							</article>
@@ -133,9 +133,9 @@
 								</div>
 
 								<h4 class="name">Matthew Novinski</h4>
-								<h5 class="designation">Chief <span>Executive Officer</span></h5>
+								<h5 class="designation">Chief Executive Officer</h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
-								
+
 								<div class="links">
 									<a href=""><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> Linkedin Profile</a>
 									<a href=""><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> Download CV</a>
@@ -149,7 +149,7 @@
 					<div class="container">
 						<h1>Advisory <span class="italic">Board</span></h1>
 						<div class="board-lockup">
-							<div class="row"> 
+							<div class="row">
 								<div class="col-md-3">
 									<img src="img/about/board1.png" alt="">
 									<article>
@@ -170,7 +170,7 @@
 									<img src="img/about/board3.png" alt="">
 									<article>
 										<h5 class="name">Stephen Colbert</h5>
-										<p class="designation">Head of Products and Services <span>Development Department, XB Software</span></p>
+										<p class="designation">Head of Products and Services Development Department, XB Software</p>
 									</article>
 								</div>
 
@@ -182,7 +182,7 @@
 									</article>
 								</div>
 							</div>
-							<div class="row"> 
+							<div class="row">
 								<div class="col-md-3">
 									<img src="img/about/board1.png" alt="">
 									<article>
@@ -203,7 +203,7 @@
 									<img src="img/about/board3.png" alt="">
 									<article>
 										<h5 class="name">Stephen Colbert</h5>
-										<p class="designation">Head of Products and Services <span>Development Department, XB Software</span></p>
+										<p class="designation">Head of Products and Services Development Department, XB Software</p>
 									</article>
 								</div>
 
@@ -222,7 +222,7 @@
 
 			<div class="mobile">
 				<div id="executive-team">
-					<article class="m-container">
+					<article>
 						<h3>Executive team</h3>
 						<p class="heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					</article>
@@ -232,12 +232,12 @@
 						    <div class="carousel-item active">
 						    	<img class="d-block w-100" src="img/about/mobile/exec1.png">
 
-						    	<div class="content m-container">
+						    	<div class="content">
 						    		<article>
 						    			<h4 class="name">Matthew Novinski</h4>
 										<h5 class="designation">Chief Executive Officer</h5>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-										
+
 										<div class="links">
 											<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin Profile</a>
 											<!-- <a href=""><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a> -->
@@ -247,59 +247,88 @@
 						    </div>
 						    <div class="carousel-item">
 						    	<img class="d-block w-100" src="img/about/mobile/exec2.png">
+
+								<div class="content">
+									<article>
+										<h4 class="name">John Whirlpool</h4>
+										<h5 class="designation">Chief Executive Officer</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+
+										<div class="links">
+											<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin Profile</a>
+											<!-- <a href=""><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a> -->
+										</div>
+									</article>
+								</div>
 						    </div>
 					    	<div class="carousel-item">
 					      		<img class="d-block w-100" src="img/about/mobile/exec3.png">
+
+								<div class="content">
+									<article>
+										<h4 class="name">Rion Pronelle/h4>
+										<h5 class="designation">Chief Executive Officer</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+
+										<div class="links">
+											<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin Profile</a>
+											<!-- <a href=""><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a> -->
+										</div>
+									</article>
+								</div>
 					    	</div>
 					  	</div>
 					</div>
-					
+
 					<div class="slider-control">
-						<div class="control-lockup">	
+						<div class="control-lockup">
 					    	<a href="#carouselExampleControls" role="button" data-slide="prev">
-						    	<i class="fa fa-long-arrow-left fa-3x"></i>
+								<img src="img/about/arrow-long-left.svg" alt="">
 						  	</a>
 						  	<a href="#carouselExampleControls" role="button" data-slide="next">
-						    	<i class="fa fa-long-arrow-right fa-3x"></i>
+								<img src="img/about/arrow-long-right.svg" alt="">
 							</a>
 						</div>
 					</div>
 				</div>
 				<div id="board">
+					<h3>Ibinex Advisory Board</h3>
+
 					<!-- Slider main container -->
 					<div class="swiper-container">
 					    <!-- Additional required wrapper -->
 					    <div class="swiper-wrapper">
 					        <!-- Slides -->
 					        <div class="swiper-slide">
-								
-								<img src="img/about/board1.png" alt="">
-								<article>
-									<h5 class="name">Jeremy Corbein</h5>
-									<p class="designation">Chief Operational Officer, Deiteriy</p>
-								</article>
-
-					        </div>
-					        <div class="swiper-slide">
-					        	
-
-								<img src="img/about/board1.png" alt="">
+								<img src="img/about/mobile/board1.png" alt="">
 								<article>
 									<h5 class="name">Jeremy Corbein</h5>
 									<p class="designation">Chief Operational Officer, Deiteriy</p>
 								</article>
 					        </div>
 					        <div class="swiper-slide">
-								
-								<img src="img/about/board1.png" alt="">
+								<img src="img/about/mobile/board2.png" alt="">
 								<article>
-									<h5 class="name">Jeremy Corbein</h5>
-									<p class="designation">Chief Operational Officer, Deiteriy</p>
+									<h5 class="name">Jimmy Fallon</h5>
+									<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
 								</article>
-
 					        </div>
+					        <div class="swiper-slide">
+								<img src="img/about/mobile/board3.png" alt="">
+								<article>
+									<h5 class="name">Stephen Colbert</h5>
+									<p class="designation">Head of Products and Services Development Department, XB Software</p>
+								</article>
+					        </div>
+							<div class="swiper-slide">
+								<img src="img/about/mobile/board4.png" alt="">
+								<article>
+									<h5 class="name">Artem Kushik</h5>
+									<p class="designation">Business Analyst, Crédit Agricole CIB</p>
+								</article>
+							</div>
 					    </div>
-					 
+
 					    <!-- If we need navigation buttons -->
 					    <div class="swiper-button-prev"></div>
 					    <div class="swiper-button-next"></div>

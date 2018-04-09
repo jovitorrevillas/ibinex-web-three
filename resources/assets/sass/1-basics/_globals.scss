@@ -19,3 +19,23 @@
 .visible-md {
 	display: none;
 }
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	background-size: 27px 30px;
+	top: 34%;
+	height: 35px;
+}
+
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	background-image: url('./../images/chevron-left.svg');
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	background-image: url('./../images/chevron-right.svg');
+}
