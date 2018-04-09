@@ -41,7 +41,7 @@
 				  	 <ul class="check-items ">
 				  	 	<li> <span>Tailor-made private, institutional while label infrastructure</span></li>
 				  	 	<li>
-				  	 		<span>Fully-customisable front-end website</span></li>m
+				  	 		<span>Fully-customisable front-end website</span></li>
 				  	 	<li><span>Completely integrated web-based trading platform</span></li>
 				  	 	<li><span>Flexible front-end user trading</span></li>
 				  	 	<li><span>Performance-driven features</span></li>
