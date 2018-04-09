@@ -50,8 +50,8 @@
 	<div id="about">
 		<section class="flex" id="transparency">
 			<div class="img-lockup">
-				<img src="img/about/about-banner.jpg" alt="" class="hidden-md">
-				<img src="img/about/about-banner-mobile.jpg" alt="" class="visible-md">
+				<img src="images/about/about-banner.jpg" alt="" class="hidden-md">
+				<img src="images/about/about-banner-mobile.jpg" alt="" class="visible-md">
 			</div>
 			<div class="transparency-lockup flex">
 				<article class="transparency">
@@ -78,20 +78,20 @@
 				<h1 class="visible-md">Ibinex Media Coverage</h1>
 
 				<div class="media-lockup flex-center">
-					<img src="img/about/media1.png" alt="">
-					<img src="img/about/media2.png" alt="">
-					<img src="img/about/media3.png" alt="">
-					<img src="img/about/media4.png" alt="">
-					<img src="img/about/media5.png" alt="">
-					<img src="img/about/media6.png" alt="">
+					<img src="images/about/media1.png" alt="">
+					<img src="images/about/media2.png" alt="">
+					<img src="images/about/media3.png" alt="">
+					<img src="images/about/media4.png" alt="">
+					<img src="images/about/media5.png" alt="">
+					<img src="images/about/media6.png" alt="">
 				</div>
 				<div class="media-lockup flex-center">
-					<img src="img/about/media7.png" alt="">
-					<img src="img/about/media8.png" alt="">
-					<img src="img/about/media9.png" alt="">
-					<img src="img/about/media10.png" alt="">
-					<img src="img/about/media11.png" alt="">
-					<img src="img/about/media12.png" alt="">
+					<img src="images/about/media7.png" alt="">
+					<img src="images/about/media8.png" alt="">
+					<img src="images/about/media9.png" alt="">
+					<img src="images/about/media10.png" alt="">
+					<img src="images/about/media11.png" alt="">
+					<img src="images/about/media12.png" alt="">
 				</div>
 			</div>
 		</section>
@@ -104,13 +104,13 @@
 							<div class="card-stack">
 								<ul class="card-list">
 									<li class="card">
-										<img src="img/about/exec3.png" alt="Executive">
+										<img src="images/about/exec3.png" alt="Executive">
 									</li>
 									<li class="card">
-										<img src="img/about/exec2.png" alt="Executive">
+										<img src="images/about/exec2.png" alt="Executive">
 									</li>
 									<li class="card">
-										<img src="img/about/exec1.png" alt="Executive">
+										<img src="images/about/exec1.png" alt="Executive">
 									</li>
 								</ul>
 							</div>
@@ -125,10 +125,10 @@
 							<article class="executive-slider">
 								<div class="slider-control">
 									<a class="buttons prev" href="#">
-										<img src="img/about/arrow-long-left.svg" alt="">
+										<img src="images/about/arrow-long-left.svg" alt="">
 									</a>
 									<a class="buttons next" href="#">
-										<img src="img/about/arrow-long-right.svg" alt="">
+										<img src="images/about/arrow-long-right.svg" alt="">
 									</a>
 								</div>
 
@@ -151,7 +151,7 @@
 						<div class="board-lockup">
 							<div class="row">
 								<div class="col-md-3">
-									<img src="img/about/board1.png" alt="">
+									<img src="images/about/board1.png" alt="">
 									<article>
 										<h5 class="name">Jeremy Corbein</h5>
 										<p class="designation">Chief Operational Officer, Deiteriy</p>
@@ -159,7 +159,7 @@
 								</div>
 
 								<div class="col-md-3">
-									<img src="img/about/board2.png" alt="">
+									<img src="images/about/board2.png" alt="">
 									<article>
 										<h5 class="name">Jimmy Fallon</h5>
 										<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
@@ -167,7 +167,7 @@
 								</div>
 
 								<div class="col-md-3">
-									<img src="img/about/board3.png" alt="">
+									<img src="images/about/board3.png" alt="">
 									<article>
 										<h5 class="name">Stephen Colbert</h5>
 										<p class="designation">Head of Products and Services Development Department, XB Software</p>
@@ -175,7 +175,7 @@
 								</div>
 
 								<div class="col-md-3">
-									<img src="img/about/board4.png" alt="">
+									<img src="images/about/board4.png" alt="">
 									<article>
 										<h5 class="name">Artem Kushik</h5>
 										<p class="designation">Business Analyst, Crédit Agricole CIB</p>
@@ -184,7 +184,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-3">
-									<img src="img/about/board1.png" alt="">
+									<img src="images/about/board1.png" alt="">
 									<article>
 										<h5 class="name">Jeremy Corbein</h5>
 										<p class="designation">Chief Operational Officer, Deiteriy</p>
@@ -192,7 +192,7 @@
 								</div>
 
 								<div class="col-md-3">
-									<img src="img/about/board2.png" alt="">
+									<img src="images/about/board2.png" alt="">
 									<article>
 										<h5 class="name">Jimmy Fallon</h5>
 										<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
@@ -200,7 +200,7 @@
 								</div>
 
 								<div class="col-md-3">
-									<img src="img/about/board3.png" alt="">
+									<img src="images/about/board3.png" alt="">
 									<article>
 										<h5 class="name">Stephen Colbert</h5>
 										<p class="designation">Head of Products and Services Development Department, XB Software</p>
@@ -208,7 +208,7 @@
 								</div>
 
 								<div class="col-md-3">
-									<img src="img/about/board4.png" alt="">
+									<img src="images/about/board4.png" alt="">
 									<article>
 										<h5 class="name">Artem Kushik</h5>
 										<p class="designation">Business Analyst, Crédit Agricole CIB</p>
@@ -230,7 +230,7 @@
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
 					  	<div class="carousel-inner">
 						    <div class="carousel-item active">
-						    	<img class="d-block w-100" src="img/about/mobile/exec1.png">
+						    	<img class="d-block w-100" src="images/about/mobile/exec1.png">
 
 						    	<div class="content">
 						    		<article>
@@ -246,7 +246,7 @@
 						    	</div>
 						    </div>
 						    <div class="carousel-item">
-						    	<img class="d-block w-100" src="img/about/mobile/exec2.png">
+						    	<img class="d-block w-100" src="images/about/mobile/exec2.png">
 
 								<div class="content">
 									<article>
@@ -262,7 +262,7 @@
 								</div>
 						    </div>
 					    	<div class="carousel-item">
-					      		<img class="d-block w-100" src="img/about/mobile/exec3.png">
+					      		<img class="d-block w-100" src="images/about/mobile/exec3.png">
 
 								<div class="content">
 									<article>
@@ -283,10 +283,10 @@
 					<div class="slider-control">
 						<div class="control-lockup">
 					    	<a href="#carouselExampleControls" role="button" data-slide="prev">
-								<img src="img/about/arrow-long-left.svg" alt="">
+								<img src="images/about/arrow-long-left.svg" alt="">
 						  	</a>
 						  	<a href="#carouselExampleControls" role="button" data-slide="next">
-								<img src="img/about/arrow-long-right.svg" alt="">
+								<img src="images/about/arrow-long-right.svg" alt="">
 							</a>
 						</div>
 					</div>
@@ -300,28 +300,28 @@
 					    <div class="swiper-wrapper">
 					        <!-- Slides -->
 					        <div class="swiper-slide">
-								<img src="img/about/mobile/board1.png" alt="">
+								<img src="images/about/mobile/board1.png" alt="">
 								<article>
 									<h5 class="name">Jeremy Corbein</h5>
 									<p class="designation">Chief Operational Officer, Deiteriy</p>
 								</article>
 					        </div>
 					        <div class="swiper-slide">
-								<img src="img/about/mobile/board2.png" alt="">
+								<img src="images/about/mobile/board2.png" alt="">
 								<article>
 									<h5 class="name">Jimmy Fallon</h5>
 									<p class="designation">Head of Economics Department, Stockholm School of Economics in Riga</p>
 								</article>
 					        </div>
 					        <div class="swiper-slide">
-								<img src="img/about/mobile/board3.png" alt="">
+								<img src="images/about/mobile/board3.png" alt="">
 								<article>
 									<h5 class="name">Stephen Colbert</h5>
 									<p class="designation">Head of Products and Services Development Department, XB Software</p>
 								</article>
 					        </div>
 							<div class="swiper-slide">
-								<img src="img/about/mobile/board4.png" alt="">
+								<img src="images/about/mobile/board4.png" alt="">
 								<article>
 									<h5 class="name">Artem Kushik</h5>
 									<p class="designation">Business Analyst, Crédit Agricole CIB</p>
