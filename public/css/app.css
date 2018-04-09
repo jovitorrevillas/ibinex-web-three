@@ -3813,18 +3813,8 @@
   }
 }
 
-nav {
-  height: 310px;
-  background-color: black;
-}
-
-footer {
-  height: 310px;
-  background-color: black;
-}
-
-span,
-li {
+div#Pricing-page span,
+div#Pricing-page li {
   color: #6B7C93;
 }
 

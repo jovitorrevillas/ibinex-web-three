@@ -2,7 +2,7 @@
 @section('title','Pricing')
 
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid" id="Pricing-page">
         <section id="pricing-section">
             <div>
                 <div class="row">
