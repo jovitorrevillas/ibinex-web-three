@@ -21,7 +21,7 @@
 
 /*First Fold*/
 #intro-cryptobridge{
-	background: url('../img/home/home-hero.jpg') no-repeat center center;
+	background: url('../images/home/home-hero.jpg') no-repeat center center;
 	background-size: cover;
 	width: 100%;
 	/*padding-top: 76px;*/
@@ -65,7 +65,7 @@
 	margin-bottom: 19px;
 	/* word-spacing: 1px; */
 	/* letter-spacing: -0.3px; */
-	/* text-align: justify; */
+	 text-align: justify; 
 	/* line-height: 26px; */
 }
 #intro-cryptobridge div.input-group {
@@ -170,7 +170,8 @@
 }
 #vision article:nth-child(1) img{
 	box-shadow: 0 0 50px black;
-	width: 580px;
+	/*width: 580px;*/
+	width: 100%;
 }
 #vision article:nth-child(3){
 	background: white;
@@ -277,7 +278,7 @@ title:
 
 	/*First Fold*/
 	#intro-cryptobridge{
-		background: url('../img/home/home-hero.jpg') no-repeat center center;
+		background: url('../images/home/home-hero.jpg') no-repeat center center;
 		background-size: cover;
 		width: 100%;
 		padding-top: 140px;
@@ -443,7 +444,7 @@ title:
 	}
 	#vision article:nth-child(1) img{
 		box-shadow: 0 0 50px black;
-		width: 580px;
+		/*width: 580px;*/
 	}
 	#vision article:nth-child(3){
 		background: white;
@@ -482,7 +483,7 @@ title:
 		max-width: 1250px;
 	}
 	#gateway section.row article:nth-child(1){
-		left: calc(4% + 55px);
+		left: calc(-8% + 55px);
 		top: 128px;
 	}
 	#gateway h1 {
@@ -521,7 +522,7 @@ title:
 
 @media all and (min-width: 1600px){
 	#intro-cryptobridge {
-		background: url('../img/home/home-hero.jpg') no-repeat 0% 100%;
+		background: url('../images/home/home-hero.jpg') no-repeat 0% 100%;
 		background-size: 100%;
 	}
 	.hollow-box {
@@ -529,6 +530,9 @@ title:
 	}
 	#intro-cryptobridge article {
 		left: calc(20% + 82px);
+	}
+	#gateway section.row article:nth-child(1){
+		left: calc(4% + 55px);
 	}
 	#vision article:nth-child(1){
 		top: 249px;
