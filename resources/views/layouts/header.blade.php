@@ -45,28 +45,28 @@
           <div class="offcanvas-collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Why iBinex</a>
+                <a class="nav-link" href="{{ url('why') }}">Why iBinex</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="{{ url('pricing') }}">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="{{ url('services') }}">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="{{ url('about') }}">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Security</a>
+                <a class="nav-link" href="{{ url('security') }}">Security</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Legal</a>
+                <a class="nav-link" href="{{ url('legal') }}">Legal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="{{ url('contact') }}">Contact Us</a>
               </li>
             </ul>
 
