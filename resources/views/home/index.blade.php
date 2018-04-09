@@ -8,7 +8,7 @@
 @section('content')
 
 <section id="intro-cryptobridge">
-	<article>
+	<article class="position-relative">
 		<h2>Introducing</h2>
 		<h1>CryptoBridge&trade;</h1>
 		<p>
@@ -17,10 +17,12 @@
 		<p>
 			The CryptoBridge algorithm benefits your customers by showing them a unique combination of the best and most select crypto­currency exchanges and most at­tractive live prices — only available via the Ibinex trading platform.
 		</p>
-		<div class="input-group">
-			<input type="text" class="form-control" placeholder="Type your email" aria-label="Type your email" aria-describedby="basic-addon2">
-			<button type="submit" class="btn ">REQUEST A DEMO</button>
-		</div>
+		<form class="position-absolute" id="requestDemo">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Type your email" required="" autocomplete="off">
+				<span class="input-group-btn"><button type="submit" class="btn">REQUEST A DEMO</button></span>
+			</div>
+		</form>
 	</article>
 	<div class="hollow-box"></div>
 </section>
