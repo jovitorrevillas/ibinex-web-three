@@ -20,39 +20,39 @@
 
         <div class="col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="services-heading">SERVICES</p>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">Platform</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">CRM / BackOffice</a><br>
-          <a href="{{ url('services') }}#">CryptoBridge</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">Credit Card Processing</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">Custodian Accounts</a>
+          <a href="{{ url('services') }}#platform" class="ib-footer-subtext">Platform</a><br>
+          <a href="{{ url('services') }}#crm" class="ib-footer-subtext">CRM / BackOffice</a><br>
+          <a href="{{ url('services') }}#cryptobridge" class="ib-footer-subtext">CryptoBridge</a><br>
+          <a href="{{ url('services') }}#ccp" class="ib-footer-subtext">Credit Card Processing</a><br>
+          <a href="{{ url('services') }}#ca" class="ib-footer-subtext">Custodian Accounts</a>
         </div>
 
         <div class="col-lg-4 col-xl ib-security-section">
           <p class="ib-footer-subheading" id="security">SECURITY</p>
-          <a href="#" class="ib-footer-subtext">Protection of Funds</a><br>
-          <a href="#" class="ib-footer-subtext">Encryption and Technologies</a><br>
-          <a href="#" class="ib-footer-subtext">Information Security</a><br>
-          <a href="#" class="ib-footer-subtext">Privacy</a>
+          <a href="{{ url('security') }}#" class="ib-footer-subtext">Protection of Funds</a><br>
+          <a href="{{ url('security') }}#" class="ib-footer-subtext">Encryption and Technologies</a><br>
+          <a href="{{ url('security') }}#" class="ib-footer-subtext">Information Security</a><br>
+          <a href="{{ url('security') }}#" class="ib-footer-subtext">Privacy</a>
         </div>
 
         <div class="col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="legal">LEGAL</p>
-          <a href="#" class="ib-footer-subtext">Regulation</a><br>
-          <a href="#" class="ib-footer-subtext">AML & KYC</a><br>
-          <a href="#" class="ib-footer-subtext">Terms and Conditions</a><br>
-          <a href="#" class="ib-footer-subtext">Marketing Guidelines</a><br>
-          <a href="#" class="ib-footer-subtext">Licensing</a><br>
-          <a href="#" class="ib-footer-subtext">Entry Requirements</a><br>
-          <a href="#" class="ib-footer-subtext">Privacy Policy</a>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Regulation</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">AML & KYC</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Terms and Conditions</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Marketing Guidelines</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Licensing</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Entry Requirements</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Privacy Policy</a>
         </div>
 
         <div class="col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="about">ABOUT IBINEX</p>
-          <a href="#" class="ib-footer-subtext">Transparency</a><br>
-          <a href="#" class="ib-footer-subtext">Press</a><br>
-          <a href="#" class="ib-footer-subtext">Executive Team</a><br>
-          <a href="#" class="ib-footer-subtext">Advisory Board</a><br>
-          <a href="#" class="ib-footer-subtext">Roadmap</a>
+          <a href="{{ url('about') }}#transparency" class="ib-footer-subtext">Transparency</a><br>
+          <a href="{{ url('about') }}#media-coverage" class="ib-footer-subtext">Press</a><br>
+          <a href="{{ url('about') }}#executive-team" class="ib-footer-subtext">Executive Team</a><br>
+          <a href="{{ url('about') }}#advisory-board" class="ib-footer-subtext">Advisory Board</a><br>
+          <a href="{{ url('about') }}#roadmap" class="ib-footer-subtext">Roadmap</a>
         </div>
       </div>
     </div>
