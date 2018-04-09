@@ -96,7 +96,7 @@
 	<div class="container">
 		<section class="row position-relative vision-web">
 			<article class="col-md-6 position-absolute">
-				<img src="images/home/vision--video.png">
+				<img src="images/home/vision--video.png" class="img-fluid">
 			</article>
 			<article class="col-md-5">
 			</article>
@@ -108,7 +108,7 @@
 		</section>
 		<section class="row vision-mobile py-5">
 			<article class="text-center py-5">
-				<img src="images/home/vision--video.png">
+				<img src="images/home/vision--video.png" class="img-fluid">
 			</article>
 			<article class="text-center">
 				<h1 class="text-center align-middle" >
