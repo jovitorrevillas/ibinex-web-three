@@ -3813,18 +3813,8 @@
   }
 }
 
-nav {
-  height: 310px;
-  background-color: black;
-}
-
-footer {
-  height: 310px;
-  background-color: black;
-}
-
-span,
-li {
+div#Pricing-page span,
+div#Pricing-page li {
   color: #6B7C93;
 }
 
@@ -3983,6 +3973,11 @@ li {
     padding-left: 13px;
     font-size: 17px;
     font-weight: 500;
+    text-align: justify;
+  }
+
+  div.text-content article#onboarding-article p {
+    word-spacing: -2px;
   }
 
   div.text-content article#onboarding-article h2 {
@@ -4002,6 +3997,15 @@ li {
     word-spacing: -2px;
     padding-right: 6px;
     padding-top: 12px;
+  }
+
+  div.text-content article#onboarding-article p.first-paragraph {
+    padding-top: 5px;
+    padding-right: 1px;
+  }
+
+  div.text-content article#onboarding-article p:last-child {
+    padding-top: 19px;
   }
 
   div.text-content .col-lg-6 h2 {
