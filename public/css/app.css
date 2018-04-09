@@ -3823,7 +3823,8 @@ footer {
   background-color: black;
 }
 
-.text-gray {
+span,
+li {
   color: #6B7C93;
 }
 
@@ -3948,21 +3949,24 @@ footer {
   }
 
   div.text-content article#setup-article {
-    font-size: 19px;
+    font-size: 17px;
     padding-right: 105px;
+    font-weight: 500;
   }
 
   div.text-content article#setup-article h2 {
-    font-size: 43px;
+    font-size: 38.6px;
     margin-bottom: 47px;
-  }
-
-  div.text-content article#setup-article p:first-child {
-    margin-bottom: 29px;
+    padding-top: 7px;
   }
 
   div.text-content article#setup-article p:nth-child(2) {
     margin-bottom: 28px;
+    padding-top: 3px;
+  }
+
+  div.text-content article#setup-article p:nth-child(3) {
+    padding-top: 6px;
   }
 
   div.text-content article#setup-article p:last-child {
@@ -3971,13 +3975,20 @@ footer {
     padding-top: 12px;
   }
 
+  div.text-content article#setup-article p:last-child span {
+    line-height: 1.7;
+  }
+
   div.text-content article#onboarding-article {
-    font-size: 19px;
+    padding-left: 13px;
+    font-size: 17px;
+    font-weight: 500;
   }
 
   div.text-content article#onboarding-article h2 {
-    font-size: 43px;
+    font-size: 38.6px;
     margin-bottom: 47px;
+    padding-top: 7px;
   }
 
   div.text-content article#onboarding-article p:first-child {
@@ -3987,9 +3998,8 @@ footer {
   }
 
   div.text-content article#onboarding-article p:nth-child(2) {
-    font-size: 19px;
     margin-right: 7px;
-    word-spacing: -1px;
+    word-spacing: -2px;
     padding-right: 6px;
     padding-top: 12px;
   }
