@@ -14,17 +14,17 @@
 
         <div class="col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="pricing">PRICING</p>
-          <a href="waw#waw" class="ib-footer-subtext">Platform Pricing</a><br>
-          <a href="#" class="ib-footer-subtext">Liquidity Fee's</a>
+          <a href="{{ url('pricing') }}#pricing-section" class="ib-footer-subtext">Platform Pricing</a><br>
+          <a href="{{ url('pricing') }}#setup-onboarding-section" class="ib-footer-subtext">Liquidity Fee's</a>
         </div>
 
         <div class="col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="services-heading">SERVICES</p>
-          <a href="#" class="ib-footer-subtext">Platform</a><br>
-          <a href="#" class="ib-footer-subtext">CRM / BackOffice</a><br>
-          <a href="#" class="ib-footer-subtext">CryptoBridge</a><br>
-          <a href="#" class="ib-footer-subtext">Credit Card Processing</a><br>
-          <a href="#" class="ib-footer-subtext">Custodian Accounts</a>
+          <a href="{{ url('services') }}#" class="ib-footer-subtext">Platform</a><br>
+          <a href="{{ url('services') }}#" class="ib-footer-subtext">CRM / BackOffice</a><br>
+          <a href="{{ url('services') }}#">CryptoBridge</a><br>
+          <a href="{{ url('services') }}#" class="ib-footer-subtext">Credit Card Processing</a><br>
+          <a href="{{ url('services') }}#" class="ib-footer-subtext">Custodian Accounts</a>
         </div>
 
         <div class="col-lg-4 col-xl ib-security-section">
