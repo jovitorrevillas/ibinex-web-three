@@ -3983,6 +3983,11 @@ li {
     padding-left: 13px;
     font-size: 17px;
     font-weight: 500;
+    text-align: justify;
+  }
+
+  div.text-content article#onboarding-article p {
+    word-spacing: -2px;
   }
 
   div.text-content article#onboarding-article h2 {
@@ -4002,6 +4007,15 @@ li {
     word-spacing: -2px;
     padding-right: 6px;
     padding-top: 12px;
+  }
+
+  div.text-content article#onboarding-article p.first-paragraph {
+    padding-top: 5px;
+    padding-right: 1px;
+  }
+
+  div.text-content article#onboarding-article p:last-child {
+    padding-top: 19px;
   }
 
   div.text-content .col-lg-6 h2 {
@@ -4187,6 +4201,12 @@ li {
   section#setup-onboarding-section article#onboarding-article p:last-child {
     padding-top: 11px;
     text-align: justify;
+  }
+}
+
+@media (max-height: 1692px) {
+  div.text-content {
+    margin: 0px auto;
   }
 }
 
