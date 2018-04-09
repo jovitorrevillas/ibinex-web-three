@@ -6,11 +6,11 @@
         <section id="pricing-section">
             <div>
                 <div class="row">
-                    <div class="col-md-6 hide-on-mobile">
+                    <div class="col-lg-6 hide-on-mobile">
                         <img  src="img/pricing/First-option.png">
                     </div>
 
-                    <div class="col-md-4 col-12" id="pricing-text">
+                    <div class="col-12 col-lg-4" id="pricing-text">
                         <div class="row">
                             <article class="col-md-12 col-12">
                                 <h2>Pricing</h2>
