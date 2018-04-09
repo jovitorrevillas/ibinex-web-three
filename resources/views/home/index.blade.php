@@ -58,8 +58,8 @@
 
 		<article class="col-md-6">
 			<img src="images/home/card-crm.png">
-			<h1>Full CRM & Back Office Solution</h1>
-			<p>The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account & money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
+			<h1>Full CRM &amp; Back Office Solution</h1>
+			<p>The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account &amp; money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
 		</article>
 	</section>
 	<section id="exchange-2" class="row">
@@ -176,7 +176,7 @@
 		<article class="col-md-4">
 			<img src="images/home/terms.png" class="img-fluid">
 			<div>
-				<h3 style="color: #8154a7;">Terms & Conditions</h3>
+				<h3 style="color: #8154a7;">Terms &amp; Conditions</h3>
 				<h4>PDF - 1.3MB</h4>
 				<button class="btn btn-default rounded-button">
 					Download
@@ -187,7 +187,7 @@
 		<article class="col-md-4">
 			<img src="images/home/kyc.png" class="img-fluid">
 			<div>
-				<h3 style="color: #44577f;">KYC & AML Requirments</h3>
+				<h3 style="color: #44577f;">KYC &amp; AML Requirments</h3>
 				<h4>PDF - 1.3MB</h4>
 				<button class="btn btn-default rounded-button ">
 					Download
