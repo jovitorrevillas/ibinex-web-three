@@ -9,7 +9,7 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading">WHY IBINEX</p>
-          <a href="#" class="ib-footer-subtext">Our Vision</a>
+          <a href="#" class="ib-footer-subtext">Our vision</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
