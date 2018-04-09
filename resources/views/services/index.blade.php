@@ -10,9 +10,9 @@
 
 	
 
-	<div class="jumbotron services text-center"  >
+	<div class="jumbotron text-center"  id="services" >
 			
-			<h1 class="services-title" style="font-style: italic;font-family: 'Montserrat', sans-serif;">Services</h1>
+			<h1 class="services-title" style="">Services</h1>
 
 			<p id="ibinex_services">Ibinex services are all characterised by high-level innovation made practical for your personalised <br>exchange integration.</p>
 			<p id="ibinex_ecosystem">Our ecosystem of services comprises of the following units:</p>
@@ -61,7 +61,7 @@
 	<div class="container" id="crm">
 		
 			
-				<div class="row" style="padding:60px;">
+				<div class="row" >
 
 					   <div class="col-xl-6">
 
@@ -94,7 +94,7 @@
 
 				    <div class="col-xl-6">
 				    
-				    	<img src="img/services/docs.png" class="img-fluid crm-dashboard">
+				    	<img src="img/services/docs.png" class="crm-dashboard">
 
 				    </div>
 
@@ -164,7 +164,7 @@
 
 				    <div class="col-xl-6">
 
-				    	<img src="img/services/creditcard-phone.png" class="img-fluid ccp-phone">
+				    	<img src="img/services/creditcard-phone.png" class="ccp-phone">
 
 
 
@@ -179,7 +179,7 @@
 	</div>
 
 
-	<div  style="background: #fbfbfb;" id="ca">
+	<div  id="ca">
 		
 					<div class="container">
 						
@@ -188,12 +188,12 @@
 					   <div class="col-xl-6">
 
 						
-						<img src="img/services/custodian_accounts.png" class="img-fluid float-left ca-person">
+						<img src="img/services/custodian_accounts.png" class="ca-person">
 			
 
 				   		</div>
 
-				    <div class="col-xl-6" style="padding-top:120px;">
+				    <div class="col-xl-6 custodian-right" >
 
 				    			<h1 class="heading ca-heading">Custodian Accounts</h1>
 

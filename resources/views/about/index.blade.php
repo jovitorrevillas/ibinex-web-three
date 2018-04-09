@@ -74,7 +74,8 @@
 
 		<section id="media-coverage">
 			<div class="content m-container">
-				<h1>Ibinex media coverage</h1>
+				<h1 class="hidden-md">Ibinex media coverage</h1>
+				<h1 class="visible-md">Ibinex Media Coverage</h1>
 
 				<div class="media-lockup flex-center">
 					<img src="img/about/media1.png" alt="">
