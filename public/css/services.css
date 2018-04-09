@@ -5,10 +5,13 @@ font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 }
 
+.platform-mobile-laptop{
+	display:none;
+}
 .platform-laptop{
 	position: absolute;
 	max-width:1130px;
-	left:-160px;
+	left:-130px;
 	top:58px;
 }
 .platform-heading{
@@ -85,21 +88,22 @@ margin: 0;
 	font-size:38px;
 	font-weight:bolder;
 margin-top:150px;
-margin-left:-20px;
+margin-left:10px;
 
 }
 
 .crm-description{
-	margin-left:-40px;
+	margin-left:15px;
 	margin-top:50px;
+	line-height:28px;
 	font-size:15.9px;
 
 }
 
 .crm-check-items{
 	margin:0;
-	margin-top:65px;
-	margin-left:-60px;
+	margin-top:60px;
+	margin-left:-30px;
 
 }
 
@@ -132,7 +136,7 @@ margin: 0;
 	margin-top:12px;
 }
 .c3-logo{
-	margin-left:20px;
+	margin-left:55px;
 
 }
 
@@ -157,20 +161,20 @@ margin-left:5px;
 
 .ccp-heading{
 margin-top:20px;
-margin-left:-25px;
+margin-left:10px;
 font-size:39px;
 }
 
 .ccp-description{
 margin-top:50px;
 font-size:16px;
-margin-left:-21px;
+margin-left:10px;;
 line-height:28px;
 }
 
 .ccp-cards{
 	margin-top:35px;
-	margin-left:-25px;
+	margin-left:10px;
 }
 
 .ccp-phone{
@@ -181,6 +185,7 @@ line-height:28px;
 
 #ca{
 	background: #fbfbfb;
+	padding-bottom:12px;
 
 }
 
@@ -192,7 +197,7 @@ line-height:28px;
 
 	max-width:1000%;
 	margin-top:-40px;
-	margin-left:-294px;
+	margin-left:-260px;
 
 }
 
@@ -222,5 +227,166 @@ line-height:26px;
 }
 
 .ca-items li{
-	padding-bottom:30px;
+	padding-bottom:33px;
 }
+
+
+@media only screen and (max-width: 320px) {
+
+	.ccp-phone{
+	display:none;
+	}
+
+	.crm-dashboard{
+
+	display:none;
+	}
+
+	.platform-laptop{	
+		display:none;
+	}
+
+	.platform-mobile-laptop{
+		display:block;
+		position:relative;
+		width:500px;
+	
+	
+	}
+
+	.ca-description{
+
+	width:100%;
+	}
+
+	.ca-person{
+
+	display:none;
+	
+	}
+
+	.services-title{
+		margin-top:-35px;
+		margin-left:0px;
+	}
+	
+	#ibinex_services{
+	
+	margin-top:42px;
+
+	}
+
+	#ibinex_ecosystem{
+		margin-top:42px;
+	}
+
+	#services{
+		padding-bottom:60px;
+	}
+
+	.platform-heading{
+
+	margin-top:-6px;
+	margin-left:0px;
+	font-size:40px;
+
+	}
+
+	.platform-description{
+		margin-top:55px;
+		margin-left:0px;
+	}
+
+	.check-items{
+		margin-top:35px;
+		margin-left:-42px;
+	}
+	.check-items li{
+		padding-bottom:30px;
+	}
+	.check-items li span{
+		
+	}
+
+	.cryptobridge{
+	
+	padding-left:20px;
+	padding-right:20px;
+	margin:0;
+	padding-bottom:0px;
+	margin-top:24px;
+
+
+	}
+
+	.crypto-heading{
+		margin-top:52px;
+		margin-left:-20px;
+		font-size:36px;
+	}
+
+	.c3-logo{
+		display:none;
+	}
+
+	.c3-mobile-logo{
+		margin-left:40px;
+		margin-top:-50px;
+	}
+	
+	.crypto-descritpion{
+		
+		margin-left:-10px;
+		word-spacing:1px;
+		font-size:16px;
+		
+	}
+	.ccp-heading{
+		margin:0;
+
+	}
+	.ccp-description{
+		margin:0;
+	}
+	.ccp-card{
+		margin:0;
+	}
+
+	
+
+
+	.crm-heading{
+		margin:0;
+		margin-top:-70px;
+	}
+
+	.crm-description{
+		margin:0;
+		margin-left:0px;
+		margin-top:45px;
+		word-spacing:1px;
+	}
+
+	.crm-check-items{
+		margin:0;
+		margin-top:57px;
+		margin-left:-38px;
+	}
+	.crm-check-items li{
+		margin-top:10px;
+		margin-left:px;
+	}
+	.crm-check-items li:nth-child(3){
+		margin-top:0px;
+		
+
+	}
+
+	.crm-check-items li:nth-child(4){
+		margin-top:6px;
+
+	}
+
+
+
+	}

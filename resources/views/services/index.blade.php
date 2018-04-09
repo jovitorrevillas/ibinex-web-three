@@ -48,6 +48,9 @@
 				  	 	<li><span>Secure private cloud hosting</span></li>
 				  	 	<li><span>Total compatibility with your own branding deck.</span></li>
 				  	 </ul>
+
+
+				  	 <img src="img/services/Ibinex-Platform2.png" class="platform-mobile-laptop" >
 				  	
 
 				    </div>
@@ -107,7 +110,7 @@
 	</div>
 
 
-	<div class="cryptobridge">
+	<div class="cryptobridge" id="cryptobridge">
 		
 				
 				<div class="container">
@@ -118,6 +121,8 @@
 
 						
 					   	<img src="img/services/cryptobridge.png" class="img-fluid c3-logo" >
+
+					   	 <img src="img/services/cryptobridge_mobile.png" class="img-fluid c3-mobile-logo" >
 				
 
 				   		</div>
@@ -144,7 +149,7 @@
 	</div>
 
 
-	<div class="container ccp" >
+	<div class="container ccp" id="ccp" >
 		
 			
 				<div class="row" >

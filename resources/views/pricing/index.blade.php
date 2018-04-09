@@ -2,12 +2,12 @@
 @section('title','Pricing')
 
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid" id="Pricing-page">
         <section id="pricing-section">
             <div>
                 <div class="row">
                     <div class="col-md-6 hide-on-mobile">
-                        <img  src="img/pricing/First-option-Pricing.jpg">
+                        <img  src="img/pricing/First-option.png">
                     </div>
 
                     <div class="col-md-4 col-12" id="pricing-text">
@@ -43,15 +43,15 @@
                         </div>
 
                         <div class="row">
-                            <article class="col-md-12 col-12">
+                            <article class="col-md-12 col-12" id="our-fees-article">
                                 <h2>Our Fees</h2>
-                                <p>
+                                <p class="first-paragraph" class="text-gray">
 									<span>
 										0.1% flat-rate fee based on exchange volume with a minimum fee of $20,000 per month
 									</span>
                                 </p>
 
-                                <p>
+                                <p class="second-paragraph" class="text-gray">
 									<span>
 										Fees begin only at day 91.
 									</span>
@@ -74,17 +74,17 @@
                     <article id="setup-article" class="col-md-6 col-12">
 
                         <h2>Setup</h2>
-                        <p>
+                        <p class="text-gray">
 								<span>
 									In order to proceed with setup, we require:
 								</span>
                         </p>
-                        <p>
+                        <p class="text-gray">
 								<span>
 									Your company to sign out Letter of Intent (LOI)
 								</span>
                         </p>
-                        <p>
+                        <p class="text-gray">
 								<span>
 									Proof of the Escrow deposit at a bank or with an attorney of your choice.
 								</span>
@@ -94,12 +94,12 @@
                     <article class="col-md-6 col-12" id="onboarding-article">
 
                         <h2>Onboarding time</h2>
-                        <p class="first-paragraph">
-								<span>
+                        <p class="first-paragraph text-gray">
+								<span >
 									Please note that, due to incredibly high demand of the Ibinex exchange solutions suite, the current onboarding waiting time is 4 months.
 								</span>
                         </p>
-                        <p>
+                        <p class="text-gray">
 								<span>
 									We are doing our utmost to reduce time to market while retaining our trademark standard of excellence, and appreciate your interest in our innovations.
 								</span>
