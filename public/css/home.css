@@ -260,10 +260,41 @@ title:
 	color: black;
 }
 
+@media only screen and (min-width: 768px) {
+	
+	#media-coverage{
+		background: #f7f8f9;
+		padding-top:82px;
+		padding-bottom:117px;
+	}
+
+	#media-coverage h1{
+		font-weight: bold;
+		font-size: 30px;
+		letter-spacing: -0.7px;
+		padding-left: 22px;
+	}
+
+	#coverages{
+		margin-top: 60px;
+		list-style: none;
+		width: 100%;
+		text-align: center;
+	}
+	#coverages li{
+		text-align: center;
+		display:inline-block;
+		padding-left:15px;
+	}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px)  {
 	#gateway article:nth-child(1) {
     	padding-top: 2em;
 	}
+	#intro-cryptobridge {
+		padding: 10vw 16vw;
+	}
+
 }
 @media only screen and (min-width: 992px) {
 	#vision .vision-mobile article:nth-child(2) h1 {
@@ -387,7 +418,7 @@ title:
 		position: relative;
 		top: -9px;
 	}
-
+/*
 
 	#media-coverage{
 		background: #f7f8f9;
@@ -412,7 +443,7 @@ title:
 		text-align: center;
 		display:inline-block;
 		padding-left:15px;
-	}
+	}*/
 	#vision article:nth-child(1) {
 		top: 120px;
 		left: 120px;
