@@ -335,21 +335,29 @@ line-height:26px;
 	}
 	
 	.crypto-descritpion{
-		
+
 		margin-left:-10px;
-		word-spacing:1px;
+		word-spacing:3px;
 		font-size:16px;
+		width:270px;
+		padding-bottom:20px;
+	
 		
 	}
 	.ccp-heading{
 		margin:0;
-
+		margin-top:-165px;
 	}
 	.ccp-description{
 		margin:0;
+		margin-top:60px;
+		text-align:justify;
+		word-spacing:4px;
 	}
-	.ccp-card{
+	.ccp-cards{
 		margin:0;
+		margin-top:45px;
+		margin-left:0px;
 	}
 
 	
@@ -387,6 +395,31 @@ line-height:26px;
 
 	}
 
+	#ca{
+		padding-bottom:35px;
+	}
+
+	.ca-heading{
+		margin-top:-17px;
+		margin-left:0px;
+	}
+
+	.ca-description{
+		line-height:28px;
+	}
+	
+	.ca-items{
+		margin-left:0;
+		margin-top:30px;
+		word-spacing:-1px;
+		font-size:16px;
+		font-weight:500;
+	}
+
+	.ca-items li{
+		margin-top:5px;
+		line-height:24px;
+	}
 
 
 	}
