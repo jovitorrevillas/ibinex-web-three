@@ -170,8 +170,6 @@
 }
 #vision article:nth-child(1) img{
 	box-shadow: 0 0 50px black;
-	/*width: 580px;*/
-	width: 100%;
 }
 #vision article:nth-child(3){
 	background: white;
@@ -532,7 +530,7 @@ title:
 		left: calc(20% + 82px);
 	}
 	#gateway section.row article:nth-child(1){
-		left: calc(4% + 55px);
+		left: calc(3% + 55px);
 	}
 	#vision article:nth-child(1){
 		top: 249px;
