@@ -88,9 +88,9 @@
 }
 
 /*Second Fold*/
-#gateway{
+#gateway {
 	background: #f7f8f9;
-	padding:100px 15px;
+	padding: 118px 15px;
 }
 #gateway .container{
 	padding: 0;
@@ -122,8 +122,9 @@
 	margin-bottom: 28px;
 }
 #exchange-title{
-	padding-top: 92px;
-	padding-bottom:60px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	padding-left: 15px;
 }
 #exchange-title h2{
 	color: #2b3135;
@@ -402,9 +403,10 @@ title:
 		left: calc(4% + 55px);
 		top: 128px;
 	}
-	#gateway h1{
-		padding-top: 24px;
-		margin-bottom: 27px;
+	#gateway h1 {
+		padding-top: 0px;
+		padding-left: 13px;
+		margin-bottom: 28px;
 	}
 	#gateway p{
 		padding-right: 28px;
@@ -412,7 +414,8 @@ title:
 	#exchange-1 article,
 	#exchange-2 article,
 	#exchange-3 article{
-		padding-left: 118px;
+		padding-left: 131px;
+		padding-top: 6px;
 	}
 	#exchange-1 article:nth-child(2),
 	#exchange-2 article:nth-child(2),
