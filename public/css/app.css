@@ -3145,7 +3145,7 @@
 }
 
 #about #transparency .img-lockup img {
-  width: 100%;
+  height: 100%;
 }
 
 #about #transparency .transparency-lockup {
@@ -3160,8 +3160,8 @@
 
 #about #transparency .transparency {
   color: #fff;
-  width: 598px;
-  margin-left: 110px;
+  width: 44%;
+  margin-left: 14%;
   text-align: justify;
 }
 
@@ -4198,6 +4198,47 @@ div#security div#bg-gray h3 {
 
 div#security div#bg-gray p {
   margin-bottom: 180px;
+}
+
+@media only screen and (max-width: 1550px) {
+  #about .transparency {
+    width: 60%;
+  }
+
+  #about .transparency h1 {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1475px) {
+  #about .transparency p {
+    word-spacing: 0;
+    letter-spacing: 0;
+    margin-botom: 25px;
+  }
+}
+
+@media only screen and (max-width: 1425px) {
+  #about #transparency .img-lockup {
+    width: 38%;
+  }
+
+  #about #transparency h1 {
+    margin-bottom: 30px;
+    margin-top: 36px;
+    letter-spacing: 0.4px;
+    font-size: 30px;
+  }
+
+  #about #transparency p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  #about #transparency {
+    height: 700px;
+  }
 }
 
 @media only screen and (max-width: 768px) {

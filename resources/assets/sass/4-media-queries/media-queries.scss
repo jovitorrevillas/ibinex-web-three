@@ -1,7 +1,55 @@
-@media only screen and (max-width: 1452px) {
+@media only screen and (max-width: 1550px) {
+	#about {
+		.transparency {
+			width: 60%;
 
+			h1 {
+				margin-top: 20px;
+			}
+		}
+	}
 }
 
+@media only screen and (max-width: 1475px) {
+	#about {
+		.transparency {
+			p {
+				word-spacing: 0;
+				letter-spacing: 0;
+				margin-botom: 25px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1425px) {
+	#about {
+		#transparency {
+			.img-lockup {
+				width: 38%;
+			}
+
+			h1 {
+				margin-bottom: 30px;
+				margin-top: 36px;
+				letter-spacing: 0.4px;
+				font-size: 30px;
+			}
+
+			p {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1380px) {
+	#about {
+		#transparency {
+			height: 700px;
+		}
+	}
+}
 
 @media only screen and (max-width: 768px) {
 	.hidden-md {
