@@ -24,10 +24,6 @@
 	background: url('../images/home/home-hero.jpg') no-repeat center center;
 	background-size: cover;
 	width: 100%;
-	/*padding-top: 76px;*/
-	/*padding-left: 15px;*/
-	/*padding-right: 15px;*/
-	/*padding-bottom: 150px;*/
 	padding: 76px 15px 150px 15px;
 	min-height: 696px;
 	position: relative;
@@ -63,10 +59,7 @@
 	color: #ffffff;
 	padding: 3px 0;
 	margin-bottom: 19px;
-	/* word-spacing: 1px; */
-	/* letter-spacing: -0.3px; */
-	 text-align: justify; 
-	/* line-height: 26px; */
+	text-align: justify;
 }
 #intro-cryptobridge div.input-group {
 	width: 426px;
@@ -261,7 +254,6 @@ title:
 }
 
 @media only screen and (min-width: 768px) {
-	
 	#media-coverage{
 		background: #f7f8f9;
 		padding-top:82px;
@@ -288,13 +280,21 @@ title:
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px)  {
+	#intro-cryptobridge {
+		padding: 7em 2em;
+	}
 	#gateway article:nth-child(1) {
     	padding-top: 2em;
 	}
-	#intro-cryptobridge {
-		padding: 10vw 16vw;
+	section.vision-mobile article h1{
+		font-size: 68px;
+		font-weight: 800;
+		letter-spacing: -0.3px;
 	}
-
+	section.vision-mobile article h1 span:nth-child(2){
+		font-family: 'Playfair Display', serif;
+		padding-left: 9px;
+	}
 }
 @media only screen and (min-width: 992px) {
 	#vision .vision-mobile article:nth-child(2) h1 {
@@ -365,7 +365,6 @@ title:
 		color: #ffffff;
 		padding: 3px 0;
 		margin-bottom: 22px;
-		/* word-spacing: 0px; */
 		letter-spacing: -0.1px;
 		text-align: justify;
 		line-height: 25px;
@@ -418,32 +417,6 @@ title:
 		position: relative;
 		top: -9px;
 	}
-/*
-
-	#media-coverage{
-		background: #f7f8f9;
-		padding-top:82px;
-		padding-bottom:117px;
-	}
-
-	#media-coverage h1{
-		font-weight: bold;
-		font-size: 30px;
-		letter-spacing: -0.7px;
-		padding-left: 22px;
-	}
-
-	#coverages{
-		margin-top: 60px;
-		list-style: none;
-		width: 100%;
-		text-align: center;
-	}
-	#coverages li{
-		text-align: center;
-		display:inline-block;
-		padding-left:15px;
-	}*/
 	#vision article:nth-child(1) {
 		top: 120px;
 		left: 120px;
@@ -478,7 +451,6 @@ title:
 	}
 	#vision article:nth-child(1) img{
 		box-shadow: 0 0 50px black;
-		/*width: 580px;*/
 	}
 	#vision article:nth-child(3){
 		background: white;
@@ -488,19 +460,6 @@ title:
 		padding-bottom: 182px;
 		padding-left: 80px;
 	}
-	#vision article:nth-child(3) h1{
-		font-size: 68px;
-		font-weight: 800;
-		letter-spacing: -0.3px;
-	}
-	#vision article:nth-child(3) h1 span:nth-child(2){
-		font-family: 'Playfair Display', serif;
-		padding-left: 9px;
-	}
-
-
-
-
 	#intro-cryptobridge div.input-group {
 		width: 426px;
 		float: right;
