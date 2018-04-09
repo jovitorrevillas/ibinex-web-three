@@ -250,8 +250,31 @@ title:
 	text-transform: uppercase;
 }
 
+.vision-web {
+	display: none;
+}
+.vision-mobile {
+	display: block;
+	min-height: 530px;
+}
+#vision .vision-web span, #vision .vision-mobile span {
+	color: black;
+}
 
 @media only screen and (min-width: 1024px) {
+	#vision .vision-mobile article:nth-child(2) h1 {
+		font-size: 4em;
+		margin: 0.25em 0;
+	}
+	#vision .vision-mobile article:nth-child(2) h1 span {
+		color: black;
+		font-weight: bold;
+	}
+	#vision .vision-mobile article h1 span:nth-child(2) {
+		font-family: 'Playfair Display', serif;
+		padding-left: 9px;
+	}
+
 	/*First Fold*/
 	#intro-cryptobridge{
 		background: url('../img/home/home-hero.jpg') no-repeat center center;
@@ -318,9 +341,9 @@ title:
 		padding-top: 5px;
 	}
 	#intro-cryptobridge div.input-group {
-		width: 426px;
+		width: 370px;
 		float: right;
-		left: 58px;
+		left: 10px;
 		margin-top: 16px;
 	}
 	#intro-cryptobridge input {
@@ -386,10 +409,69 @@ title:
 		display:inline-block;
 		padding-left:15px;
 	}
+	#vision article:nth-child(1) {
+		top: 120px;
+		left: 120px;
+		z-index: 1;
+	}
+	#vision article:nth-child(3) {
+		background: white;
+		margin-top: 325px;
+		margin-bottom: 200px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 0;
+	}
 }
 
 
 @media all and (min-width: 1360px){
+	.vision-web {
+		display: flex;
+	}
+	.vision-mobile {
+		display: none;
+	}
+
+	#vision{
+		background-color: #f7f8f9;
+	}
+	#vision article:nth-child(1){
+		top: 249px;
+		left: 18px;
+		z-index: 1;
+	}
+	#vision article:nth-child(1) img{
+		box-shadow: 0 0 50px black;
+		width: 580px;
+	}
+	#vision article:nth-child(3){
+		background: white;
+		margin-top: 145px;
+		margin-bottom: 238px;
+		padding-top: 181px;
+		padding-bottom: 182px;
+		padding-left: 80px;
+	}
+	#vision article:nth-child(3) h1{
+		font-size: 68px;
+		font-weight: 800;
+		letter-spacing: -0.3px;
+	}
+	#vision article:nth-child(3) h1 span:nth-child(2){
+		font-family: 'Playfair Display', serif;
+		padding-left: 9px;
+	}
+
+
+
+
+	#intro-cryptobridge div.input-group {
+		width: 426px;
+		float: right;
+		left: 6%;
+		margin-top: 16px;
+	}
 	.hollow-box {
 		left: calc(10% + 58px);
 	}
@@ -414,13 +496,14 @@ title:
 	#exchange-1 article,
 	#exchange-2 article,
 	#exchange-3 article{
-		padding-left: 131px;
+		padding-left: 30px;
 		padding-top: 6px;
 	}
 	#exchange-1 article:nth-child(2),
 	#exchange-2 article:nth-child(2),
 	#exchange-3 article:nth-child(2){
-		padding-left: 105px;
+		/*padding-left: 105px;*/
+		padding-left: 30px;
 	}
 	#technical-papers section.row article:nth-child(1) div,
 	#technical-papers section.row article:nth-child(4) div{
@@ -446,6 +529,19 @@ title:
 	}
 	#intro-cryptobridge article {
 		left: calc(20% + 82px);
+	}
+	#vision article:nth-child(1){
+		top: 249px;
+		left: 18px;
+		z-index: 1;
+	}
+	#vision article:nth-child(3) {
+		background: white;
+		margin-top: 145px;
+		margin-bottom: 238px;
+		padding-top: 181px;
+		padding-bottom: 182px;
+		padding-left: 80px;
 	}
 }
 

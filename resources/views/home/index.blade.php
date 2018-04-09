@@ -68,14 +68,11 @@
 
 
 <section id="exchange-2" class="row">
-	
 	<article class="col-md-6">
 		<img src="img/home/card-liquidity.png">
 		<h1>Aggregated Liquidity Exchange</h1>
 		<p>Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
-
 	</article>
-
 	<article class="col-md-6">
 		<img src="img/home/card-solution.png">
 		<h1>Complete Processing solution</h1>
@@ -83,19 +80,15 @@
 			With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilities for your exchange to thrive in maximum liquidity.
 		</p>
 	</article>
-
 </section>
 
 
 <section id="exchange-3" class="row">
-	
 	<article class="col-md-6">
 		<img src="img/home/card-compliant.png">
 		<h1>Compliant Banking Custodian service</h1>
 		<p>Ibinex is the first ever cryptocurrency exchange platform the world that has a finance transaction license. We can offer fully-compliant and licensed custodian processing and accounts, or you can choose to operate with your own custodian. Ibinex is licensed to facilitate payments via swipe-and-transmit from FIAT to a base currency. This preferred solution is unavailable to the bigger cryptocurrency exchanges, and is only offered by Ibinex.</p>
-
 	</article>
-
 	<article class="col-md-6">
 		<img src="img/home/card-cloud.png">
 		<h1>Hosted in a secure private cloud environment</h1>
@@ -103,39 +96,32 @@
 			Security is a 360 degree operation, with the Ibinex platform guarded 24/7 in a private cloud and crypto-based funds held in shielded cold wallets. Cyber security experts maintain and defend the platform, while cold wallets containing funds are impregnable, offline, and safely out of unauthorised reach.
 		</p>
 	</article>
-
 </section>
-
-
-
 </div>
-
-
 
 <div class="container-fluid" id="vision">
 	<div class="container">
-		<section class="row position-relative">
-			
-
-		<article class="col-md-6 position-absolute">
-			
-			<img src="img/home/vision--video.png">
-			
-
-		</article>
-
-		<article class="col-md-5">
-		</article>
-
-		<article class="col-md-7">
-			<h1 class="text-center align-middle" >
-			
-		 	<span>Our</span><span>vision.</span>
-		</h1>
-		</article>
-
-		
-
+		<section class="row position-relative vision-web">
+			<article class="col-md-6 position-absolute">
+				<img src="img/home/vision--video.png">
+			</article>
+			<article class="col-md-5">
+			</article>
+			<article class="col-md-7">
+				<h1 class="text-center align-middle" >
+				<span>Our</span><span>vision.</span>
+			</h1>
+			</article>
+		</section>
+		<section class="row vision-mobile py-5">
+			<article class="text-center py-5">
+				<img src="img/home/vision--video.png">
+			</article>
+			<article class="text-center">
+				<h1 class="text-center align-middle" >
+					<span>Our</span><span>vision.</span>
+				</h1>
+			</article>
 		</section>
 	</div>
 </div>
