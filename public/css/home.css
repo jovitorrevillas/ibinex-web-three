@@ -19,12 +19,13 @@
 	src: url('../fonts/ProximaNovaRegular.otf');
 }
 
+
 /*First Fold*/
 #intro-cryptobridge{
 	background: url('../images/home/home-hero.jpg') no-repeat center center;
 	background-size: cover;
 	width: 100%;
-	padding: 76px 15px 150px 15px;
+	padding: 80px 15px 130px 15px;
 	min-height: 696px;
 	position: relative;
 }
@@ -62,7 +63,8 @@
 	text-align: justify;
 }
 #intro-cryptobridge form#requestDemo {
-	width: 426px;
+	width: 208px;
+	height: 57px;
 	margin-top: 16px;
 }
 #intro-cryptobridge input {
@@ -82,18 +84,20 @@
 #intro-cryptobridge button[type='submit'] {
 	height: 100%;
 	border-radius: 0 0.6em 0.6em 0;
+	font-size: 15px;
 }
 
 /*Second Fold*/
 #gateway {
 	background: #f7f8f9;
-	padding: 118px 15px;
+	padding: 70px 15px;
 }
 #gateway .container{
 	padding: 0;
 }
 #gateway article:nth-child(1){
 	order: 2;
+	padding-top: 40px;
 }
 #gateway article:nth-child(3){
 	order: 1;
@@ -119,7 +123,7 @@
 	margin-bottom: 28px;
 }
 #exchange-title{
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-bottom: 60px;
 	padding-left: 15px;
 }
@@ -165,9 +169,6 @@
 	left: 18px;
 	z-index: 1;
 }
-#vision article:nth-child(1) img{
-	box-shadow: 0 0 50px black;
-}
 #vision article:nth-child(3){
 	background: white;
 	margin-top: 145px;
@@ -192,19 +193,19 @@
 	padding-bottom: 70px;
 }
 #technical-papers h5{
-	font-size:16px;
+	font-size:19px;
 	font-weight: bold;
 	letter-spacing: -0.3px;
 	color: #9c9c9c;
 }
-#technical-papers h1{
-	font-size: 40px;
-	padding-bottom: 35px;
-	font-weight: bold;
-	letter-spacing: -0.7px;
-	margin-top: 15px;
-	word-spacing: -2px;
-	margin-bottom: 0;
+#technical-papers h1 {
+    font-size: 26px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    word-spacing: 0px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
 }
 #technical-papers section{
 	margin-top: 15px;
@@ -224,14 +225,32 @@
 	color: #5f5f5f;
 }
 
-/*
+/*Sixth Fold*/
+#media-coverage{
+	background: #f7f8f9;
+	padding-top:82px;
+	padding-bottom:117px;
+}
 
-title:
-1a1a1a
+#media-coverage h1{
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: -0.7px;
+	padding-left: 22px;
+}
 
-
-
-*/
+#coverages{
+	margin-top: 60px;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding:0;
+}
+#coverages li{
+	text-align: center;
+	display:inline-block;
+	padding-left:15px;
+}
 .rounded-button{
 	margin-top: 16px;
 	border-radius: 50px;
@@ -245,54 +264,102 @@ title:
 	font-size: 14px;
 	text-transform: uppercase;
 }
-
+#vision {
+	padding: 0;
+}
 .vision-web {
 	display: none;
 }
 .vision-mobile {
 	display: block;
-	min-height: 530px;
+}
+#ourVisionMobile-Mobile {
+	display: block;
+	padding-bottom: 70px;
+	font-weight: 900;
+	font-size: 40px; 
+
+}
+section.vision-mobile h1#ourVisionMobile {
+	display: none;
 }
 #vision .vision-web span, #vision .vision-mobile span {
 	color: black;
 }
+.not-home-carousel {
+	display: none;
+}
+
+/*
+	Media Queries
+*/
 
 @media only screen and (min-width: 768px) {
-/*	button[type='submit'] {
-		height: 100%;
-		border-radius: 0 0.5em 0.5em 0;
-	}*/
-	#media-coverage{
-		background: #f7f8f9;
-		padding-top:82px;
-		padding-bottom:117px;
+	/*First Fold*/
+	#intro-cryptobridge{
+		padding: 76px 15px 150px 15px;
 	}
-
-	#media-coverage h1{
+	#intro-cryptobridge form#requestDemo {
+	    width: 426px;
+	    margin-top: 16px;
+	}
+	#intro-cryptobridge button[type='submit'] {
+		font-size: 10px;
+	}
+	/*Second Fold*/
+	#gateway {
+		padding: 118px 15px;
+	}
+	/*Third Fold*/
+	#exchange-title{
+		padding-top: 100px;
+		padding-bottom: 60px;
+		padding-left: 15px;
+	}
+	/*Fifth Fold*/
+	.not-home-carousel {
+		display: flex;
+	}
+	.home-carousel {
+		display: none;
+	}
+	#technical-papers h5{
+		font-size:16px;
+	}
+	#technical-papers h1{
+		font-size: 32px;
+		padding-bottom: 35px;
 		font-weight: bold;
-		font-size: 30px;
 		letter-spacing: -0.7px;
-		padding-left: 22px;
+		margin-top: 15px;
+		word-spacing: -2px;
+		margin-bottom: 0;
 	}
-
-	#coverages{
-		margin-top: 60px;
-		list-style: none;
-		width: 100%;
-		text-align: center;
+	#vision {
+		padding-right: 15px;
+		padding-left: 15px;
 	}
-	#coverages li{
-		text-align: center;
-		display:inline-block;
-		padding-left:15px;
+	#vision article:nth-child(1) img{
+		box-shadow: 0 0 50px black;
+	}
+	.vision-mobile {
+		display: block;
+		min-height: 530px;
+		padding-top: 5em;
+	}
+	#ourVisionMobile-Mobile {
+		display: none;
+	}
+	section.vision-mobile h1#ourVisionMobile {
+		display: block;
+		padding-top: 40px;
+		padding-bottom: 70px;
+		margin: 0 auto;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px)  {
 	#intro-cryptobridge {
 		padding: 7em 2em;
-	}
-	#gateway article:nth-child(1) {
-    	padding-top: 2em;
 	}
 	section.vision-mobile article h1{
 		font-size: 68px;

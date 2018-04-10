@@ -108,13 +108,16 @@
 				</h1>
 			</article>
 		</section>
-		<section class="row vision-mobile py-5">
-			<article class="text-center py-5">
+		<section class="row vision-mobile">
+			<article class="text-center">
 				<img src="images/home/vision--video.png" class="img-fluid">
 			</article>
 			<article class="text-center">
-				<h1 class="text-center align-middle" >
+				<h1 class="text-center align-middle" id="ourVisionMobile">
 					<span>Our</span><span>vision.</span>
+				</h1>
+				<h1 class="text-center align-middle" id="ourVisionMobile-Mobile">
+					<span>Our vision.</span>
 				</h1>
 			</article>
 		</section>
@@ -126,9 +129,8 @@
 	<h5 >Learn more about Ibinex</h5>
 	<h1 >Technical Papers &amp; Legal Circular</h1>	
 
-	<section class="row">
+	<section class="row not-home-carousel">
 		<article class="col-md-4">
-
 			<img src="images/home/business.png" class="img-fluid">
 			<div>
 				<h3 style="color: #243555;">Business Model</h3>
@@ -138,7 +140,6 @@
 				</button>
 			</div>
 		</article>
-
 		<article class="col-md-4">
 			<img src="images/home/one-page.png" class="img-fluid">
 			<div>
@@ -149,7 +150,6 @@
 				</button>
 			</div>
 		</article>
-
 		<article class="col-md-4">
 			<img src="images/home/custodian.png" class="img-fluid">
 			<div>
@@ -161,10 +161,8 @@
 			</div>
 		</article>
 	</section>
-
-	<section class="row">
+	<section class="row not-home-carousel">
 		<article class="col-md-4">
-
 			<img src="images/home/pricing.png" class="img-fluid">
 			<div>
 				<h3 style="color: #708158;">Pricing Model</h3>
@@ -174,7 +172,6 @@
 				</button>
 			</div>
 		</article>
-
 		<article class="col-md-4">
 			<img src="images/home/terms.png" class="img-fluid">
 			<div>
@@ -185,7 +182,6 @@
 				</button>
 			</div>
 		</article>
-
 		<article class="col-md-4">
 			<img src="images/home/kyc.png" class="img-fluid">
 			<div>
@@ -197,6 +193,70 @@
 			</div>
 		</article>
 	</section>
+
+	<!-- carousel -->
+	<div class="home-carousel row">
+			<div>
+				<img src="images/home/business.png" class="img-fluid">
+				<div>
+					<h3 style="color: #243555;">Business Model</h3>
+					<h4>PDF - 1.3MB</h4>
+					<button class="btn btn-default rounded-button ">
+						Download
+					</button>
+				</div>
+			</div>
+			<div>
+				<img src="images/home/one-page.png" class="img-fluid">
+				<div>
+					<h3 style="color: #9e664c;">One Page Brochure</h3>
+					<h4>PDF - 1.3MB</h4>
+					<button class="btn btn-default rounded-button">
+						Download
+					</button>
+				</div>
+			</div>
+			<div>
+				<img src="images/home/custodian.png" class="img-fluid">
+				<div>
+					<h3 style="color: #9a4c47;">Custodian Guidelines</h3>
+					<h4>PDF - 1.3MB</h4>
+					<button class="btn btn-default rounded-button ">
+						Download
+					</button>
+				</div>
+			</div>
+			<div>
+				<img src="images/home/pricing.png" class="img-fluid">
+				<div>
+					<h3 style="color: #708158;">Pricing Model</h3>
+					<h4>PDF - 1.3MB</h4>
+					<button class="btn btn-default rounded-button center-block ">
+						Download
+					</button>
+				</div>
+			</div>
+			<div>
+				<img src="images/home/terms.png" class="img-fluid">
+				<div>
+					<h3 style="color: #8154a7;">Terms &amp; Conditions</h3>
+					<h4>PDF - 1.3MB</h4>
+					<button class="btn btn-default rounded-button">
+						Download
+					</button>
+				</div>
+			</div>
+			<div>
+				<img src="images/home/kyc.png" class="img-fluid">
+				<div>
+					<h3 style="color: #44577f;">KYC &amp; AML Requirments</h3>
+					<h4>PDF - 1.3MB</h4>
+					<button class="btn btn-default rounded-button ">
+						Download
+					</button>
+				</div>
+			</div>
+	</div>
 </div>
 
 
@@ -213,3 +273,7 @@
 </section>
 
 @endsection
+
+@push('scripts')
+<script src="js/home.js"></script>
+@endpush
