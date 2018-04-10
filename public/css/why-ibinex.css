@@ -1,0 +1,173 @@
+
+
+div.ib-why-main{
+    position: relative;
+    font-family: 'Montserrat', san-serif;
+}
+
+div.ib-fsec-main{
+    position: relative;
+}
+
+div.ib-side-pic{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 79px;
+    margin-right: -11%;
+    width: 60%;
+}
+
+div.ib-side-pic2{
+    display:none;
+}
+
+div.ib-side-pic img{
+    -webkit-clip-path: polygon(0 14%, 100% 14%, 100% 100%, 0 100%);
+    clip-path: polygon(0 14%, 100% 14%, 100% 100%, 0 100%);
+}
+
+div#ib-why-fsec-text-wrapper{
+    padding-top: 103px;
+    padding-bottom: 15px;
+}
+
+div#ib-why-ssec-text-wrapper{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+
+p#ib-why-fsec-text-title{
+    font-size: 28pt;
+    font-weight: 800;
+    line-height: 47px;
+}
+
+p#ib-why-ssec-text-title{
+    font-size: 28pt;
+    font-weight: 800;
+    line-height: 47px;
+}
+
+p#ib-why-tsec-text-title{
+    font-size: 28pt;
+    font-weight: 800;
+    line-height: 47px;
+}
+
+p#ib-why-fsec-text-content{
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 1.65;
+    font-weight: 600;
+}
+
+div.ib-why-background{
+    background-color: rgb(20,44,90);
+}
+
+p#ib-why-ssec-text-title{
+    color: rgb(44,49,53);
+}
+
+p#ib-why-ssec-text-title,
+p#ib-why-ssec-text-content{
+    color: white;
+}
+
+p#ib-why-tsec-text-title,
+p#ib-why-tsec-text-content{
+    text-align: center;
+}
+
+p.ib-core-text{
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.65;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1622px){
+    div.ib-side-pic {
+        margin-top: 118px;
+    }
+
+    div.ib-side-pic img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1453px){
+    div.ib-side-pic {
+        margin-right: -1%;
+        margin-top: 163px;
+    }
+
+    div.ib-side-pic img{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1199px){
+    div#ib-why-fsec-text-wrapper {
+        padding-top: 103px;
+        padding-bottom: 200px;
+    }
+
+    div.ib-side-pic {
+        margin-right: 5%;
+        margin-top: 327px;
+        width: 80%;
+    }
+
+    div#ib-why-ssec-text-wrapper {
+        padding-top: 196px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px){
+    div.ib-side-pic {
+        margin-right: -4%;
+        margin-top: 390px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+
+    div#ib-why-fsec-text-wrapper {
+        padding-bottom: 264px;
+    }
+
+    div#ib-why-ssec-text-wrapper {
+        padding-top: 270px;
+    }
+
+    div.ib-side-pic{
+        display: none;
+    }
+
+    div.ib-side-pic2{
+        display: block;
+        position: absolute;
+        position: absolute;
+    }
+
+    div.ib-side-pic2 img{
+        width: 104.6%;
+        margin-top: -43%;
+        margin-left: -19px;
+    }
+}
+
+
+
+
+@media all and (min-width: 1200px){
+    .container{
+        max-width: 1178px;
+    }
+}
