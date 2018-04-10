@@ -9,7 +9,7 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading">WHY IBINEX</p>
-          <a href="#" class="ib-footer-subtext">Our vision</a>
+          <a href="{{ url('why')}}#vision" class="ib-footer-subtext">Our vision</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
@@ -29,10 +29,10 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl ib-security-section">
           <p class="ib-footer-subheading" id="security">SECURITY</p>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Protection of Funds</a><br>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Encryption and Technologies</a><br>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Information Security</a><br>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Privacy</a>
+          <a href="{{ url('security') }}#pof-eat-section" class="ib-footer-subtext">Protection of Funds</a><br>
+          <a href="{{ url('security') }}#pof-eat-section" class="ib-footer-subtext">Encryption and Technologies</a><br>
+          <a href="{{ url('security') }}#InfoSec-Priv-Section" class="ib-footer-subtext">Information Security</a><br>
+          <a href="{{ url('security') }}#InfoSec-Priv-Section" class="ib-footer-subtext">Privacy</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
