@@ -33,8 +33,8 @@
 
 		.transparency {
 			color: #fff;
-			width: 44%;
-			margin-left: 14%;
+			width: 53%;
+			margin-left: 12%;
 			text-align: justify;
 
 			h1 {
@@ -225,23 +225,27 @@
 		                overflow: hidden;
 		                background: none;
 
+                        img {
+                          width: 100%;
+                        }
+
 		                &:nth-child(1) {
-		                    top: 16px;
-		                    width: 407px;
-		                    height: 431px;
-		                    left: auto;
-		                    right: 93px;
+                            right: 0%;
+                            width: 68%;
+                            height: 426px;
+                            top: 3%;
 		                    /* animation: scaleCard 100ms; */
 		                }
 		                &:nth-child(2) {
-		                    top: 209px;
-						    left: 65px;
-						    width: 385px;
-						    height: 383px;
+                            width: 64%;
+                            height: 378px;
+                            top: 39%;
+                            left: 11%;
 		                }
+
 		                &:nth-child(3) {
-		                    top: 75px;
-		                    left: -35px;
+		                    top: 14%;
+		                    left: -6%;
 		                }
 		            }
 
@@ -276,7 +280,7 @@
 					margin-right: -14px;
 				    margin-left: -18px;
 
-				    .col-md-3 {
+				    .col-lg-3 {
 				    	padding: 0px 11px;
 				    }
 				}
@@ -336,8 +340,8 @@
 			    margin-top: -1px;
 			}
 
-			.col-md-3 {
-				padding-left: 10px!important;
+			.col-lg-3 {
+				padding:0 10px!important;
 			}
 		}
 	}

@@ -9,7 +9,7 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading">WHY IBINEX</p>
-          <a href="#" class="ib-footer-subtext">Our vision</a>
+          <a href="{{ url('why')}}#vision" class="ib-footer-subtext">Our vision</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
@@ -20,19 +20,27 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="services-heading">SERVICES</p>
+<<<<<<< HEAD
           <a href="{{ url('services') }}#" class="ib-footer-subtext">Platform</a><br>
           <a href="{{ url('services') }}#" class="ib-footer-subtext">CRM / BackOffice</a><br>
           <a href="{{ url('services') }}#" class="ib-footer-subtext">CryptoBridge</a><br>
           <a href="{{ url('services') }}#" class="ib-footer-subtext">Credit Card Processing</a><br>
           <a href="{{ url('services') }}#" class="ib-footer-subtext">Custodian Accounts</a>
+=======
+          <a href="{{ url('services') }}#platform" class="ib-footer-subtext">Platform</a><br>
+          <a href="{{ url('services') }}#crm" class="ib-footer-subtext">CRM / BackOffice</a><br>
+          <a href="{{ url('services') }}#cryptobridge" class="ib-footer-subtext">CryptoBridge</a><br>
+          <a href="{{ url('services') }}#ccp" class="ib-footer-subtext">Credit Card Processing</a><br>
+          <a href="{{ url('services') }}#ca" class="ib-footer-subtext">Custodian Accounts</a>
+>>>>>>> 663435a6a6cb0689ee5a77de1212b55f0ca9942a
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl ib-security-section">
           <p class="ib-footer-subheading" id="security">SECURITY</p>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Protection of Funds</a><br>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Encryption and Technologies</a><br>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Information Security</a><br>
-          <a href="{{ url('security') }}#" class="ib-footer-subtext">Privacy</a>
+          <a href="{{ url('security') }}#pof-eat-section" class="ib-footer-subtext">Protection of Funds</a><br>
+          <a href="{{ url('security') }}#pof-eat-section" class="ib-footer-subtext">Encryption and Technologies</a><br>
+          <a href="{{ url('security') }}#InfoSec-Priv-Section" class="ib-footer-subtext">Information Security</a><br>
+          <a href="{{ url('security') }}#InfoSec-Priv-Section" class="ib-footer-subtext">Privacy</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
@@ -97,7 +105,7 @@
         <div class="col-md-12 col-xl ib-contact-section">
           <p class="ib-footer-subheading ib-text-bold">SIGN UP TO OUR NEWSLETTER</p>
           <div class="input-group mb-3 ib-contact-input">
-            <input type="text" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2">
+            <input type="email" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2" required>
             <div class="input-group-append">
               <button class="btn btn-danger ib-btn-custom" type="button">SUBMIT</button>
             </div>
