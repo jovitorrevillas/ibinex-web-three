@@ -43,7 +43,7 @@
 
                         <p>
                     <span>
-                    The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
+                    <span id="span-pixel-perfect">The protection of your</span> crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
                     </span>
                         </p>
 
