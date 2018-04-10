@@ -8,7 +8,7 @@
     <div id="security" class="container-fluid">
         <section id="security-section">
             <div class="row">
-                <div id="bg-blue" class="col-lg-12 col-md-12">
+                <div id="bg-blue" class="col-lg-12 col-12">
 
                     <div class="text-content">
 
@@ -20,8 +20,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            cillum dolore eu fugiat nulla pariatur.
                         </span>
                         </p>
 
@@ -39,7 +38,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6">
                         <h3>Protection of Funds</h3>
 
                         <p>
@@ -62,7 +61,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6">
                         <h3>Encryption and Technologies</h3>
 
                         <p>
@@ -85,7 +84,7 @@
                 <div class="text-content">
                     <div class="row">
 
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-6 col-12">
                             <h3>Information Security</h3>
 
                             <p>
@@ -96,7 +95,7 @@
 
                         </div>
 
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-6">
                             <h3>Privacy</h3>
 
                             <p>
