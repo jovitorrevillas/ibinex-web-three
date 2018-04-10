@@ -12,7 +12,7 @@ font-family: 'Montserrat', sans-serif;
 	padding-top:250px;
 	padding-bottom:67px;
 	background-repeat: no-repeat;
-	margin-top:;
+
 }
 
 .get-started-title{
@@ -159,7 +159,7 @@ margin: 0;
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
 
 	#getStarted{
 
@@ -251,9 +251,36 @@ padding-top:1px;
     #support-right form button{
 	margin-top:45px;
 
+
 	}
 
 
+}
 
+@media only screen and (max-width: 320px) {
+	
+	#getStarted{
+			padding:0;
+
+	}
+
+		
+
+}
+
+@media only screen and (max-width: 1700px) {
+	
+		#getStarted{
+			padding-top:100px;
+		}
+
+}
+
+@media only screen and (max-width: 1366px) {
+	
+		#getStarted{
+			background-position:bottom;
+			padding-top:0;
+		}
 
 }
