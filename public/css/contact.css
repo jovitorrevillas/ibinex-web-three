@@ -158,7 +158,12 @@ margin: 0;
 	font-size:17px;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 320px) {
+=======
+
+@media only screen and (max-width: 768px) {
+>>>>>>> 44f0d640d7b13c3b700449cb15021ca11be2970b
 
 	#getStarted{
 
@@ -239,3 +244,9 @@ padding-top:1px;
 
 	}
 }
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 48422477290ede8ae80c448521adb33e22f3f4d3
