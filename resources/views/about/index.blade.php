@@ -150,7 +150,7 @@
 						<h1>Advisory <span class="italic">Board</span></h1>
 						<div class="board-lockup">
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board1.png" alt="">
 									<article>
 										<h5 class="name">Jeremy Corbein</h5>
@@ -158,7 +158,7 @@
 									</article>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board2.png" alt="">
 									<article>
 										<h5 class="name">Jimmy Fallon</h5>
@@ -166,7 +166,7 @@
 									</article>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board3.png" alt="">
 									<article>
 										<h5 class="name">Stephen Colbert</h5>
@@ -174,16 +174,15 @@
 									</article>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board4.png" alt="">
 									<article>
 										<h5 class="name">Artem Kushik</h5>
 										<p class="designation">Business Analyst, Crédit Agricole CIB</p>
 									</article>
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3">
+
+								<div class="col-lg-3">
 									<img src="images/about/board1.png" alt="">
 									<article>
 										<h5 class="name">Jeremy Corbein</h5>
@@ -191,7 +190,7 @@
 									</article>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board2.png" alt="">
 									<article>
 										<h5 class="name">Jimmy Fallon</h5>
@@ -199,7 +198,7 @@
 									</article>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board3.png" alt="">
 									<article>
 										<h5 class="name">Stephen Colbert</h5>
@@ -207,7 +206,7 @@
 									</article>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-lg-3">
 									<img src="images/about/board4.png" alt="">
 									<article>
 										<h5 class="name">Artem Kushik</h5>
