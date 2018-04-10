@@ -5,6 +5,12 @@
 @endpush
 
 @section('content')
+    
+
+    <div class="mobile-tools">
+        
+    </div>
+
     <div  id="getStarted">
 
             <div class="container">
@@ -12,6 +18,9 @@
                 
                 <div class="col-md-6">
                     
+
+
+
 
         <h1 class="get-started-title title-heading">Get Started</h1>
 
