@@ -158,7 +158,6 @@ margin: 0;
 	font-size:17px;
 }
 
-
 @media only screen and (max-width: 320px) {
 
 	#getStarted{
@@ -195,13 +194,10 @@ margin-top:57px;
 	margin-left:0px;
 	line-height:30px;
 }
-
 .support-title{
-
 	margin-top:-325px;
 	margin-left:-15px;
 }
-
 .p3{
 
 padding-top:1px;
@@ -209,7 +205,6 @@ padding-top:1px;
 	text-align:justify;
 	word-spacing:1px;
 	margin-left:-10px;
-
 }
 .p4{
 
@@ -220,40 +215,27 @@ padding-top:1px;
 	margin-left:-10px;
 }
 .p5{
-
 	margin-top:27px;
 	font-size:17px;
 	text-align:justify;
 	word-spacing:-1px;
 	margin-left:-10px;
 }
-
-
-    #support-right{
-
+	  #support-right{
   	background: none;
   	position: relative;
   	width: 100%;
-
     }
-
     #support-right form{
     	background: none;
     	position: relative;
     	left:0;
-		top:-120px;
+			top:-120px;
     	width:100%;
     	padding: 0;
-
     }
-
-
     #support-right form button{
 	margin-top:45px;
 
 	}
-
-
-
-
 }
