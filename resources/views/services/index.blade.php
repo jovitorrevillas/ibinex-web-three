@@ -22,7 +22,7 @@
 
 
 	<div class="container" id="platform">
-
+ 
 		  	<div class="row">
 
 				    <div class="col-md-6 " >

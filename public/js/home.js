@@ -3,11 +3,10 @@ $(document).ready(function(){
         $('.home-carousel').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
-            centerPadding: '60px',
-            // prevArrow: $('.prev'),
-            // nextArrow: $('.next'),
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
         });
     }
 });

@@ -36,6 +36,7 @@ Homestead.json
 #vim temporary files
 *.swp
 *.swo
+tags
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/

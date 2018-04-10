@@ -1,10 +1,10 @@
-@media only screen and (max-width: 1760px) {
+@media only screen and (max-width: 1760px) and (min-width: 768px) {
     .transparency {
         width: 60%;
     }
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1550px) and (min-width: 768px) {
     .transparency {
         width: 60%;
 
@@ -14,7 +14,7 @@
     }
 }
 
-@media only screen and (max-width: 1475px) {
+@media only screen and (max-width: 1475px) and (min-width: 768px) {
     #transparency .transparency {
         p {
             word-spacing: 0;
@@ -24,7 +24,7 @@
     }
 }
 
-@media only screen and (max-width: 1425px) {
+@media only screen and (max-width: 1425px) and (min-width: 768px) {
     #transparency {
         .img-lockup {
             width: 38%;
@@ -46,7 +46,7 @@
     }
 }
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1380px) and (min-width: 768px) {
 	#about {
 		#transparency {
 			height: 700px;
@@ -79,14 +79,14 @@
 	}
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1190px) and (min-width: 768px) {
 	#about #media-coverage .media-lockup {
 		display: block;
 		text-align: center;
 	}
 }
 
-@media only screen and (max-width: 1145px) {
+@media only screen and (max-width: 1145px) and (min-width: 768px) {
 	#about {
 		#transparency {
 			height: 609px;
@@ -118,7 +118,7 @@
 	}
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1075px) and (min-width: 768px) {
 	#about {
 		#transparency {
 			.transparency {
@@ -132,7 +132,7 @@
 	}
 }
 
-@media only screen and (max-width: 854px) {
+@media only screen and (max-width: 854px) and (min-width: 768px) {
     #transparency .transparency {
         .img-lockup {
             width: 38%;
@@ -192,7 +192,7 @@
 
 				p {
 					letter-spacing: 0.5px;
-					mragin-bottom: 29px;
+					margin-bottom: 29px;
 				}
 			}
 		}
@@ -339,7 +339,7 @@
 				}
 
 				#board {
-					padding: 49px 0px 64px;
+					padding: 49px 0px 30px;
 
 					h3 {
 						padding: 15px;
