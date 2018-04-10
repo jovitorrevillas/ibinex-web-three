@@ -33,7 +33,7 @@ font-family: 'Montserrat', sans-serif;
 
 }
 .services-title{
-	font-size:39px;
+	font-size:29px;
 	margin-left:-53px;
 	margin-top:-3px;
 	font-weight:bolder;
@@ -140,6 +140,11 @@ margin: 0;
 
 }
 
+.c3-mobile-logo{
+	display:none;
+}
+
+
 .crypto-heading{
 margin-top:30px;
 font-size:39px;
@@ -231,8 +236,9 @@ line-height:26px;
 }
 
 
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 768px) {
+	
+	
 	.ccp-phone{
 	display:none;
 	}
@@ -330,6 +336,7 @@ line-height:26px;
 	}
 
 	.c3-mobile-logo{
+		display:block;
 		margin-left:40px;
 		margin-top:-50px;
 	}
@@ -422,4 +429,66 @@ line-height:26px;
 	}
 
 
+	}
+
+
+	@media only screen and (max-width: 768px) {
+		
+			.platform-laptop{
+
+			}
+
+	}
+
+	@media only screen and (max-width: 1920px) {
+		
+		
+			
+		.crm-dashboard{
+			max-width:100%;
+			margin-left:20px;
+		}
+
+		.ccp-phone{
+		max-width:100%;
+		margin:0;
+		}	
+		
+		.ca-description{
+			display:none;
+		}
+
+	}
+
+	@media only screen and (min-width: 768px) {
+		
+	
+
+	}
+
+	@media only screen and (max-width: 1200px) {
+			
+			.platform-mobile-laptop{
+				display:none;
+			}
+
+		#platform{
+			
+		}
+
+		.platform-laptop{
+
+		width:100%;	
+		position:relative;
+		left:10px;
+		}
+
+		.crm-dashboard{
+			max-width:100%;
+
+		}
+		.ccp-phone{
+				
+				margin-top:50px;
+		}
 	}
