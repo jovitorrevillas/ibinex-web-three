@@ -78,7 +78,7 @@ div#Pricing-page{
           li:first-child{
             padding-bottom: 17px;
             text-align: justify;
-            background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 15%;
+            background: url("http://localhost:8000/images/services/ellipse.png") no-repeat left top 15%;
             word-spacing: 1.5px;
             padding-right: 33px;
             font-weight: 500;
@@ -89,12 +89,13 @@ div#Pricing-page{
           }
           li:nth-child(2){
             margin-bottom: 5px;
-            background: url("http://localhost:8000/img/services/ellipse.png") no-repeat right 99.7% top 48%;
+            background: url("http://localhost:8000/images/services/ellipse.png") no-repeat right 99.7% top 48%;
             padding-bottom: 21px;
             padding-top: 14px;
             word-spacing: 1.7px;
             font-size: 16px;
             padding-top: 17px;
+            font-weight: 500;
 
           }
         }
@@ -198,7 +199,7 @@ div#Pricing-page{
   }
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 991px) {
   
 
   div#Pricing-page{
@@ -244,7 +245,7 @@ div#Pricing-page{
 
 
         li:first-child{
-          background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 7%;;
+          background: url("http://localhost:8000/images/services/ellipse.png") no-repeat left top 7%;;
           padding-left: 28px;
           font-size: 17px;
           margin-bottom: 32px;
@@ -259,7 +260,7 @@ div#Pricing-page{
           padding-left: 28px;
           font-size: 17px;
           padding-bottom: 1px;
-          background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 9%;
+          background: url("http://localhost:8000/images/services/ellipse.png") no-repeat left top 9%;
           text-align: justify;
           line-height: 1.6;
           font-weight: 500;
@@ -371,25 +372,22 @@ div#Pricing-page{
 
 }
 
-@media (min-width: 1130px) and (max-width: 1919px) {
+@media (min-width: 992px) and (max-width: 1919px) {
   div#Pricing-page{
     padding: 0px;
-    // margin-right: 17.5%;
-  
-
 
     #pricing-section{
       font-family: 'Montserrat', 'Sans-Serif';
-      background-color: #F6F6F6;
+      background-color: #F7F7F7;
 
 
 
       #pricing-text{
-        padding: 147px 0px 0px 29px;
+        padding: 147px 0px 0px 105px;
         margin-left: 142px;
         margin-right: auto;
         div.row:first-child{
-          padding-right: 8px;
+          padding-right: 0px;
         }
       }
       article.col-md-12.col-12:first-child{
@@ -445,7 +443,7 @@ div#Pricing-page{
           li:first-child{
             padding-bottom: 17px;
             text-align: justify;
-            background: url("http://localhost:8000/img/services/ellipse.png") no-repeat left top 15%;
+            background: url("http://localhost:8000/images/services/ellipse.png") no-repeat left top 15%;
             word-spacing: 1.5px;
             padding-right: 33px;
             font-weight: 500;
@@ -456,12 +454,13 @@ div#Pricing-page{
           }
           li:nth-child(2){
             margin-bottom: 5px;
-            background: url("http://localhost:8000/img/services/ellipse.png") no-repeat right 99.7% top 48%;
+            background: url("http://localhost:8000/images/services/ellipse.png") no-repeat right 99.7% top 48%;
             padding-bottom: 21px;
             padding-top: 14px;
             word-spacing: 1.7px;
             font-size: 16px;
             padding-top: 17px;
+            font-weight: 500;
 
           }
         }
@@ -482,9 +481,7 @@ div#Pricing-page{
         p:nth-child(2){
           margin-bottom: 4px;
           padding-top: 3px;
-          span{
-
-          }
+          
         }
       }
     }
@@ -564,5 +561,9 @@ div#Pricing-page{
     }
   }
 }
+
+// @media (min-width: 992) and (max-width: 1129){
+
+// }
 
 
