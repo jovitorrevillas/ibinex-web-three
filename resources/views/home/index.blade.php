@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Welcome to Ibinex')
 @push('stylesheets')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
 <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 @endpush
 
@@ -124,7 +125,7 @@
 	</div>
 </div>
 
-<div class="container text-center" id="technical-papers">
+<div class="container text-center position-relative" id="technical-papers">
 
 	<h5 >Learn more about Ibinex</h5>
 	<h1 >Technical Papers &amp; Legal Circular</h1>	
@@ -195,9 +196,11 @@
 	</section>
 
 	<!-- carousel -->
+
 	<div class="home-carousel row">
-			<div>
-				<img src="images/home/business.png" class="img-fluid">
+
+			<div class="carousel-item">
+				<img src="images/home/business.png" class="mx-auto">
 				<div>
 					<h3 style="color: #243555;">Business Model</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -206,8 +209,8 @@
 					</button>
 				</div>
 			</div>
-			<div>
-				<img src="images/home/one-page.png" class="img-fluid">
+			<div class="carousel-item">
+				<img src="images/home/one-page.png" class="mx-auto">
 				<div>
 					<h3 style="color: #9e664c;">One Page Brochure</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -216,8 +219,8 @@
 					</button>
 				</div>
 			</div>
-			<div>
-				<img src="images/home/custodian.png" class="img-fluid">
+			<div class="carousel-item">
+				<img src="images/home/custodian.png" class="mx-auto">
 				<div>
 					<h3 style="color: #9a4c47;">Custodian Guidelines</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -226,8 +229,8 @@
 					</button>
 				</div>
 			</div>
-			<div>
-				<img src="images/home/pricing.png" class="img-fluid">
+			<div class="carousel-item">
+				<img src="images/home/pricing.png" class="mx-auto">
 				<div>
 					<h3 style="color: #708158;">Pricing Model</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -236,8 +239,8 @@
 					</button>
 				</div>
 			</div>
-			<div>
-				<img src="images/home/terms.png" class="img-fluid">
+			<div class="carousel-item">
+				<img src="images/home/terms.png" class="mx-auto">
 				<div>
 					<h3 style="color: #8154a7;">Terms &amp; Conditions</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -246,8 +249,8 @@
 					</button>
 				</div>
 			</div>
-			<div>
-				<img src="images/home/kyc.png" class="img-fluid">
+			<div class="carousel-item">
+				<img src="images/home/kyc.png" class="mx-auto">
 				<div>
 					<h3 style="color: #44577f;">KYC &amp; AML Requirments</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -257,6 +260,12 @@
 				</div>
 			</div>
 	</div>
+
+	<div class="paginator">
+		<li class="prev"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i></li>
+		<li class="next"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></li>
+	</div>
+
 </div>
 
 
