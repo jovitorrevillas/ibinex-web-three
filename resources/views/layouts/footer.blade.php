@@ -9,7 +9,7 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading">WHY IBINEX</p>
-          <a href="#" class="ib-footer-subtext">Our Vision</a>
+          <a href="#" class="ib-footer-subtext">Our vision</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
@@ -76,7 +76,7 @@
         <div class="col-xl">
           <div class="row">
             <div class="col-xl-12">
-              <p class="ib-footer-subheading" id="offices">IBINEX OFFICES</p>
+              <p class="ib-footer-subheading ib-text-bold" id="offices">IBINEX OFFICES</p>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 ib-offices-list-wrapper">
               <ul class="list-unstyled ib-offices-list-first">
@@ -100,14 +100,14 @@
         </div>
 
         <div class="col-md-12 col-xl ib-contact-section">
-          <p class="ib-footer-subheading">SIGN UP TO OUR NEWSLETTER</p>
+          <p class="ib-footer-subheading ib-text-bold">SIGN UP TO OUR NEWSLETTER</p>
           <div class="input-group mb-3 ib-contact-input">
             <input type="text" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2">
             <div class="input-group-append">
               <button class="btn btn-danger ib-btn-custom" type="button">SUBMIT</button>
             </div>
           </div>
-          <p id="ib-fuo-text" class="ib-footer-subheading">FIND US ONLINE</p>
+          <p id="ib-fuo-text" class="ib-footer-subheading ib-text-bold">FIND US ONLINE</p>
           <ul class="list-inline ib-logo-list">
             <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\fb.png') }}" title="Facebook"></a></li>
             <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\tw.png') }}" title="Twitter"></a></li>
