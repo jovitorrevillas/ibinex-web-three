@@ -49,20 +49,20 @@
 
                         <p>
                     <span>
-                    As an indication of the high protective standards we hold, Ibinex has been granted the status of fully-licensed, fully-compliant and as a regulated custodian and account processor.
+                    As an indication of the high protective standards we hold, <span id="span-pixel-perfect-2">Ibinex has been granted the status of fully-licensed, fully-compliant and as a regulated custodian and account processor.</span>
                     </span>
                         </p>
 
                         <p>
                     <span>
-                    We are the first cryptocurrency exchange platform to hold this mantle and offer exclusive payment solutions. As such, we must demonstrate a consistent level of regulatory compliance in order to retain this professional distinction; a title of which we are immensely proud.
+                    We are the first cryptocurrency exchange platform to hold this <span id="span-pixel-perfect-3">mantle and offer exclusive</span> <span id="span-pixel-perfect-4">payment solutions. As such, we must demonstrate a consistent level of regulatory compliance in order to retain this professional distinction; a title of which we are immensely proud.</span>
                     </span>
                         </p>
                     </div>
 
 
                     <div class="col-lg-6">
-                        <h3>Encryption and Technologies</h3>
+                        <h3>Encryption and</h3> <h3 id="pp-h3-Technologies">Technologies</h3>
 
                         <p>
                             A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned, and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technologies.
