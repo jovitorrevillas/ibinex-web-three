@@ -8,7 +8,7 @@
     <div id="security" class="container-fluid">
         <section id="security-section">
             <div class="row">
-                <div id="bg-blue" class="col-lg-12 col-md-12">
+                <div id="bg-blue" class="col-lg-12 col-12">
 
                     <div class="text-content">
 
@@ -84,7 +84,7 @@
                 <div class="text-content">
                     <div class="row">
 
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-6 col-12">
                             <h3>Information Security</h3>
 
                             <p>
@@ -95,7 +95,7 @@
 
                         </div>
 
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-6">
                             <h3>Privacy</h3>
 
                             <p>
