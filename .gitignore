@@ -33,6 +33,10 @@ storage/*.key
 Homestead.yaml
 Homestead.json
 
+#vim temporary files
+*.swp
+*.swo
+
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
 >>>>>>> 5c576564b165cdffca115226c2d5b351b75b1307
