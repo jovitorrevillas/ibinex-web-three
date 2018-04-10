@@ -20,7 +20,7 @@
 		</p>
 		<form class="position-absolute" id="requestDemo">
 			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Type your email" required="" autocomplete="off">
+				<input type="email" class="form-control" placeholder="Type your email" required="" autocomplete="off">
 				<span class="input-group-btn"><button type="submit" class="btn">REQUEST A DEMO</button></span>
 			</div>
 		</form>

@@ -97,7 +97,7 @@
         <div class="col-md-12 col-xl ib-contact-section">
           <p class="ib-footer-subheading ib-text-bold">SIGN UP TO OUR NEWSLETTER</p>
           <div class="input-group mb-3 ib-contact-input">
-            <input type="text" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2">
+            <input type="email" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2" required>
             <div class="input-group-append">
               <button class="btn btn-danger ib-btn-custom" type="button">SUBMIT</button>
             </div>
