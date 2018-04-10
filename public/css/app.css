@@ -3160,7 +3160,7 @@
 
 #about #transparency .transparency {
   color: #fff;
-  width: 44%;
+  width: 53%;
   margin-left: 14%;
   text-align: justify;
 }
@@ -3350,25 +3350,28 @@
   background: none;
 }
 
+#about #team #executive-team .card-stack .card-list li img {
+  width: 100%;
+}
+
 #about #team #executive-team .card-stack .card-list li:nth-child(1) {
-  top: 16px;
-  width: 407px;
-  height: 431px;
-  left: auto;
-  right: 93px;
+  right: 0%;
+  width: 68%;
+  height: 426px;
+  top: 3%;
   /* animation: scaleCard 100ms; */
 }
 
 #about #team #executive-team .card-stack .card-list li:nth-child(2) {
-  top: 209px;
-  left: 65px;
-  width: 385px;
-  height: 383px;
+  width: 64%;
+  height: 378px;
+  top: 39%;
+  left: 11%;
 }
 
 #about #team #executive-team .card-stack .card-list li:nth-child(3) {
-  top: 75px;
-  left: -35px;
+  top: 14%;
+  left: -6%;
 }
 
 #about #team #executive-team .card-stack:hover > .buttons.prev {
@@ -3401,7 +3404,7 @@
   margin-left: -18px;
 }
 
-#about #team #advisory-board .container .row .col-md-3 {
+#about #team #advisory-board .container .row .col-lg-3 {
   padding: 0px 11px;
 }
 
@@ -3460,8 +3463,8 @@
   margin-top: -1px;
 }
 
-#about #team #advisory-board .col-md-3 {
-  padding-left: 10px !important;
+#about #team #advisory-board .col-lg-3 {
+  padding: 0 10px !important;
 }
 
 .transformThis {
@@ -4530,37 +4533,43 @@ div#security div#bg-gray p {
   margin-bottom: 180px;
 }
 
+@media only screen and (max-width: 1760px) {
+  .transparency {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 1550px) {
-  #about .transparency {
+  .transparency {
     width: 60%;
   }
 
-  #about .transparency h1 {
+  .transparency h1 {
     margin-top: 20px;
   }
 }
 
 @media only screen and (max-width: 1475px) {
-  #about .transparency p {
+  #transparency .transparency p {
     word-spacing: 0;
     letter-spacing: 0;
-    margin-botom: 25px;
+    margin-bottom: 25px;
   }
 }
 
 @media only screen and (max-width: 1425px) {
-  #about #transparency .img-lockup {
+  #transparency .img-lockup {
     width: 38%;
   }
 
-  #about #transparency h1 {
+  #transparency .transparency h1 {
     margin-bottom: 30px;
     margin-top: 36px;
     letter-spacing: 0.4px;
     font-size: 30px;
   }
 
-  #about #transparency p {
+  #transparency .transparency p {
     font-size: 12px;
   }
 }
@@ -4568,6 +4577,70 @@ div#security div#bg-gray p {
 @media only screen and (max-width: 1380px) {
   #about #transparency {
     height: 700px;
+  }
+
+  #about #transparency .transparency h1 {
+    margin-bottom: 27px;
+    margin-top: 22px;
+  }
+
+  #about #transparency .transparency p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+  }
+
+  #about #team #executive-team .card-stack .card-list li:nth-child(3) {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  #about #media-coverage .media-lockup {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1145px) {
+  #about #transparency {
+    height: 609px;
+  }
+
+  #about #transparency .transparency {
+    width: 65%;
+    margin-left: 10%;
+  }
+
+  #about #transparency .transparency h1 {
+    margin-bottom: 26px;
+    margin-top: 0px;
+  }
+
+  #about #transparency .transparency p {
+    line-height: 20px;
+  }
+
+  #about #team #advisory-board .col-lg-3 {
+    display: block;
+    max-width: 50%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  #about #transparency .transparency p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  #transparency .transparency .img-lockup {
+    width: 38%;
   }
 }
 
@@ -4592,6 +4665,7 @@ div#security div#bg-gray p {
     max-height: none;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    height: auto;
   }
 
   #about #transparency .img-lockup {
@@ -4599,6 +4673,11 @@ div#security div#bg-gray p {
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
+  }
+
+  #about #transparency .img-lockup img {
+    width: 100%;
+    height: auto;
   }
 
   #about #transparency .transparency-lockup {

@@ -25,7 +25,7 @@
 
 		  	<div class="row">
 
-				    <div class="col-md-6" >
+				    <div class="col-md-6 " >
 				    	
 				 		   <img src="images/services/Ibinex-Platform2.png" class="platform-laptop" >
 
