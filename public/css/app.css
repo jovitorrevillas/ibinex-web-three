@@ -4346,6 +4346,10 @@ div#security section#security-section > div.row:first-child {
   margin: 0px;
 }
 
+div#security section#pof-eat-section div.text-content:first-child div.row:first-child {
+  padding-top: 12px;
+}
+
 div#security section#pof-eat-section div.text-content:first-child div.row:first-child div.col-lg-6:first-child {
   padding-left: 149px;
   padding-right: 20px;
@@ -4411,6 +4415,10 @@ div#security section#pof-eat-section div.text-content:first-child div.row:first-
   margin-bottom: 27px;
 }
 
+div#security section#InfoSec-Priv-Section div#bg-gray {
+  margin-bottom: 1px;
+}
+
 div#security section#InfoSec-Priv-Section div.text-content {
   margin-bottom: 0px;
 }
@@ -4423,6 +4431,7 @@ div#security section#InfoSec-Priv-Section div.col-lg-6:first-child h3:first-chil
   font-size: 38.6px;
   font-weight: 800;
   margin-top: 62px;
+  margin-bottom: 0px;
 }
 
 div#security section#InfoSec-Priv-Section div.col-lg-6:first-child p:nth-child(2) {
@@ -4456,7 +4465,7 @@ div#security section#InfoSec-Priv-Section div.col-lg-6:nth-child(2) p:nth-child(
 }
 
 div#security div#bg-blue {
-  margin-bottom: 114px;
+  margin-bottom: 102px;
   background-color: #152C58;
   color: white;
 }

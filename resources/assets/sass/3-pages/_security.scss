@@ -14,7 +14,9 @@ div#security{
 
 	section#pof-eat-section{
 		div.text-content:first-child{
+
 			div.row:first-child{
+				padding-top: 12px;
 				div.col-lg-6:first-child{
 					padding-left: 149px;
 					padding-right: 20px;
@@ -85,6 +87,9 @@ div#security{
 	}
 
 	section#InfoSec-Priv-Section{
+		div#bg-gray{
+			margin-bottom: 1px;
+		}
 		div.text-content{
 			margin-bottom: 0px;
 		}
@@ -94,6 +99,7 @@ div#security{
 				font-size: 38.6px;
 				font-weight: 800;
 				margin-top: 62px;
+				margin-bottom: 0px;
 			}
 			
 			p:nth-child(2){
@@ -128,7 +134,7 @@ div#security{
 
 	div#bg-blue{
 
-		margin-bottom: 114px;
+		margin-bottom: 102px;
 
 		div.text-content:first-child{
 			h2:first-child{
