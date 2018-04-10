@@ -25,11 +25,6 @@
           <a href="{{ url('services') }}#" class="ib-footer-subtext">CryptoBridge</a><br>
           <a href="{{ url('services') }}#" class="ib-footer-subtext">Credit Card Processing</a><br>
           <a href="{{ url('services') }}#" class="ib-footer-subtext">Custodian Accounts</a>
-          <a href="{{ url('services') }}#platform" class="ib-footer-subtext">Platform</a><br>
-          <a href="{{ url('services') }}#crm" class="ib-footer-subtext">CRM / BackOffice</a><br>
-          <a href="{{ url('services') }}#cryptobridge" class="ib-footer-subtext">CryptoBridge</a><br>
-          <a href="{{ url('services') }}#ccp" class="ib-footer-subtext">Credit Card Processing</a><br>
-          <a href="{{ url('services') }}#ca" class="ib-footer-subtext">Custodian Accounts</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl ib-security-section">

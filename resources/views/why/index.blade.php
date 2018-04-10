@@ -1,130 +1,82 @@
 @extends('layouts.app')
 @section('title','Why Ibinex')
+
 @push('stylesheets')
-    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/why-ibinex.css') }}">
 @endpush
 
+
 @section('content')
-    <div id="why-ibinex">
 
-        <img src="../blockchain.png">
-        <div class="text-content">
-            <div class="row" id="we-fuse-title">
-                <div class="col-lg-8">
-                    <h2>We fuse innovation with accessibility as blockchain technology evolves</h2>
+    <div class="ib-why-main">
 
-                </div>
+        <div class="container ib-fsec-main">
+            <div id="ib-why-fsec-text-wrapper">
+                <p id="ib-why-fsec-text-title">We fuse innovation with accessibility as <br>blockchain technology evolves.</p>
+                <p id="ib-why-fsec-text-content">We seek to revolutionise the way that exchange owners create<br>their platforms
+                    and raise the standard of marketplace excellence<br>by incorporating our cutting-edge technology, delivered
+                    with<br>practicality and a host of unique benefits, only enjoyed by<br>merging with the Ibinex ecosystem.</p>
             </div>
-            <div class="row" id="we-fuse-article">
-                <div class="col-lg-7">
-                    <p>
-					<span>
-						We seek to revolutionise the way that exchange owners create their platforms and raise the standard of marketplace excellence by incorporating our cutting-edge technology, delivered with practicality and a host of unique benefits, only enjoyed by merging with the Ibinex ecosystem.
-					</span>
+            <div class="ib-side-pic">
+                <img src="{{asset('images/why/blockchain2.png')}}">
+            </div>
+        </div>
+        <div class="col-md-12 ib-side-pic2" align="center">
+            <img src="{{asset('images/why/blockchain2.png')}}">
+        </div>
+        <div class="ib-why-background">
+            <div class="container">
+                <div id="ib-why-ssec-text-wrapper">
+                    <p id="ib-why-ssec-text-title">We are an ecosystem <br>with vision.</p>
+                    <p id="ib-why-ssec-text-content">As the gateway to your own customisable cryptocurrency<br>
+                    ecosystem, our vision is to equip you with the tools to create and<br>
+                    operate your cryptocurrency exchange, your way.
                     </p>
                 </div>
             </div>
         </div>
-
-        <div id="bg-blue">
-            <div class="text-content">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <h2>
-                            We are an ecosystem with vision.
-                        </h2>
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-7">
-                        <p>
-						<span>
-							As the gateway to your own custo­misable cryptocurrency ecosys­tem, our vision is to equip you with the tools to create and operate your cryptocurrency exchange, your way.
-						</span>
-                        </p>
-                    </div>
-                </div>
-
+        <div class="container">
+            <div id="ib-why-ssec-text-wrapper">
+                <p id="ib-why-tsec-text-title">Why you should exchange your way with Ibinex:</p>
+                <p id="ib-why-tsec-text-content">Our strategy is underpinned with the 4 core strengths of Ibinex:</p>
             </div>
-
-        </div>
-
-        <div id="why-you-should">
-            <div class="text-content">
-                <div id="title" class="text-center">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2>Why you should exchange your way with Ibinex:</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p>
-							<span>
-								Our strategy is underpinned by the 4 core strengths of Ibinex:
-							</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img src="../innovation.png">
-                        <p>
-						<span>
-							Commitment to techno­logical innovation, through out patent-pend­ing proprietary software, Cryptobridge™
-						</span>
-                        </p>
+                    <div class="col-lg-6 col-xl-6 ib-core">
+
+                        <img class="img-fluid" src="{{ asset('images/why/innovation.png') }}">
+                        <p class="ib-core-text">Commitment to technological innovation,<br>
+                            through out patent-pending proprietary<br>
+                            software, Cryptobridge&trade;</p>
                     </div>
-                    <div class="col-lg-5 offset-lg-1">
-                        <img src="../platform.png">
-                        <p>
-						<span>
-							Trailblazing of complete and customisable white label platform solutions
-						</span>
-                        </p>
+                    <div class="col-lg-6 col-xl-6 ib-core">
+                        <img class="img-fluid" src="{{ asset('images/why/platform.png') }}">
+                        <p class="ib-core-text">Trailblazing of complete and<br>
+                            customisable white label platform<br>
+                            solutions</p>
                     </div>
-                </div>
-
-                <br><br>
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="../service.png">
-                        <p>
-						<span>
-							Offering unprecedented custodian service with our industry's first finance transaction license
-						</span>
-                        </p>
+                    <div class="col-lg-6 col-xl-6 ib-core">
+                        <img class="img-fluid" src="{{ asset('images/why/service.png') }}">
+                        <p class="ib-core-text">Offering unprecedented custodian service<br>
+                            with our industry's first finance transaction<br>
+                            license</p>
                     </div>
-
-                    <div class="col-lg-5 offset-lg-1">
-                        <img src="../payment.png">
-                        <p>
-						<span>
-							Providing a full-spectrum payment processing infrastructure to revolutionise liquidity for your exchange.
-						</span>
-                        </p>
+                    <div class="col-lg-6 col-xl-6 ib-core">
+                        <img class="img-fluid" src="{{ asset('images/why/payment.png') }}">
+                        <p class="ib-core-text">Providing a full-spectrum payment<br>
+                            processing infrastracture to revolutionise<br>
+                            liquidity for your exchange.</p>
                     </div>
-
-                </div>
-
-                <br><br>
-
-                <div class="row">
-                    <div class=" col-lg-8 offset-lg-2 text-center">
-                        <p>
-						<span>
-							This vision of a balanced yet pioneering approach to blockchain technology software and white label platform turnkey solutions, aims to maximise liquidity both within your own exchange and the wider pool of burgeoning cryptocurrency markets internationally, creating a natural funnel with a self-feeding ecosystem of buyers and sellers.
-						</span>
-                        </p>
+                    <div class="col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 text-center">
+                        <p>This vision of a balanced yet pioneering approach to blockchain technology
+                        software and white label platform tunkey solutions, aims to maximise liquidity
+                        both within your own exchange and the wider pool of burgeoning
+                        cryptocurrency markets internationally, creating a natural funnel with a
+                        self-feeding ecosystem of buyers and sellers.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+
 @endsection
