@@ -37,13 +37,13 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="legal">LEGAL</p>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Regulation</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">AML &amp; KYC</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Terms and Conditions</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Marketing Guidelines</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Licensing</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Entry Requirements</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">Privacy Policy</a>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">Regulation</a><br>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">AML &amp; KYC</a><br>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">Terms and Conditions</a><br>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">Marketing Guidelines</a><br>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">Licensing</a><br>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">Entry Requirements</a><br>
+          <a href="#" class="ib-footer-subtext" onclick="return false;">Privacy Policy</a>
         </div>
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
