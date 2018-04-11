@@ -189,29 +189,132 @@ div#ib-why-vision p{
 }
 
 @media (max-width: 320px){
-    div#ib-why-ssec-text-wrapper {
-        padding-top: 125px;
-    }
-
     div#ib-why-fsec-text-wrapper {
-        padding-bottom: 155px;
+        padding-top: 64px;
     }
 
-    p#ib-why-tsec-text-title, p#ib-why-tsec-text-content {
-        text-align: left;
+    p#ib-why-fsec-text-title {
+        letter-spacing: -1px;
+        word-spacing: -3px;
+        line-height: 48px;
     }
 
-    div.ib-core{
-        padding-left: 0;
-        padding-right: 0;
+    p#ib-why-fsec-text-title br {
+        display: none;
     }
 
-    div#ib-why-vision{
-        padding-left: 0;
-        padding-right: 0;
+    p#ib-why-fsec-text-content br,
+    p#ib-why-fsec-text-content br:after,
+    p#ib-why-ssec-text-content br,
+    p#ib-why-ssec-text-content br:after,
+    .ib-core .ib-core-text br,
+    .ib-core .ib-core-text br:after {
+        content: ' ';
+    }
+
+    p#ib-why-fsec-text-content {
+        margin-top: 28px;
+        font-size: 16px;
+        line-height: 28px;
+        word-spacing: 0px;
         text-align: justify;
     }
 
+    div#ib-why-fsec-text-wrapper {
+        padding-bottom: 146px;
+    }
+
+    div#ib-why-ssec-text-wrapper {
+        padding-top: 144px;
+    }
+
+    p#ib-why-ssec-text-title {
+        line-height: 48px;
+        letter-spacing: 1px;
+        word-spacing: -4px;
+        margin-bottom: 24px;
+    }
+
+    p#ib-why-ssec-text-content {
+        line-height: 27px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    div#ib-why-ssec-text-wrapper {
+        padding-bottom:70px;
+    }
+
+    div#ib-why-tsec-text-wrapper {
+        margin-top: 36px;   
+    }
+
+    p#ib-why-tsec-text-title {
+        text-align: left;
+        line-height: 48px;
+        margin-bottom: 14px;
+        letter-spacing: 0.8px;
+        word-spacing: -0.5px;
+    }
+
+    p#ib-why-tsec-text-content {
+        text-align: left;
+        letter-spacing: 0px;
+        line-height: 25px;
+    }
+
+    .img-fluid {
+        width: 46px;
+        margin-bottom: 18px;
+    }
+
+    .ib-core {
+        padding: 0;
+    }
+
+    .ib-core .ib-core-text {
+        font-size: 21px;
+        line-height: 32px;
+        margin-bottom: 44px;
+        word-break: break-word; 
+    }
+
+    .ib-core:nth-child(2) img {
+        width: 43px;
+    }
+
+    .ib-core:nth-child(2) .ib-core-text {
+        margin-bottom: 38px
+    }
+
+    .ib-core:nth-child(3) img {
+        width: 39px;
+    }
+
+    .ib-core:nth-child(3) .ib-core-text {
+        margin-bottom: 28px
+    }
+
+    .ib-core:nth-child(4) .ib-core-text {
+        margin-bottom: 38px
+    }
+
+    div#ib-why-vision {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    #ib-why-vision p {
+        text-align: justify;
+        font-size: 16px!important;
+        line-height: 28px;
+        word-spacing: 6px;
+        letter-spacing: -1px;
+        margin-bottom: 53px;
+    }
 }
 
 
