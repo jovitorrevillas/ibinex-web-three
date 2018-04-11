@@ -84,6 +84,7 @@ header .contact-phone{
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 0;
+	cursor: pointer;
 }
 
 header .contact-phone .separator{
@@ -92,6 +93,7 @@ header .contact-phone .separator{
 }
 
 header .contact-live{
+	cursor: pointer;
     margin-right:59px;
     color: #038321;
     font-size: 14px;
