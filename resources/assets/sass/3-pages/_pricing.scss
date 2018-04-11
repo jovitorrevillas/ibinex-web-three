@@ -211,11 +211,11 @@ div#Pricing-page{
       padding-right: 0px;
     }
     article.col-md-12.col-12:first-child{
-      padding-top: 38px;
+      padding-top: 65px;
       padding-right: 15px;
       padding-left: 15px;
       h2{
-        font-family: Montserrat, Sans-Serif;
+        font-family: 'Montserrat', Sans-Serif;
         font-size: 38.6px;
         font-weight: 700;
         margin-bottom: 7px;
@@ -348,6 +348,7 @@ div#Pricing-page{
 
       }
       article#onboarding-article{
+        padding-right: 0px;
         h2{
           padding-top: 28px;
           font-size: 38.6px;
@@ -365,6 +366,11 @@ div#Pricing-page{
         p:last-child{
           padding-top: 11px;
           text-align: justify;
+          word-spacing: -2px;
+          margin-bottom: -7px;
+          line-height: 1.8;
+          font-weight: 500;
+
         }
       }
     }
