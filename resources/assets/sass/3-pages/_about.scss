@@ -18,10 +18,11 @@
 		overflow: hidden;
 		
 		.img-lockup {
-			width: 45%;
+			min-width: 45.1%;
 
 			img {
 				height: 100%;
+				width: 100%;
 			}
 		}
 
@@ -33,13 +34,13 @@
 
 		.transparency {
 			color: #fff;
-			width: 53%;
-			margin-left: 12%;
+			width: 56.5%;
+			margin-left: 10.5%;
 			text-align: justify;
 
 			h1 {
 				margin-bottom: 48px;
-			    margin-top: 46px;
+				margin-top: 26px;
 			    letter-spacing: 0.4px;
 			}
 
@@ -49,7 +50,11 @@
 			    margin: 0 0 30px;
 			    font-weight: 500;
 			    letter-spacing: 0.9px;
-			    word-spacing: 1px;
+				word-spacing: 0px;
+				
+				&:nth-child(3) {
+					margin-bottom: 8px;
+				}
 			}
 		}
 	}

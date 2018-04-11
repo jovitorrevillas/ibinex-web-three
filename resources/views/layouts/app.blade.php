@@ -29,6 +29,7 @@
     @stack('stylesheets')
 </head>
 <body>
+	<div class="progress-bar"></div>
 @include('layouts.header')
 <main>
     @yield('content')
@@ -118,6 +119,13 @@
             }
           });
 
+
+
+		//hide progress bar
+		$('div.progress-bar').delay(1000).queue(function(next){
+			$(this).addClass('progress-complete');
+			next();
+		});
     });
     </script>
 @stack('scripts')

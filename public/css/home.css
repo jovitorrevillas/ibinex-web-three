@@ -236,7 +236,7 @@
 	font-weight: bold;
 	font-size: 30px;
 	letter-spacing: -0.7px;
-	padding-left: 22px;
+	/*padding-left: 22px;*/
 }
 
 #coverages{
@@ -249,7 +249,7 @@
 #coverages li{
 	text-align: center;
 	display:inline-block;
-	padding-left:15px;
+	/*padding-left:15px;*/
 }
 .rounded-button{
 	margin-top: 16px;

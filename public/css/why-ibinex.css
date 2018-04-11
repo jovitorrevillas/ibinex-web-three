@@ -39,7 +39,7 @@ div#ib-why-ssec-text-wrapper{
 
 
 p#ib-why-fsec-text-title{
-    font-size: 28pt;
+    font-size: 30pt;
     font-weight: 800;
     line-height: 47px;
 }
@@ -58,9 +58,10 @@ p#ib-why-tsec-text-title{
 
 p#ib-why-fsec-text-content{
     margin-top: 50px;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.65;
     font-weight: 600;
+    color: rgb(108,123,146);
 }
 
 div.ib-why-background{
@@ -76,9 +77,20 @@ p#ib-why-ssec-text-content{
     color: white;
 }
 
+
+div#ib-why-tsec-text-wrapper{
+    margin-top: 10%;
+}
+
 p#ib-why-tsec-text-title,
 p#ib-why-tsec-text-content{
     text-align: center;
+}
+
+p#ib-why-tsec-text-content {
+    padding-bottom: 40px;
+    color: rgb(108,124,147);
+    font-weight: 600;
 }
 
 p.ib-core-text{
@@ -86,6 +98,20 @@ p.ib-core-text{
     font-size: 17px;
     line-height: 1.65;
     font-weight: 600;
+    color: rgb(108,124,147);
+}
+
+div#ib-why-vision{
+    text-align: center;
+    text-align: center;
+    margin-top: 70px;
+    padding: 0 7%;
+}
+
+div#ib-why-vision p{
+    color: rgb(108,124,147);
+    font-weight: 600;
+    font-size: 14px;
 }
 
 
@@ -101,12 +127,13 @@ p.ib-core-text{
 
 @media (max-width: 1453px){
     div.ib-side-pic {
-        margin-right: -1%;
-        margin-top: 163px;
+        margin-right: 0;
+        margin-top: 182px;
+        width: 50%;
     }
 
     div.ib-side-pic img{
-        width: 85%;
+        width: 100%;
     }
 }
 
@@ -117,9 +144,9 @@ p.ib-core-text{
     }
 
     div.ib-side-pic {
-        margin-right: 5%;
-        margin-top: 327px;
-        width: 80%;
+        margin-right: 17%;
+        margin-top: 331px;
+        width: 70%;
     }
 
     div#ib-why-ssec-text-wrapper {
@@ -130,9 +157,9 @@ p.ib-core-text{
 
 @media (max-width: 991px){
     div.ib-side-pic {
-        margin-right: -4%;
+        margin-right: 5%;
         margin-top: 390px;
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -153,21 +180,43 @@ p.ib-core-text{
     div.ib-side-pic2{
         display: block;
         position: absolute;
-        position: absolute;
     }
 
     div.ib-side-pic2 img{
-        width: 104.6%;
-        margin-top: -43%;
-        margin-left: -19px;
+        width: 100%;
+        margin-top: -42%;
     }
 }
 
+@media (max-width: 320px){
+    div#ib-why-ssec-text-wrapper {
+        padding-top: 125px;
+    }
 
+    div#ib-why-fsec-text-wrapper {
+        padding-bottom: 155px;
+    }
+
+    p#ib-why-tsec-text-title, p#ib-why-tsec-text-content {
+        text-align: left;
+    }
+
+    div.ib-core{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div#ib-why-vision{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+    }
+
+}
 
 
 @media all and (min-width: 1200px){
-    .container{
+    div.container.container-custom{
         max-width: 1178px;
     }
 }
