@@ -20,11 +20,6 @@
 
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="services-heading">SERVICES</p>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">Platform</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">CRM / BackOffice</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">CryptoBridge</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">Credit Card Processing</a><br>
-          <a href="{{ url('services') }}#" class="ib-footer-subtext">Custodian Accounts</a>
           <a href="{{ url('services') }}#platform" class="ib-footer-subtext">Platform</a><br>
           <a href="{{ url('services') }}#crm" class="ib-footer-subtext">CRM / BackOffice</a><br>
           <a href="{{ url('services') }}#cryptobridge" class="ib-footer-subtext">CryptoBridge</a><br>
@@ -43,7 +38,7 @@
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="legal">LEGAL</p>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Regulation</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">AML & KYC</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">AML &amp; KYC</a><br>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Terms and Conditions</a><br>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Marketing Guidelines</a><br>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Licensing</a><br>
