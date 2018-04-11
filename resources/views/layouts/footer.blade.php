@@ -38,7 +38,7 @@
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl">
           <p class="ib-footer-subheading" id="legal">LEGAL</p>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Regulation</a><br>
-          <a href="{{ url('legal') }}#" class="ib-footer-subtext">AML & KYC</a><br>
+          <a href="{{ url('legal') }}#" class="ib-footer-subtext">AML &amp; KYC</a><br>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Terms and Conditions</a><br>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Marketing Guidelines</a><br>
           <a href="{{ url('legal') }}#" class="ib-footer-subtext">Licensing</a><br>
@@ -97,7 +97,7 @@
         <div class="col-md-12 col-xl ib-contact-section">
           <p class="ib-footer-subheading ib-text-bold">SIGN UP TO OUR NEWSLETTER</p>
           <div class="input-group mb-3 ib-contact-input">
-            <input type="text" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2">
+            <input type="email" class="form-control ib-input-custom" placeholder="Insert your email" aria-label="Insert your email" aria-describedby="basic-addon2" required>
             <div class="input-group-append">
               <button class="btn btn-danger ib-btn-custom" type="button">SUBMIT</button>
             </div>
