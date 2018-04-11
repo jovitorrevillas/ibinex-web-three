@@ -79,7 +79,7 @@
                 <li>315 W 36th St</li>
                 <li>New York, NY</li>
                 <li>Office: 1-800-972-3981</li>
-                <li><a href="#" class="ib-footer-subtext">contact@ibinex.com</a></li>
+                <li><a href="#" class="ib-footer-subtext" onclick="return false;">contact@ibinex.com</a></li>
               </ul>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 ib-offices-list-wrapper">
@@ -88,7 +88,7 @@
                 <li>Ha-Tidhar Street 15</li>
                 <li>Ra'anana, Israel</li>
                 <li>Office: 1-809-457257</li>
-                <li><a href="#" class="ib-footer-subtext">md@ibinex.com</a></li>
+                <li><a href="#" class="ib-footer-subtext" onclick="return false;">md@ibinex.com</a></li>
               </ul>
             </div>
           </div>
@@ -104,15 +104,15 @@
           </div>
           <p id="ib-fuo-text" class="ib-footer-subheading ib-text-bold">FIND US ONLINE</p>
           <ul class="list-inline ib-logo-list">
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\fb.png') }}" title="Facebook"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\tw.png') }}" title="Twitter"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\wa.png') }}" title="WhatsApp"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\me.png') }}" title="Messenger"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\sk.png') }}" title="Skype"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\g.png') }}" title="Google+"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\te.png') }}" title="Telegram"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\yt.png') }}" title="YouTube"></a></li>
-            <li class="list-inline-item ib-logo-item"><a href="#"><img src="{{ asset('images\footer\icons\vb.png') }}" title="Viber"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\fb.png') }}" title="Facebook"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\tw.png') }}" title="Twitter"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\wa.png') }}" title="WhatsApp"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\me.png') }}" title="Messenger"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\sk.png') }}" title="Skype"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\g.png') }}" title="Google+"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\te.png') }}" title="Telegram"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\yt.png') }}" title="YouTube"></a></li>
+            <li class="list-inline-item ib-logo-item"><a href="#" onclick="return false;"><img src="{{ asset('images\footer\icons\vb.png') }}" title="Viber"></a></li>
           </ul>
         </div>
 
