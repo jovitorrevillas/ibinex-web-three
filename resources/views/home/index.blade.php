@@ -284,5 +284,5 @@
 @endsection
 
 @push('scripts')
-<script src="js/home.js"></script>
+<script src="{{ asset('js/home.js') }}"></script>
 @endpush
