@@ -12,7 +12,7 @@
 
         <div class="container container-custom ib-fsec-main">
             <div id="ib-why-fsec-text-wrapper">
-                <p id="ib-why-fsec-text-title">We fuse innovation with accessibility as <br>blockchain technology evolves.</p>
+                <p id="ib-why-fsec-text-title">We fuse innovation with accessibility as <span>blockchain technology evolves.</span></p>
                 <p id="ib-why-fsec-text-content">We seek to revolutionise the way that exchange owners create<br>their platforms
                     and raise the standard of marketplace excellence<br>by incorporating our cutting-edge technology, delivered
                     with<br>practicality and a host of unique benefits, only enjoyed by<br>merging with the Ibinex ecosystem.</p>
@@ -37,7 +37,7 @@
         </div>
         <div class="container container-custom">
             <div id="ib-why-tsec-text-wrapper">
-                <p id="ib-why-tsec-text-title">Why you should exchange your way with Ibinex:</p>
+                <p id="ib-why-tsec-text-title">Why you should exchange your way <span>with Ibinex:</span></p>
                 <p id="ib-why-tsec-text-content">Our strategy is underpinned with the 4 core strengths of Ibinex:</p>
             </div>
             <div class="container container-custom">

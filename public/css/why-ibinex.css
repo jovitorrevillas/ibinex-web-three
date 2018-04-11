@@ -152,13 +152,13 @@ div#ib-why-vision{
     margin-left: auto;
     margin-right: auto;
     width: 702px;
-    padding-bottom: 90px;
+    padding-bottom: 74px;
 }
 
 div#ib-why-vision p{
     color: rgb(108,124,147);
     font-weight: 500;
-    font-size: 17px;
+    font-size: 19px;
     text-align: center;
 }
 
@@ -241,13 +241,50 @@ div#ib-why-vision p{
 }
 
 @media (max-width: 320px){
+
     div#ib-why-ssec-text-wrapper {
-        padding-top: 125px;
+        padding-top: 142px;
+        padding-bottom: 68px;
+    }
+
+    p#ib-why-ssec-text-content {
+        margin-top: 31px;
+        font-size: 14px;
+        line-height: 27px;
     }
 
     div#ib-why-fsec-text-wrapper {
-        padding-bottom: 155px;
+        padding-top: 67px;
+        padding-bottom: 173px;
     }
+
+    p#ib-why-fsec-text-content {
+        margin-top: 34px;
+        font-size: 15px;
+        line-height: 1.7;
+        font-weight: 600;
+        text-align: justify;
+        color: rgb(108,123,146);
+    }
+
+    div#ib-why-tsec-text-wrapper {
+        margin-top: 38px;
+    }
+
+    div#ib-why-core-innovation-wrapper,
+    div#ib-why-core-service-wrapper,
+    div#ib-why-core-platform-wrapper,
+    div#ib-why-core-payment-wrapper{
+        padding-left: 0;
+    }
+
+
+
+    p#ib-why-tsec-text-title span{
+        display: block;
+    }
+
+
 
     p#ib-why-tsec-text-title, p#ib-why-tsec-text-content {
         text-align: left;
