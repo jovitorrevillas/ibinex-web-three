@@ -10,7 +10,7 @@
 
     <div class="ib-why-main">
 
-        <div class="container ib-fsec-main">
+        <div class="container container-custom ib-fsec-main">
             <div id="ib-why-fsec-text-wrapper">
                 <p id="ib-why-fsec-text-title">We fuse innovation with accessibility as <br>blockchain technology evolves.</p>
                 <p id="ib-why-fsec-text-content">We seek to revolutionise the way that exchange owners create<br>their platforms
@@ -21,11 +21,11 @@
                 <img src="{{asset('images/why/blockchain2.png')}}">
             </div>
         </div>
-        <div class="col-md-12 ib-side-pic2" align="center">
+        <div class="ib-side-pic2" align="center">
             <img src="{{asset('images/why/blockchain2.png')}}">
         </div>
         <div class="ib-why-background">
-            <div class="container">
+            <div class="container container-custom">
                 <div id="ib-why-ssec-text-wrapper">
                     <p id="ib-why-ssec-text-title">We are an ecosystem <br>with vision.</p>
                     <p id="ib-why-ssec-text-content">As the gateway to your own customisable cryptocurrency<br>
@@ -35,12 +35,12 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div id="ib-why-ssec-text-wrapper">
+        <div class="container container-custom">
+            <div id="ib-why-tsec-text-wrapper">
                 <p id="ib-why-tsec-text-title">Why you should exchange your way with Ibinex:</p>
                 <p id="ib-why-tsec-text-content">Our strategy is underpinned with the 4 core strengths of Ibinex:</p>
             </div>
-            <div class="container">
+            <div class="container container-custom">
                 <div class="row">
                     <div class="col-lg-6 col-xl-6 ib-core">
 
@@ -67,7 +67,7 @@
                             processing infrastracture to revolutionise<br>
                             liquidity for your exchange.</p>
                     </div>
-                    <div class="col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 text-center">
+                    <div id="ib-why-vision" class="col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
                         <p>This vision of a balanced yet pioneering approach to blockchain technology
                         software and white label platform tunkey solutions, aims to maximise liquidity
                         both within your own exchange and the wider pool of burgeoning

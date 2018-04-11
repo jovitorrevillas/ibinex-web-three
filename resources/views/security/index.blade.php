@@ -38,7 +38,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-12">
                         <h3>Protection of Funds</h3>
 
                         <p>
@@ -61,8 +61,8 @@
                     </div>
 
 
-                    <div class="col-lg-6">
-                        <h3>Encryption and</h3> <h3 id="pp-h3-Technologies">Technologies</h3>
+                    <div class="col-lg-6 col-12">
+                        <h3>Encryption and Technologies</h3>
 
                         <p>
                             A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned, and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technologies.
@@ -89,13 +89,13 @@
 
                             <p>
                                 <span>
-                                    Our platform is a 24/7 guarded operation, with all crypto-based funds held in cold-wallets, shielded by our team of cyber security experts who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
+                                    Our platform is a 24/7 guarded operation, with all crypto-based funds held in cold-wallets, <span id="span-pixel-perfect-5">shielded by our team of cyber security experts who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.</span>
                                 </span>
                             </p>
 
                         </div>
 
-                        <div class="col-lg-6 col-6">
+                        <div class="col-lg-6 col-12">
                             <h3>Privacy</h3>
 
                             <p>
