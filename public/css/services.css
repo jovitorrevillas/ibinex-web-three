@@ -39,12 +39,18 @@ font-family: 'Montserrat', sans-serif;
 	font-weight:bolder;
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
+	padding-left: 11px;
+	padding-top: 3px;
 }
 
 #ibinex_services{
-	margin-top:58px;
+	margin-top:37px;
 	font-size:17px;
 	line-height:28px;
+	padding-left: 27px;
+	font-weight: 600;
+	word-spacing: -2px;
+	padding-right: 11px;
 	
 }
 
@@ -288,11 +294,6 @@ line-height:26px;
 		margin-left:0px;
 	}
 	
-	#ibinex_services{
-	
-	margin-top:42px;
-
-	}
 
 	#ibinex_ecosystem{
 		margin-top:42px;
@@ -530,3 +531,160 @@ left:10px;
 				margin-top:50px;
 		}
 	}
+
+	/*ariel-edit*/
+@media (width: 320px){
+
+	p#ibinex_ecosystem{
+		margin-top: 31px;
+		margin-left: 0px;
+		font-weight: 600;
+		word-spacing: -1px;
+		padding-left: 6px;
+		margin-bottom: 40px;
+	}
+	div#services{
+		padding-left: 4px;
+	}
+	div#platform p{
+		color: #76849E;
+	}
+	div#platform > div.row:first-child > div.col-md-6:nth-child(2){
+		padding-left: 16px;
+	}
+
+	p.platform-description{
+		padding-top: 0px;
+		margin-top: 48px;
+		font-weight: 600;
+		word-spacing: 2px;
+		text-align: justify;
+		line-height: 1.7;
+	}
+
+	ul.check-items{
+		margin-top: 29px;
+	}
+
+	ul.check-items > li{
+		list-style-position:outside;
+		list-style-type: none;
+	}
+
+	div#platform > div.row:first-child >div.col-md-6:nth-child(2){
+		padding-right: 0px;
+	} 
+
+	ul.check-items > li{
+		padding-left: 31px;
+	}
+	ul.check-items > li:first-child{
+		word-spacing: 2px;
+		background: url(../images/services/ellipse.png) no-repeat left top 3%;
+	}
+	ul.check-items > li:nth-child(2){
+		padding-top: 10px;
+		background: url(../images/services/ellipse.png) no-repeat left top 23%;
+	}
+	ul.check-items > li:nth-child(3){
+		padding-top: 12px;
+		background: url(../images/services/ellipse.png) no-repeat left top 21%;
+	}
+	ul.check-items > li:nth-child(4){
+		padding-top: 8px;
+		background: url(../images/services/ellipse.png) no-repeat left top 31%;
+	}
+	ul.check-items > li:nth-child(5){
+		padding-top: 10px;
+		background: url(../images/services/ellipse.png) no-repeat left top 38%;
+	}
+	ul.check-items > li:nth-child(6){
+		padding-top: 9px;
+		background: url(../images/services/ellipse.png) no-repeat left top 32%;
+	}
+	ul.check-items > li:nth-child(7){
+		padding-top: 8px;
+		background: url(../images/services/ellipse.png) no-repeat left top 24%;
+	}
+
+	ul.check-items > li > span{
+		padding-left: 0px;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.7;
+		color: #76849E;
+	}
+
+	p.platform-description{
+		padding-right: 14px;
+	}
+
+	div#crm{
+		padding-right: 1px;
+		margin-top: 409px;
+	}
+	div#crm p.crm-description{
+		font-weight: 600;
+		text-align: justify;
+		padding-right: 0px;
+		word-spacing: 1px;
+	}
+	h1.heading.crm-heading{
+		font-weight: 800;
+	}
+
+	ul.crm-check-items{
+		padding-left: 38px;
+		margin-top: 55px;
+		margin-bottom: 14px;
+	}
+
+	div#crm li span{
+		padding-left: 0px;
+	}
+	div#crm li {
+		padding-left: 27px;
+		font-weight: 600;
+		line-height: 1.7;
+		color: #76849E;
+	}
+	div#crm ul.crm-check-items > li:first-child{
+		padding-right: 0px;
+		padding-bottom: 27px;
+		background: url(../images/services/ellipse.png) no-repeat left top 3%;
+	}
+	div#crm ul.crm-check-items > li:nth-child(2){
+		padding-right: 0px;
+		margin-top: 0px;
+		padding-top: 0px;
+		padding-bottom: 28px
+		background: url(../images/services/ellipse.png) no-repeat left top 8%;
+	}
+	div#crm ul.crm-check-items > li:nth-child(3){
+		padding-bottom: 22px;
+		background: url(../images/services/ellipse.png) no-repeat left top 10%;
+	}
+	div#crm ul.crm-check-items > li:nth-child(4){
+		padding-bottom: 17px;
+		background: url(../images/services/ellipse.png) no-repeat left top 12%;
+	}
+	div#crm ul.crm-check-items > li:nth-child(5){
+		padding-top: 2px;
+		background: url(../images/services/ellipse.png) no-repeat left top 18%;
+	}
+
+	div#services{
+		padding-right: 1px;
+	}
+	p#ibinex_ecosystem{
+		padding-left: 11px;
+		line-height: 1.6;
+	}
+	div#platform{
+		padding-top: 56px;
+	}
+	p.platform-description{
+		padding-right: 14px;
+		line-height: 1.8;
+	}
+}
