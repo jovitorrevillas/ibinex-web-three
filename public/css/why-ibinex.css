@@ -148,7 +148,7 @@ p#ib-why-core-payment-text {
 
 div#ib-why-vision{
 
-    margin-top: 102px;
+    margin-top: 87px;
     margin-left: auto;
     margin-right: auto;
     width: 702px;
@@ -162,6 +162,33 @@ div#ib-why-vision p{
     text-align: center;
 }
 
+@media (min-width: 992px){
+    div.bordered-container {
+        /* border-bottom: #f6f9fc 2px solid; */
+        border-bottom: #f6f9fc 2px solid;
+    }
+
+    div#ib-why-core-innovation-wrapper,
+    div#ib-why-core-service-wrapper {
+        /* border-right: #f6f9fc 2px solid; */
+        border-right: #f6f9fc 2px solid;
+    }
+
+    div#ib-why-core-service-wrapper {
+        padding-bottom: 11px;
+    }
+
+    div#ib-why-core-service-wrapper,
+    div#ib-why-core-payment-wrapper,
+    div#ib-why-core-innovation-wrapper,
+    div#ib-why-core-platform-wrapper {
+        padding-top: 29px;
+        margin-top: 0px;
+    }
+    div#ib-why-core-payment-wrapper {
+        padding-top: 46px;
+    }
+}
 
 @media (max-width: 1622px){
     div.ib-side-pic {
@@ -385,10 +412,6 @@ div#ib-why-vision p{
         margin-bottom: 53px;
         padding-right: 3px;
         margin-top: 69px;
-
-        /* font-size: 17px!important;
-        word-spacing: 2px;
-        letter-spacing: -1px;
     }
 }
 
