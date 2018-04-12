@@ -87,6 +87,30 @@
 	font-size: 15px;
 }
 
+/*Media query for pixel perfect*/
+@media all and (max-width: 321px){
+	#intro-cryptobridge{
+		padding: 80px 15px 110px 15px;
+		min-height: 695px;
+	}
+	#intro-cryptobridge h2{
+	    letter-spacing: 0.6px;
+	    margin: -2px 0 0;
+	}
+	#intro-cryptobridge h1{
+	    margin: 28px 0px 36px;
+	    letter-spacing: 1.6px;
+	}
+	#intro-cryptobridge p{
+	    padding-left: 5px;
+	    letter-spacing: -0.3px;
+	    line-height: 26px;
+	}
+	#intro-cryptobridge form#requestDemo{
+		margin-bottom: 21px;
+	}
+}
+
 /*Second Fold*/
 #gateway {
 	background: #f7f8f9;
@@ -117,6 +141,22 @@
 	text-align: justify;
 }
 
+/*Media query for pixel perfect*/
+@media all and (max-width: 321px){
+	#gateway{
+		padding: 32px 15px 78px;
+	}
+	#gateway h1{
+		letter-spacing: 0.5px;
+		line-height: 57px;
+	}
+	#gateway p{
+	    letter-spacing: -0.3px;
+	    word-spacing: 4px;
+	    line-height: 28px;
+	    margin-bottom: 10px;
+	}
+}
 /*Third Fold*/
 #exchange .row{
 	margin-top: 10px;
@@ -158,6 +198,30 @@
 	text-align: justify;
 	font-size: 17px;
 	min-height: 200px;
+}
+
+/*Media query for pixel perfect*/
+@media all and (max-width: 321px){
+	#exchange .row{
+		margin-bottom: 0;
+	}
+	#exchange-title{
+	    padding-top: 52px;
+	    padding-bottom: 35px;
+	    padding-left: 5px;
+	}
+	#exchange-title h2{
+		line-height: 44px;
+	}
+	#exchange-1 h1, #exchange-2 h1, #exchange-3 h1{
+	    margin: 0;
+	}
+	#exchange-1 p, #exchange-2 p, #exchange-3 p{
+	    margin-top: 19px;
+	    margin-bottom: 49px;
+	    padding-left: 3px;
+	    line-height: 26px;
+	}
 }
 
 /*Fourth Fold*/
@@ -632,7 +696,12 @@ section.vision-mobile h1#ourVisionMobile {
 		left: calc(20% + 82px);
 	}
 	#gateway section.row article:nth-child(1){
-		left: calc(3% + 55px);
+	    left: calc(5% + 50px);
+	    top: 88px;
+	}
+	#gateway div.container section.row article h1{
+	    margin-top: 31px;
+	    padding-left: 0;
 	}
 	#vision article:nth-child(1){
 		top: 249px;
@@ -646,6 +715,52 @@ section.vision-mobile h1#ourVisionMobile {
 		padding-top: 181px;
 		padding-bottom: 182px;
 		padding-left: 80px;
+	}
+	#exchange-title{
+		padding-top: 111px;
+		padding-left: 0;
+	}
+	#exchange-1.row{
+	    margin-bottom: 31px;
+	}
+	#exchange-2.row{
+	    margin-bottom: 22px;
+	}
+	#exchange-3.row{
+	    margin-bottom: 13px;
+	}
+	#exchange-1 article,
+	#exchange-2 article,
+	#exchange-3 article{
+		padding-left: 118px;
+	}
+	#exchange-1 article:nth-child(2),
+	#exchange-2 article:nth-child(2),
+	#exchange-3 article:nth-child(2){
+		padding-left: 105px;
+	}
+	#technical-papers{
+		padding-top: 68px;
+	}
+	#technical-papers h1{
+		margin-top: 17px;
+		font-size: 34px;
+		font-weight: 900;
+		letter-spacing: 1.9px;
+	}
+	#technical-papers section.row article:nth-child(3) div,
+	#technical-papers section.row article:nth-child(6) div{
+		padding-left: 60px;
+	}
+	#technical-papers section.row article:nth-child(1) div h3,
+	#technical-papers section.row article:nth-child(2) div h3,
+	#technical-papers section.row article:nth-child(3) div h3{
+		padding-top: 4px;
+	}
+	#technical-papers section.row article:nth-child(4) div h3,
+	#technical-papers section.row article:nth-child(5) div h3,
+	#technical-papers section.row article:nth-child(6) div h3{
+		padding-top: 11px;
 	}
 }
 
