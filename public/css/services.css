@@ -257,6 +257,11 @@ line-height:26px;
 
 @media only screen and (max-width: 768px) {
 
+	#platform{
+		overflow:hidden;
+		height:auto;
+	}
+	
 	#services{
 		padding-bottom:32px;
 	}
@@ -277,13 +282,10 @@ line-height:26px;
 
 	.platform-mobile-laptop{
 		display:block;
-		position:absolute;
-
+		/* position:absolute; */
 		width:515px;
 		margin-top:-13px;
 		margin-left:-5px;
-	
-	
 	}
 
 	.ca-description{
@@ -426,7 +428,7 @@ line-height:26px;
 
 	.crm-heading{
 		margin:0;
-		margin-top:-75px;
+		margin-top:-383px;
 	}
 
 	.crm-description{
