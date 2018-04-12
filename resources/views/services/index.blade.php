@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','Contact Us')
+@section('title','Services')
 @push('stylesheets')
     <link rel="stylesheet" href="{{ asset('css/services.css') }}">
 @endpush
@@ -14,7 +14,7 @@
 			
 			<h1 class="services-title" style="">Services</h1>
 
-			<p id="ibinex_services">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+			<p id="ibinex_services">Ibinex services are all characterised by high-level innovation made practical for your personalised<br> exchange integration.</p>
 			<p id="ibinex_ecosystem">Our ecosystem of services comprises of the following units:</p>
 
 

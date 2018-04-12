@@ -13,10 +13,10 @@
 		<h2>Introducing</h2>
 		<h1>CryptoBridge&trade;</h1>
 		<p>
-			Our patent-pending proprietary software, CryptoBridge, is the nexus that aggregates premier cryptocurrency exchanges and in­dexes for your customers, in real­-time.
+			Our patent-pending proprietary software, CryptoBridge, is the nexus that aggregates premier cryptocurrency exchanges and in&shy;dexes for your customers, in real&shy;­time.
 		</p>
 		<p>
-			The CryptoBridge algorithm benefits your customers by showing them a unique combination of the best and most select crypto­currency exchanges and most at­tractive live prices — only available via the Ibinex trading platform.
+			The CryptoBridge algorithm be&shy;nefits your customers by showing them a unique combination of the best and most select crypto&shy;currency exchanges and most at&shy;tractive live prices — only available via the Ibinex trading platform.
 		</p>
 		<form class="position-absolute" id="requestDemo">
 			<div class="input-group">
@@ -55,27 +55,27 @@
 		<article class="col-md-6">
 			<img src="{{ asset('images/home/card-tailored.png') }}">
 			<h1>Tailored Front End content website</h1>
-			<p>Ibinex provide you with a tailored front-end website with a fully-integrated web-based trading platform and Content Management System (CMS). Offering you flexible front-end user trading, while preserving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
+			<p>Ibinex provide you with a tailored front-end website with a fully-inte&shy;grated web-based trading plat&shy;form and Content Management System (CMS). Offering you flexible front-end user trading, while pre&shy;serving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
 
 		</article>
 
 		<article class="col-md-6">
 			<img src="{{ asset('images/home/card-crm.png') }}">
 			<h1>Full CRM &amp; Back Office Solution</h1>
-			<p>The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account &amp; money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
+			<p>The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a comple&shy;ment to your web based exchange platform. This includes KYC/AML documentation collection and ver&shy;ification, and account &amp; money management. The result is an ef&shy;fortless back office administration workflow and smooth UI/UX for your customers.</p>
 		</article>
 	</section>
 	<section id="exchange-2" class="row">
 		<article class="col-md-6">
 			<img src="{{ asset('images/home/card-liquidity.png') }}">
 			<h1>Aggregated Liquidity Exchange</h1>
-			<p>Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
+			<p>Connect with Ibinex and receive coveted access to an unprecedent&shy;ed first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
 		</article>
 		<article class="col-md-6">
 			<img src="{{ asset('images/home/card-solution.png') }}">
 			<h1>Complete Processing solution</h1>
 			<p>
-				With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilities for your exchange to thrive in maximum liquidity.
+				With our thriving network of exclu&shy;sive partners, Ibinex is changing the game for cryptocurrency pay&shy;ment processing. We bring you ex&shy;clusive payment solutions unavail&shy;able elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilities for your exchange to thrive in maximum liquidity.
 			</p>
 		</article>
 	</section>

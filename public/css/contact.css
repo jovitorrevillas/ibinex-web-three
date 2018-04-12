@@ -4,10 +4,18 @@ font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 }
 
+.mobile-tools{
+	display:none;
+	width:100%;
+	height:435px;
+	background: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg");
+	background-size: cover;
+}
+
 #getStarted{
 
 	background: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg");
-	background-position-y:-178px;
+	background-position-y:-180px;
 	background-size: cover;
 	padding-top:250px;
 	padding-bottom:67px;
@@ -17,8 +25,8 @@ font-family: 'Montserrat', sans-serif;
 
 .get-started-title{
 margin-top:66px;
-margin-left:10px;
-font-size:40px;
+margin-left:8px;
+font-size:39.5px;
 
 }
 
@@ -26,14 +34,15 @@ font-size:40px;
 
 .p1{
 margin-top:49px;
-margin-left:17px;
+margin-left:11px;
 font-size:18px;
 word-spacing:-2px;
 font-size:18px;
+font-weight:500;
 }
 
 .p2{
-margin-left:15px;
+margin-left:13px;
 margin-top:30px;
 font-size:18px;
 word-spacing:-2px;
@@ -161,10 +170,15 @@ margin: 0;
 
 @media only screen and (max-width: 768px) {
 
+	.mobile-tools{
+		display:block;
+	}
+
 	#getStarted{
 
-	background-size:cover;
-	padding-bottom:250px;
+	background:#edeef2;
+	margin-top:-185px;
+	padding-bottom:43px;
 	}
 
 
@@ -181,6 +195,7 @@ margin-top:24px;
 }
 
 .p2{
+	margin-top:26px;
 	margin-left:0px;
 	font-size:17px;
 	line-height:28px;
@@ -188,7 +203,7 @@ margin-top:24px;
 
 .check-items{
 margin-left:-39px;
-margin-top:57px;
+margin-top:35px;
 }
 
 .note{
@@ -196,9 +211,14 @@ margin-top:57px;
 	line-height:30px;
 }
 
+
+#support{
+
+
+}
 .support-title{
 
-	margin-top:-325px;
+	margin-top:-145px;
 	margin-left:-15px;
 }
 
@@ -208,24 +228,29 @@ padding-top:1px;
 	font-size:17px;
 	text-align:justify;
 	word-spacing:1px;
-	margin-left:-10px;
+	margin-left:-15px;
+	margin-top:
 
 }
 .p4{
 
-padding-top:1px;
-	font-size:16px;
-	text-align:justify;
-	word-spacing:-1px;
-	margin-left:-10px;
+margin-top:9px;
+
+font-size:17px;
+
+font-weight:500;
+
+/* width:320px; */
+
+margin-left:-15px;
 }
 .p5{
 
-	margin-top:27px;
+	margin-top:20px;
 	font-size:17px;
 	text-align:justify;
 	word-spacing:-1px;
-	margin-left:-10px;
+	margin-left:-15px;
 }
 
 
@@ -235,15 +260,17 @@ padding-top:1px;
   	position: relative;
   	width: 100%;
 
+
     }
 
     #support-right form{
     	background: none;
     	position: relative;
     	left:0;
-		top:-120px;
+		top:-145px;
     	width:100%;
     	padding: 0;
+    	margin-left:-8px;
 
     }
 
@@ -259,8 +286,9 @@ padding-top:1px;
 
 @media only screen and (max-width: 320px) {
 	
+	
 	#getStarted{
-			padding:0;
+		
 
 	}
 
