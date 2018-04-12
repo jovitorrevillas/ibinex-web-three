@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','Contact Us')
+@section('title','Services')
 @push('stylesheets')
     <link rel="stylesheet" href="{{ asset('css/services.css') }}">
 @endpush
