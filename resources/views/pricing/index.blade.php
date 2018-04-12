@@ -5,7 +5,7 @@
     <div class="container-fluid" id="Pricing-page">
         <section id="pricing-section">
             <div>
-                <div class="row">
+                <div class="row no-gutters">
                     <div class="col-lg-6 hide-on-mobile">
                         <img  src="img/pricing/First-option.png">
                     </div>

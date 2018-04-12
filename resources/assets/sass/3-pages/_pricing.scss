@@ -385,7 +385,7 @@ div#Pricing-page{
     #pricing-section{
       font-family: 'Montserrat', 'Sans-Serif';
       background-color: #F7F7F7;
-
+      overflow: auto;
 
 
       #pricing-text{
@@ -397,7 +397,7 @@ div#Pricing-page{
         }
       }
       article.col-md-12.col-12:first-child{
-        padding-top: 64px;
+        padding-top: 0px;
         padding-left: 15px;
         padding-right: 15px;
 
