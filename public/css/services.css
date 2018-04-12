@@ -11,15 +11,15 @@ font-family: 'Montserrat', sans-serif;
 .platform-laptop{
 	position: absolute;
 	max-width:1130px;
-	left:-132px;
+	left:-125px;
 	top:55px;
 }
 .platform-heading{
-	margin-top:50px;
-	margin-left:-8px;
+	margin-top:52px;
+	margin-left:-2px;
 }
 .platform-description{
-	margin-top:49px;
+	margin-top:51px;
 	font-size:16px;
 	line-height:25px;
 	margin-left:5px;
@@ -34,8 +34,8 @@ font-family: 'Montserrat', sans-serif;
 }
 .services-title{
 	font-size:38px;
-	margin-left:-55px;
-	margin-top:0px;
+	margin-left:-60px;
+	margin-top:-3px;
 	font-weight:bolder;
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
@@ -44,19 +44,18 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #ibinex_services{
-	margin-top:37px;
-	font-size:17px;
+	margin-top:52px;
+	font-size:16.5px;
 	line-height:28px;
 	padding-left: 27px;
-	font-weight: 600;
-	word-spacing: -2px;
+	font-weight: 500;
 	padding-right: 11px;
 	
 }
 
 #ibinex_ecosystem{
-margin-top:30px;
-font-size: 17px;
+margin-top:31px;
+font-size: 16.5px;
 margin-left:5px;
 word-spacing:1px;
 }
@@ -64,8 +63,8 @@ word-spacing:1px;
 
 .check-items{
 	margin:0;
-	margin-top:40px;
-	margin-left:-38px;
+	margin-top:38px;
+	margin-left:-33px;
 }
 .check-items li{
 background: url(../images/services/ellipse.png) no-repeat left top;
@@ -77,6 +76,7 @@ margin: 0;
 
 .check-items li span{
 	padding-left:35px;
+
 	font-size:17px;
 }
 
@@ -93,23 +93,25 @@ margin: 0;
 .crm-heading{
 	font-size:38px;
 	font-weight:bolder;
-margin-top:230px;
-margin-left:7px;
+	margin-top:230px;
+	margin-left:14px;
 
 }
 
 .crm-description{
-	margin-left:15px;
+	margin-left:20px;
 	margin-top:50px;
 	line-height:28px;
 	font-size:15.9px;
-
+	word-spacing:4px;
+	width:600px;
+	font-weight:400;
 }
 
 .crm-check-items{
 	margin:0;
-	margin-top:60px;
-	margin-left:-30px;
+	margin-top:58px;
+	margin-left:-25px;
 
 }
 
@@ -128,7 +130,7 @@ margin: 0;
 
 .crm-dashboard{
 	margin-top:205px;
-	margin-left:90px;
+	margin-left:96px;
 }
 
 
@@ -137,13 +139,15 @@ margin: 0;
 
 	background: #132d5c;
 	color:white;
-	padding-bottom:155px;
+	padding-bottom:158px;
 	padding-top:120px;
 	margin-top:12px;
 }
 .c3-logo{
-	margin-left:55px;
+	margin-top:-3px;
+	margin-left:58px;
 
+	
 }
 
 .c3-mobile-logo{
@@ -152,16 +156,19 @@ margin: 0;
 
 
 .crypto-heading{
-margin-top:33px;
-margin-left:-5px;
+margin-top:32px;
+margin-left:4px;
 font-size:38.5px;
+
 }
 
 .crypto-descritpion{
 margin-top:50px;
 line-height:27px;
-font-size:16px;
-margin-left:5px;
+font-size:16.5px;
+word-spacing:1px;
+margin-left:8px;
+width:635px;
 }
 
 
@@ -172,28 +179,29 @@ margin-left:5px;
 }
 
 .ccp-heading{
-margin-top:20px;
-margin-left:09px;
+margin-top:22px;
+margin-left:13px;
 font-size:38.5px;
 }
 
 .ccp-description{
-margin-top:50px;
+margin-top:48px;
 font-size:16.5px;
 font-weight:500;
-margin-left:6px;;
+margin-left:11px;;
 line-height:28px;
 text-align:justify;
+width:600px;
 }
 
 .ccp-cards{
 	margin-top:35px;
-	margin-left:5px;
+	margin-left:10px;
 }
 
 .ccp-phone{
 	margin-top:-105px;
-	margin-left:125px;
+	margin-left:130px;
 }
 
 
@@ -210,8 +218,8 @@ text-align:justify;
 .ca-person{
 
 	max-width:1000%;
-	margin-top:-35px;
-	margin-left:-265px;
+	margin-top:-38px;
+	margin-left:-256px;
 
 }
 
@@ -219,12 +227,12 @@ text-align:justify;
 margin-top:81px;
 font-weight:700;
 font-size:38.5px;
-margin-left:-5px;
+margin-left:3px;
 }
 
 .ca-description{
 margin-top:50px;
-margin-left:-5px;
+margin-left:px;
 width:700px;
 word-spacing:2px;
 font-size:16.5px;
@@ -235,11 +243,11 @@ line-height:26px;
 .ca-items{
 	list-style:none;
 	margin:0;
-
+	font-weight:500;
 	padding:0;
-	margin-left:-3px;
+	margin-left:px;
 	margin-top:35px;
-	word-spacing:2px;
+	word-spacing:1px;
 }
 
 .ca-items li{
