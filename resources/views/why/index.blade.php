@@ -12,7 +12,7 @@
 
         <div class="container container-custom ib-fsec-main">
             <div id="ib-why-fsec-text-wrapper">
-                <p id="ib-why-fsec-text-title">We fuse innovation with accessibility as <br>blockchain technology evolves.</p>
+                <p id="ib-why-fsec-text-title">We fuse innovation with accessibility as <span>blockchain technology evolves.</span></p>
                 <p id="ib-why-fsec-text-content">We seek to revolutionise the way that exchange owners create<br>their platforms
                     and raise the standard of marketplace excellence<br>by incorporating our cutting-edge technology, delivered
                     with<br>practicality and a host of unique benefits, only enjoyed by<br>merging with the Ibinex ecosystem.</p>
@@ -37,33 +37,33 @@
         </div>
         <div class="container container-custom">
             <div id="ib-why-tsec-text-wrapper">
-                <p id="ib-why-tsec-text-title">Why you should exchange your way with Ibinex:</p>
+                <p id="ib-why-tsec-text-title">Why you should exchange your way <span>with Ibinex:</span></p>
                 <p id="ib-why-tsec-text-content">Our strategy is underpinned with the 4 core strengths of Ibinex:</p>
             </div>
             <div class="container container-custom">
                 <div class="row">
-                    <div class="col-lg-6 col-xl-6 ib-core">
+                    <div id="ib-why-core-innovation-wrapper" class="col-lg-6 col-xl-7 ib-core">
 
-                        <img class="img-fluid" src="{{ asset('images/why/innovation.png') }}">
-                        <p class="ib-core-text">Commitment to technological innovation,<br>
+                        <img id="ib-why-core-innovation-logo" class="img-fluid" src="{{ asset('images/why/innovation.png') }}">
+                        <p id="ib-why-core-innovation-text" class="ib-core-text">Commitment to technological innovation,<br>
                             through out patent-pending proprietary<br>
                             software, Cryptobridge&trade;</p>
                     </div>
-                    <div class="col-lg-6 col-xl-6 ib-core">
-                        <img class="img-fluid" src="{{ asset('images/why/platform.png') }}">
-                        <p class="ib-core-text">Trailblazing of complete and<br>
+                    <div id="ib-why-core-platform-wrapper" class="col-lg-6 col-xl ib-core">
+                        <img id="ib-why-core-platform-logo" class="img-fluid" src="{{ asset('images/why/platform.png') }}">
+                        <p id="ib-why-core-platform-text" class="ib-core-text">Trailblazing of complete and<br>
                             customisable white label platform<br>
                             solutions</p>
                     </div>
-                    <div class="col-lg-6 col-xl-6 ib-core">
-                        <img class="img-fluid" src="{{ asset('images/why/service.png') }}">
-                        <p class="ib-core-text">Offering unprecedented custodian service<br>
+                    <div id="ib-why-core-service-wrapper" class="col-lg-6 col-xl-7 ib-core">
+                        <img id="ib-why-core-service-logo" class="img-fluid" src="{{ asset('images/why/service.png') }}">
+                        <p id="ib-why-core-service-text" class="ib-core-text">Offering unprecedented custodian service<br>
                             with our industry's first finance transaction<br>
                             license</p>
                     </div>
-                    <div class="col-lg-6 col-xl-6 ib-core">
-                        <img class="img-fluid" src="{{ asset('images/why/payment.png') }}">
-                        <p class="ib-core-text">Providing a full-spectrum payment<br>
+                    <div id="ib-why-core-payment-wrapper" class="col-lg-6 col-xl ib-core">
+                        <img id="ib-why-core-payment-logo" class="img-fluid" src="{{ asset('images/why/payment.png') }}">
+                        <p id="ib-why-core-payment-text" class="ib-core-text">Providing a full-spectrum payment<br>
                             processing infrastracture to revolutionise<br>
                             liquidity for your exchange.</p>
                     </div>

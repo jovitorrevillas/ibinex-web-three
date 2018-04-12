@@ -15,7 +15,7 @@ All fonts are set to Montserrat unless specified
 /* Progres bar */
 div.progress-bar{
 	width: 100%;
-	height: 2px;
+	height: 3px;
 	background: linear-gradient(to right, #132c5a, #c01722);
 	position: fixed;
 	animation: loader 2s linear;
@@ -84,6 +84,7 @@ header .contact-phone{
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 0;
+	cursor: pointer;
 }
 
 header .contact-phone .separator{
@@ -92,6 +93,7 @@ header .contact-phone .separator{
 }
 
 header .contact-live{
+	cursor: pointer;
     margin-right:59px;
     color: #038321;
     font-size: 14px;
