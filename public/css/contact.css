@@ -24,9 +24,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .get-started-title{
-margin-top:66px;
-margin-left:8px;
-font-size:39.5px;
+margin-top:68px;
+margin-left:10px;
+font-size:39px;
 
 }
 
@@ -34,52 +34,62 @@ font-size:39.5px;
 
 .p1{
 margin-top:49px;
+width:670px;
 margin-left:11px;
-font-size:18px;
-word-spacing:-2px;
-font-size:18px;
+word-spacing:-1.5px;
+font-size:16.5px;
 font-weight:500;
+line-height:27px;
 }
 
 .p2{
+font-weight:500;
 margin-left:13px;
-margin-top:30px;
+margin-top:60px;
 font-size:18px;
 word-spacing:-2px;
-font-size:18px;
+font-size:16.5px;
+line-height:27px;
 }
 
 .note{
 margin-left:10px;
-margin-top:5px;
+margin-top:7px;
 font-size:16.5px;
+line-height:26px;
 }
 
 .p3{
 margin-left:12px;
 margin-top:51px;
-font-size:16px;
+font-size:16.5px;
 word-spacing:4px;
+font-weight:600;
+line-height:27px;
 }
 
 .p4{
 margin-left:10px;
-margin-top:42px;
-font-size:18px;
-word-spacing:10px;
+margin-top:31px;
+font-size:16.5px;
+word-spacing:5px;
+font-weight:600;
+line-height:27px;
 }
 .p5{
 margin-left:10px;
 margin-top:31px;
-font-size:18px;
-word-spacing:4px;
+font-size:16.5px;
+word-spacing:5px;
+font-weight:600;
+line-height:27px;
 }
 
 .support-title{
 
-	margin-top:-5px;
-	margin-left:12px;
-	font-size:40px;
+	margin-top:-8px;
+	margin-left:10px;
+	font-size:39px;
 }
 
 #support{
@@ -98,11 +108,12 @@ padding-bottom:-150px;
 }
 
 #support-right{
-	width:100%;
+width:100%;
 	background: #c11722;
 	position: absolute;
 	right:0;
 	top:-40px;
+	
 	min-height: 100%;
 	bottom: 0;
 }
@@ -113,8 +124,8 @@ padding-bottom:-150px;
 	padding:40px;
 	position: absolute;
 	width:500px;
-	top:-130px;
-	left:75px;
+	top:-133px;
+	left:72px;
 	padding-left:57px;
 	padding-right:57px;
 	padding-top:46px;
@@ -122,8 +133,9 @@ padding-bottom:-150px;
 }
 
 #support-right form label{
-	font-size:13px;
-
+	font-size:12.5px;
+	font-weight:600;
+	margin-left:-1px;
 }
 
 #support-right form input{
@@ -137,13 +149,14 @@ padding-bottom:-150px;
 #support-right form button{
 	background:#132c5a;
 	border:0;
-	padding-left:69px;
-	padding-right:69px;
-	padding-top:18px;
-	padding-bottom:18px;
+	padding-left:68px;
+	padding-right:68px;
+	padding-top:20px;
+	padding-bottom:20px;
 	font-weight:bold;"
 	border-radius:0 !important;
-	font-size:13px;
+	font-size:14px;
+	letter-spacing:5px;
 	letter-spacing:2.1px;
 	margin-top:40px;
 }
@@ -151,8 +164,8 @@ padding-bottom:-150px;
 
 .check-items{
 	margin:0;
-	margin-top:38px;
-	margin-left:-30px;
+	margin-top:33px;
+	margin-left:-33px;
 }
 .check-items li{
 background: url(../images/services/ellipse.png) no-repeat left top;
@@ -163,9 +176,14 @@ margin: 0;
 }
 
 .check-items li span{
-	padding-left:43px;
+	padding-left:39px;
 	font-size:17px;
 }
+
+.check-items li span:nth-child(1){
+	
+}
+
 
 
 @media only screen and (max-width: 768px) {
