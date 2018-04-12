@@ -232,12 +232,11 @@ padding-top:1px;
 
 }
 .p4{
-
-	margin-top:9px;
-	font-size:17px;
-	font-weight:500;
-	width:320px;
-	margin-left:-15px;
+margin-top:9px;
+font-size:17px;
+font-weight:500;
+/* width:320px; */
+margin-left:-15px;
 }
 .p5{
 
