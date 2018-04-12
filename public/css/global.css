@@ -11,6 +11,44 @@ All fonts are set to Montserrat unless specified
 *{
     font-family: Montserrat, san-serif;
 }
+
+/* Progres bar */
+div.progress-bar{
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to right, #132c5a, #c01722);
+	position: fixed;
+	animation: loader 2s linear;
+	z-index: 100000;
+}
+
+@keyframes loader{
+	0%{
+		width: 0%;
+	}
+
+	25%{
+		width: 23%;
+	}
+
+	50%{
+		width: 50%;
+	}
+
+	75%{
+		width: 100%;
+	}
+
+	100%{
+		width: 100%;
+	}
+
+}
+
+div.progress-complete{
+	display: none;
+}
+
 /*
 All static images are not draggable*/
 img{
@@ -46,6 +84,7 @@ header .contact-phone{
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 0;
+	cursor: pointer;
 }
 
 header .contact-phone .separator{
@@ -54,6 +93,7 @@ header .contact-phone .separator{
 }
 
 header .contact-live{
+	cursor: pointer;
     margin-right:59px;
     color: #038321;
     font-size: 14px;

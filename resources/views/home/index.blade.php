@@ -32,7 +32,7 @@
 	<div class="container">
 		<section class="row">
 			<article class="col-md-12 col-lg-6">
-				<img src="images/home/laptop.png" class="img-fluid">
+				<img src="{{ asset('images/home/laptop.png') }}" class="img-fluid">
 			</article>
 			<article class="col-md-12 col-lg-6">
 			</article>
@@ -53,26 +53,26 @@
 
 	<section id="exchange-1" class="row">
 		<article class="col-md-6">
-			<img src="images/home/card-tailored.png">
+			<img src="{{ asset('images/home/card-tailored.png') }}">
 			<h1>Tailored Front End content website</h1>
 			<p>Ibinex provide you with a tailored front-end website with a fully-integrated web-based trading platform and Content Management System (CMS). Offering you flexible front-end user trading, while preserving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
 
 		</article>
 
 		<article class="col-md-6">
-			<img src="images/home/card-crm.png">
+			<img src="{{ asset('images/home/card-crm.png') }}">
 			<h1>Full CRM &amp; Back Office Solution</h1>
 			<p>The Ibinex ecosystem assimilates a complete Customer Relationship Management (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account &amp; money management. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
 		</article>
 	</section>
 	<section id="exchange-2" class="row">
 		<article class="col-md-6">
-			<img src="images/home/card-liquidity.png">
+			<img src="{{ asset('images/home/card-liquidity.png') }}">
 			<h1>Aggregated Liquidity Exchange</h1>
 			<p>Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
 		</article>
 		<article class="col-md-6">
-			<img src="images/home/card-solution.png">
+			<img src="{{ asset('images/home/card-solution.png') }}">
 			<h1>Complete Processing solution</h1>
 			<p>
 				With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilities for your exchange to thrive in maximum liquidity.
@@ -81,12 +81,12 @@
 	</section>
 	<section id="exchange-3" class="row">
 		<article class="col-md-6">
-			<img src="images/home/card-compliant.png">
+			<img src="{{ asset('images/home/card-compliant.png') }}">
 			<h1>Compliant Banking Custodian service</h1>
 			<p>Ibinex is the first ever cryptocurrency exchange platform the world that has a finance transaction license. We can offer fully-compliant and licensed custodian processing and accounts, or you can choose to operate with your own custodian. Ibinex is licensed to facilitate payments via swipe-and-transmit from FIAT to a base currency. This preferred solution is unavailable to the bigger cryptocurrency exchanges, and is only offered by Ibinex.</p>
 		</article>
 		<article class="col-md-6">
-			<img src="images/home/card-cloud.png">
+			<img src="{{ asset('images/home/card-cloud.png') }}">
 			<h1>Hosted in a secure private cloud environment</h1>
 			<p>
 				Security is a 360 degree operation, with the Ibinex platform guarded 24/7 in a private cloud and crypto-based funds held in shielded cold wallets. Cyber security experts maintain and defend the platform, while cold wallets containing funds are impregnable, offline, and safely out of unauthorised reach.
@@ -99,7 +99,7 @@
 	<div class="container">
 		<section class="row position-relative vision-web">
 			<article class="col-md-6 position-absolute">
-				<img src="images/home/vision--video.png" class="img-fluid">
+				<img src="{{ asset('images/home/vision--video.png') }}" class="img-fluid">
 			</article>
 			<article class="col-md-5">
 			</article>
@@ -111,7 +111,7 @@
 		</section>
 		<section class="row vision-mobile">
 			<article class="text-center">
-				<img src="images/home/vision--video.png" class="img-fluid">
+				<img src="{{ asset('images/home/vision--video.png') }}" class="img-fluid">
 			</article>
 			<article class="text-center">
 				<h1 class="text-center align-middle" id="ourVisionMobile">
@@ -132,7 +132,7 @@
 
 	<section class="row not-home-carousel">
 		<article class="col-md-4">
-			<img src="images/home/business.png" class="img-fluid">
+			<img src="{{ asset('images/home/business.png') }}" class="img-fluid">
 			<div>
 				<h3 style="color: #243555;">Business Model</h3>
 				<h4>PDF - 1.3MB</h4>
@@ -142,7 +142,7 @@
 			</div>
 		</article>
 		<article class="col-md-4">
-			<img src="images/home/one-page.png" class="img-fluid">
+			<img src="{{ asset('images/home/one-page.png') }}" class="img-fluid">
 			<div>
 				<h3 style="color: #9e664c;">One Page Brochure</h3>
 				<h4>PDF - 1.3MB</h4>
@@ -152,7 +152,7 @@
 			</div>
 		</article>
 		<article class="col-md-4">
-			<img src="images/home/custodian.png" class="img-fluid">
+			<img src="{{ asset('images/home/custodian.png') }}" class="img-fluid">
 			<div>
 				<h3 style="color: #9a4c47;">Custodian Guidelines</h3>
 				<h4>PDF - 1.3MB</h4>
@@ -164,7 +164,7 @@
 	</section>
 	<section class="row not-home-carousel">
 		<article class="col-md-4">
-			<img src="images/home/pricing.png" class="img-fluid">
+			<img src="{{ asset('images/home/pricing.png') }}" class="img-fluid">
 			<div>
 				<h3 style="color: #708158;">Pricing Model</h3>
 				<h4>PDF - 1.3MB</h4>
@@ -174,7 +174,7 @@
 			</div>
 		</article>
 		<article class="col-md-4">
-			<img src="images/home/terms.png" class="img-fluid">
+			<img src="{{ asset('images/home/terms.png') }}" class="img-fluid">
 			<div>
 				<h3 style="color: #8154a7;">Terms &amp; Conditions</h3>
 				<h4>PDF - 1.3MB</h4>
@@ -184,7 +184,7 @@
 			</div>
 		</article>
 		<article class="col-md-4">
-			<img src="images/home/kyc.png" class="img-fluid">
+			<img src="{{ asset('images/home/kyc.png') }}" class="img-fluid">
 			<div>
 				<h3 style="color: #44577f;">KYC &amp; AML Requirments</h3>
 				<h4>PDF - 1.3MB</h4>
@@ -200,7 +200,7 @@
 	<div class="home-carousel row">
 
 			<div class="carousel-item">
-				<img src="images/home/business.png" class="mx-auto">
+				<img src="{{ asset('images/home/business.png') }}" class="mx-auto">
 				<div>
 					<h3 style="color: #243555;">Business Model</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -210,7 +210,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="images/home/one-page.png" class="mx-auto">
+				<img src="{{ asset('images/home/one-page.png') }}" class="mx-auto">
 				<div>
 					<h3 style="color: #9e664c;">One Page Brochure</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -220,7 +220,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="images/home/custodian.png" class="mx-auto">
+				<img src="{{ asset('images/home/custodian.png') }}" class="mx-auto">
 				<div>
 					<h3 style="color: #9a4c47;">Custodian Guidelines</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -230,7 +230,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="images/home/pricing.png" class="mx-auto">
+				<img src="{{ asset('images/home/pricing.png') }}" class="mx-auto">
 				<div>
 					<h3 style="color: #708158;">Pricing Model</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -240,7 +240,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="images/home/terms.png" class="mx-auto">
+				<img src="{{ asset('images/home/terms.png') }}" class="mx-auto">
 				<div>
 					<h3 style="color: #8154a7;">Terms &amp; Conditions</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -250,7 +250,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="images/home/kyc.png" class="mx-auto">
+				<img src="{{ asset('images/home/kyc.png') }}" class="mx-auto">
 				<div>
 					<h3 style="color: #44577f;">KYC &amp; AML Requirments</h3>
 					<h4>PDF - 1.3MB</h4>
@@ -272,17 +272,17 @@
 <section id="media-coverage">
 	<h1 class="text-center" style="font-weight:bolder;">Ibinex media coverage</h1>
 	<ul id="coverages">
-		<li><img src="images/home/media--yahoo.png"></li>
-		<li><img src="images/home/media--tg.png"></li>
-		<li><img src="images/home/media--tc.png"></li>
-		<li><img src="images/home/media--mashable.png"></li>
-		<li><img src="images/home/media--bi.png"></li>
-		<li><img src="images/home/media--hp.png"></li>
+		<li><img src="{{ asset('images/home/media--yahoo.png') }}"></li>
+		<li><img src="{{ asset('images/home/media--tg.png') }}"></li>
+		<li><img src="{{ asset('images/home/media--tc.png') }}"></li>
+		<li><img src="{{ asset('images/home/media--mashable.png') }}"></li>
+		<li><img src="{{ asset('images/home/media--bi.png') }}"></li>
+		<li><img src="{{ asset('images/home/media--hp.png') }}"></li>
 	</ul>
 </section>
 
 @endsection
 
 @push('scripts')
-<script src="js/home.js"></script>
+<script src="{{ asset('js/home.js') }}"></script>
 @endpush
