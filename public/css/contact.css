@@ -113,7 +113,7 @@ width:100%;
 	position: absolute;
 	right:0;
 	top:-40px;
-	
+
 	min-height: 100%;
 	bottom: 0;
 }
@@ -149,10 +149,11 @@ width:100%;
 #support-right form button{
 	background:#132c5a;
 	border:0;
-	padding-left:68px;
-	padding-right:68px;
-	padding-top:20px;
-	padding-bottom:20px;
+	border-radius:5px;
+	padding-left:66px;
+	padding-right:66px;
+	padding-top:19px;
+	padding-bottom:19px;
 	font-weight:bold;"
 	border-radius:0 !important;
 	font-size:14px;
@@ -190,13 +191,14 @@ margin: 0;
 
 	.mobile-tools{
 		display:block;
+
 	}
 
 	#getStarted{
 
 	background:#edeef2;
 	margin-top:-185px;
-	padding-bottom:43px;
+	padding-bottom:80px;
 	}
 
 
@@ -208,12 +210,14 @@ margin-top:24px;
 
 .p1{
 	margin-left:0px;
-	font-size:17px;
+	font-size:16.5px;
 	line-height:28px;
+	width:100%;
+	word-spacing:-1px;
 }
 
 .p2{
-	margin-top:26px;
+	margin-top:28px;
 	margin-left:0px;
 	font-size:17px;
 	line-height:28px;
@@ -225,8 +229,11 @@ margin-top:35px;
 }
 
 .note{
+	margin-top:5px;
+	font-size:16px;
 	margin-left:0px;
-	line-height:30px;
+	line-height:28px;
+	font-weight:400;
 }
 
 
@@ -236,39 +243,33 @@ margin-top:35px;
 }
 .support-title{
 
-	margin-top:-145px;
-	margin-left:-15px;
+	margin-top:-147px;
+	margin-left:-17px;
 }
 
 .p3{
 
 padding-top:1px;
-	font-size:17px;
-	text-align:justify;
-	word-spacing:1px;
-	margin-left:-15px;
-	margin-top:
+	font-size:16.5px;
 
+	margin-left:-18px;
 }
 .p4{
 
-margin-top:9px;
-
-font-size:17px;
-
+margin-top:-12px;
+font-size:15px;
 font-weight:500;
-
-/* width:320px; */
-
-margin-left:-15px;
+margin-left:-18px;
+width:250px;
 }
+
 .p5{
 
-	margin-top:20px;
+	margin-top:-8px;
 	font-size:17px;
-	text-align:justify;
+	font-weight:500;
 	word-spacing:-1px;
-	margin-left:-15px;
+	margin-left:-18px;
 }
 
 
@@ -277,7 +278,7 @@ margin-left:-15px;
   	background: none;
   	position: relative;
   	width: 100%;
-
+	height:602px;
 
     }
 
@@ -285,17 +286,18 @@ margin-left:-15px;
     	background: none;
     	position: relative;
     	left:0;
-		top:-145px;
+		top:-150px;
     	width:100%;
     	padding: 0;
-    	margin-left:-8px;
+    	margin-left:-10px;
 
     }
 
 
     #support-right form button{
 	margin-top:45px;
-
+	margin-left:3px;
+	font-size:14px;
 
 	}
 
@@ -310,9 +312,7 @@ margin-left:-15px;
 
 	}
 
-<<<<<<< HEAD
-=======
-		
+
 
 }
 
@@ -331,5 +331,4 @@ margin-left:-15px;
 			padding-top:0;
 		}
 
->>>>>>> 663435a6a6cb0689ee5a77de1212b55f0ca9942a
 }
