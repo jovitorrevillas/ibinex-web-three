@@ -7,9 +7,7 @@
 @section('content')
     
 
-    <div class="mobile-tools">
-        
-    </div>
+    <div class="mobile-tools"></div>
 
     <div  id="getStarted">
 
