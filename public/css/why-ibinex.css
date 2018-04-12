@@ -164,13 +164,11 @@ div#ib-why-vision p{
 
 @media (min-width: 992px){
     div.bordered-container {
-        /* border-bottom: #f6f9fc 2px solid; */
         border-bottom: #f6f9fc 2px solid;
     }
 
     div#ib-why-core-innovation-wrapper,
     div#ib-why-core-service-wrapper {
-        /* border-right: #f6f9fc 2px solid; */
         border-right: #f6f9fc 2px solid;
     }
 
